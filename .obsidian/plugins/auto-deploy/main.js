@@ -120,7 +120,7 @@ module.exports = class AutoDeployPlugin extends Plugin {
     console.log('Starting auto-deploy watcher...');
 
     return new Promise((resolve) => {
-      exec(`"${this.startScript}"`, { cwd: this.deployPath }, (error, stdout, stderr) => {
+      exec(`cmd /c "${this.startScript}"`, { cwd: this.deployPath }, (error, stdout, stderr) => {
         if (error) {
           new Notice(`❌ Failed to start watcher: ${error.message}`, 5000);
           console.error('Failed to start watcher:', error, stderr);
@@ -143,7 +143,7 @@ module.exports = class AutoDeployPlugin extends Plugin {
     }
 
     return new Promise((resolve) => {
-      exec(`"${stopScript}"`, { cwd: this.deployPath }, (error, stdout, stderr) => {
+      exec(`cmd /c "${stopScript}"`, { cwd: this.deployPath }, (error, stdout, stderr) => {
         if (error) {
           new Notice(`❌ Failed to stop watcher: ${error.message}`, 5000);
           console.error('Failed to stop watcher:', error, stderr);

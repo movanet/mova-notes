@@ -92,6 +92,35 @@ async function hasChanges() {
   }
 }
 
+// Get smart commit message based on changes
+async function getCommitMessage() {
+  try {
+    // Get list of changed files
+    const result = await runCommand('git diff --name-only HEAD docs/');
+    const changedFiles = result.stdout.trim().split('\n').filter(f => f);
+
+    if (changedFiles.length === 0) {
+      return 'Auto-deploy: Minor updates';
+    } else if (changedFiles.length === 1) {
+      // Single file - use its name
+      const filename = path.basename(changedFiles[0]);
+      return `Update: ${filename}`;
+    } else if (changedFiles.length <= 5) {
+      // Few files - list them
+      const filenames = changedFiles.map(f => path.basename(f)).join(', ');
+      return `Update: ${filenames}`;
+    } else if (changedFiles.length <= 20) {
+      // Several files - show count
+      return `Update: ${changedFiles.length} files`;
+    } else {
+      // Many files - probably full vault export
+      return `Full vault update (${changedFiles.length} files)`;
+    }
+  } catch (err) {
+    return `Auto-deploy: ${timestamp()}`;
+  }
+}
+
 // Deploy function
 async function deploy() {
   log('🔍 Checking for changes in docs/...');
@@ -113,8 +142,8 @@ async function deploy() {
     await runCommand('git add docs/');
     log('✓ Staged docs/ folder');
 
-    // Commit
-    const commitMessage = `Auto-deploy: ${timestamp()}`;
+    // Commit with smart message
+    const commitMessage = await getCommitMessage();
     await runCommand(`git commit -m "${commitMessage}"`);
     log(`✓ Created commit: ${commitMessage}`);
 

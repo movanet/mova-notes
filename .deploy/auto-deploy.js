@@ -5,7 +5,7 @@ const path = require('path');
 
 // Paths (relative to script location for portability)
 const VAULT_ROOT = path.join(__dirname, '..');
-const DIST_FOLDER = path.join(VAULT_ROOT, 'dist');
+const DIST_FOLDER = path.join(VAULT_ROOT, 'docs');
 const LOG_FOLDER = path.join(__dirname, 'logs');
 const DEPLOY_LOG = path.join(LOG_FOLDER, 'deploy.log');
 const ERROR_LOG = path.join(LOG_FOLDER, 'deploy-errors.log');
@@ -82,10 +82,10 @@ function runCommand(command, cwd = VAULT_ROOT) {
   });
 }
 
-// Check if dist/ has changes compared to last commit
+// Check if docs/ has changes compared to last commit
 async function hasChanges() {
   try {
-    await runCommand('git diff --quiet HEAD -- dist/');
+    await runCommand('git diff --quiet HEAD -- docs/');
     return false; // No changes
   } catch (err) {
     return true; // Has changes
@@ -94,7 +94,7 @@ async function hasChanges() {
 
 // Deploy function
 async function deploy() {
-  log('🔍 Checking for changes in dist/...');
+  log('🔍 Checking for changes in docs/...');
 
   try {
     // Check if there are actual changes
@@ -110,8 +110,8 @@ async function deploy() {
     writeStatus('deploying', 'Deploying changes...');
 
     // Stage changes
-    await runCommand('git add dist/');
-    log('✓ Staged dist/ folder');
+    await runCommand('git add docs/');
+    log('✓ Staged docs/ folder');
 
     // Commit
     const commitMessage = `Auto-deploy: ${timestamp()}`;

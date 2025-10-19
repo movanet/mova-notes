@@ -2,22 +2,49 @@
 
 ## 🚀 Quick Start (NEW - Auto-Deploy System)
 
-**One-click export and deploy** - No manual steps needed!
+### Single-Note Export (Fastest!)
+
+**Export and deploy just the note you're editing:**
 
 1. Open a note in Obsidian
 2. Press `Ctrl/Cmd + P`
-3. Type: "Export current note and deploy"
+3. Type: **"Export current note and deploy"**
 4. Press Enter
-5. Done! Your site updates automatically
+5. Done! Only this note updates on your site ⚡
 
-The auto-deploy system:
+### Full Vault Export
+
+**Export and deploy all notes:**
+
+1. Press `Ctrl/Cmd + P`
+2. Type: **"Webpage HTML Export: Export Vault"**
+3. Wait for export to complete
+4. Auto-deploy triggers automatically 🚀
+
+## ✨ New Features
+
+### 📱 Media Support
+- ✅ **Images**: JPG, PNG, WebP, GIF
+- ✅ **Audio**: MP3, WAV, OGG, M4A
+- ✅ **Video**: MP4, WebM, AVI, MOV
+- ✅ **Embeds**: YouTube, Instagram, Twitter (via iframe)
+
+All media files are automatically included when you export!
+
+### 🎯 Smart Deployment
+- **Single file changed** → Commit: `Update: filename.html`
+- **Few files changed** → Commit: `Update: file1.html, file2.html`
+- **Many files** → Commit: `Full vault update (X files)`
+
+### 🔄 Auto-Deploy System
 - ✅ Auto-starts when you open the vault
 - ✅ Auto-installs dependencies (first time only)
-- ✅ Prevents duplicate deploys
+- ✅ Prevents duplicate deploys (smart git diff check)
 - ✅ Shows Obsidian notifications
 - ✅ Works across different PCs (portable)
+- ✅ Publishes to **https://notes.alafghani.info** (GitHub Pages)
 
-See `.deploy/README.md` and `.deploy/SETUP.md` for details.
+See `.deploy/README.md` and `.deploy/SETUP.md` for technical details.
 
 ---
 

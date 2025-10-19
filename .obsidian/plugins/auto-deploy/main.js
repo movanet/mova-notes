@@ -322,15 +322,32 @@ module.exports = class GitHubPagesPublisher extends Plugin {
       }
 
       this.app.commands.executeCommandById(exportCommand[0]);
-      new Notice('⏳ Exporting... Please wait', 2000);
+      new Notice('⏳ Exporting... Please wait', 3000);
 
-      // Wait for export
-      await new Promise(resolve => setTimeout(resolve, 5000));
+      // Wait for export to complete (increased time)
+      await new Promise(resolve => setTimeout(resolve, 8000));
+
+      // Check if file was created before restoring settings
+      const expectedHtmlPath = path.join(this.docsTempPath, fileName.replace(/\.md$/, '.html'));
+      let attempts = 0;
+      const maxAttempts = 10;
+
+      while (!fs.existsSync(expectedHtmlPath) && attempts < maxAttempts) {
+        console.log(`Waiting for export... attempt ${attempts + 1}/${maxAttempts}`);
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        attempts++;
+      }
 
       // Restore original settings
       exportSettings.exportOptions.exportPath = originalPath;
       exportSettings.exportOptions.filesToExport = [];
       fs.writeFileSync(settingsPath, JSON.stringify(exportSettings, null, 2));
+
+      if (!fs.existsSync(expectedHtmlPath)) {
+        new Notice(`❌ Export timed out - file not created after ${maxAttempts} seconds`, 5000);
+        console.error('Expected file not found:', expectedHtmlPath);
+        return false;
+      }
 
       return true;
 

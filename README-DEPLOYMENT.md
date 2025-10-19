@@ -2,7 +2,20 @@
 
 ## 🚀 Quick Start (NEW - Auto-Deploy System)
 
-### Export and Deploy
+### Single-Note Export (Fastest!) ⚡
+
+**Export and deploy just the note you're editing:**
+
+1. Open a note in Obsidian
+2. Press `Ctrl/Cmd + P`
+3. Type: **"Export current note and deploy (single file)"**
+4. Press Enter
+5. Wait ~5 seconds for export
+6. Done! Auto-deploy pushes just this note 🚀
+
+**How it works:** Exports to `docs-temp/` folder, then copies only the HTML file to `docs/`, preserving all other pages.
+
+### Full Vault Export
 
 **Export and deploy all notes:**
 
@@ -10,8 +23,6 @@
 2. Type: **"Webpage HTML Export: Export Vault"**
 3. Wait for export to complete
 4. Auto-deploy triggers automatically 🚀
-
-**Note:** Single-note export is not currently supported because the export plugin clears the entire output folder before exporting.
 
 ## ✨ New Features
 

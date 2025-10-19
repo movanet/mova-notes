@@ -41,6 +41,15 @@ module.exports = class AutoDeployPlugin extends Plugin {
       name: 'Restart deployment watcher',
       callback: () => this.restartWatcher()
     });
+
+    // Single-note export (safe two-folder approach)
+    this.addCommand({
+      id: 'export-current-note',
+      name: 'Export current note and deploy (single file)',
+      editorCallback: async (editor, view) => {
+        await this.exportCurrentNote(view);
+      }
+    });
   }
 
   // Auto-install dependencies if missing (portability feature)
@@ -195,6 +204,130 @@ module.exports = class AutoDeployPlugin extends Plugin {
         // Ignore errors reading status file
       }
     }, 1000); // Check every second
+  }
+
+  // Export current note using two-folder strategy (SAFE)
+  async exportCurrentNote(view) {
+    try {
+      // Ensure watcher is running
+      if (!this.isWatcherRunning()) {
+        await this.startWatcher();
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      }
+
+      // Get current file
+      const file = view.file;
+      if (!file) {
+        new Notice('❌ No active file', 3000);
+        return;
+      }
+
+      const fileName = file.name;
+      new Notice(`📝 Exporting: ${fileName}...`, 3000);
+
+      // Paths
+      const docsPath = path.join(this.vaultPath, 'docs');
+      const tempPath = path.join(this.vaultPath, 'docs-temp');
+      const settingsPath = path.join(this.vaultPath, '.obsidian', 'plugins', 'webpage-html-export', 'data.json');
+
+      // Ensure docs-temp exists
+      if (!fs.existsSync(tempPath)) {
+        fs.mkdirSync(tempPath, { recursive: true });
+      }
+
+      // Read current export settings
+      let originalSettings;
+      try {
+        originalSettings = JSON.parse(fs.readFileSync(settingsPath, 'utf8'));
+      } catch (err) {
+        new Notice('❌ Failed to read export settings', 5000);
+        console.error('Failed to read settings:', err);
+        return;
+      }
+
+      // Save original export path
+      const originalExportPath = originalSettings.exportOptions.exportPath;
+
+      try {
+        // Step 1: Configure export to docs-temp/ with only this file
+        originalSettings.exportOptions.exportPath = tempPath;
+        originalSettings.exportOptions.filesToExport = [fileName];
+        fs.writeFileSync(settingsPath, JSON.stringify(originalSettings, null, 2), 'utf8');
+
+        console.log(`Configured export: ${fileName} -> ${tempPath}`);
+
+        // Step 2: Trigger export (this will clear docs-temp/ and export only this file)
+        const commands = this.app.commands.commands;
+        let exportCommand = null;
+
+        for (const [id, command] of Object.entries(commands)) {
+          if (id.includes('webpage-html-export') && id.includes('export')) {
+            exportCommand = command;
+            break;
+          }
+        }
+
+        if (!exportCommand) {
+          new Notice('❌ Export command not found', 5000);
+          return;
+        }
+
+        // Execute export
+        this.app.commands.executeCommandById(exportCommand.id);
+        new Notice('⏳ Exporting... Please wait', 2000);
+
+        // Wait for export to complete (adjust timing if needed)
+        await new Promise(resolve => setTimeout(resolve, 5000));
+
+        // Step 3: Copy the HTML file from docs-temp/ to docs/
+        const htmlFileName = fileName.replace(/\.md$/, '.html');
+        const sourceFile = path.join(tempPath, htmlFileName);
+        const destFile = path.join(docsPath, htmlFileName);
+
+        if (fs.existsSync(sourceFile)) {
+          fs.copyFileSync(sourceFile, destFile);
+          console.log(`Copied: ${htmlFileName} -> docs/`);
+
+          // Also copy any associated media files (images embedded in this note)
+          // This is a simple approach - copies all files that aren't HTML
+          const tempFiles = fs.readdirSync(tempPath);
+          let mediaCount = 0;
+
+          for (const tempFile of tempFiles) {
+            if (!tempFile.endsWith('.html') && !tempFile.startsWith('.')) {
+              const sourceMedia = path.join(tempPath, tempFile);
+              const destMedia = path.join(docsPath, tempFile);
+
+              // Only copy if it's a file (not directory)
+              if (fs.statSync(sourceMedia).isFile()) {
+                fs.copyFileSync(sourceMedia, destMedia);
+                mediaCount++;
+              }
+            }
+          }
+
+          const mediaMsg = mediaCount > 0 ? ` + ${mediaCount} media file(s)` : '';
+          new Notice(`✅ Exported: ${htmlFileName}${mediaMsg}`, 4000);
+          new Notice('🚀 Auto-deploy will push changes soon...', 3000);
+
+        } else {
+          new Notice(`❌ Export failed - ${htmlFileName} not found`, 5000);
+          console.error('Expected file not found:', sourceFile);
+        }
+
+      } finally {
+        // Step 4: Restore original export settings
+        originalSettings.exportOptions.exportPath = originalExportPath;
+        originalSettings.exportOptions.filesToExport = [];
+        fs.writeFileSync(settingsPath, JSON.stringify(originalSettings, null, 2), 'utf8');
+
+        console.log('Restored original export settings');
+      }
+
+    } catch (err) {
+      console.error('Export current note failed:', err);
+      new Notice(`❌ Export failed: ${err.message}`, 5000);
+    }
   }
 
   async onunload() {

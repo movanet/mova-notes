@@ -1,6 +1,29 @@
 # Deployment Guide for Mova's Notes
 
-This guide explains how to export and deploy your Obsidian vault using the Webpage HTML Export plugin to Netlify.
+## 🚀 Quick Start (NEW - Auto-Deploy System)
+
+**One-click export and deploy** - No manual steps needed!
+
+1. Open a note in Obsidian
+2. Press `Ctrl/Cmd + P`
+3. Type: "Export current note and deploy"
+4. Press Enter
+5. Done! Your site updates automatically
+
+The auto-deploy system:
+- ✅ Auto-starts when you open the vault
+- ✅ Auto-installs dependencies (first time only)
+- ✅ Prevents duplicate deploys
+- ✅ Shows Obsidian notifications
+- ✅ Works across different PCs (portable)
+
+See `.deploy/README.md` and `.deploy/SETUP.md` for details.
+
+---
+
+## Manual Deployment (Legacy Method)
+
+This guide explains the manual process for exporting and deploying using the Webpage HTML Export plugin to Netlify.
 
 ## Export Process
 

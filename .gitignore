@@ -1,0 +1,31 @@
+# Source files (keep in vault, not in git)
+*.md
+!README-DEPLOYMENT.md
+!netlify.toml
+
+# Images and assets (source)
+*.jpg
+*.png
+*.pdf
+*.webp
+*.gif
+
+# Obsidian vault files
+.obsidian/
+
+# Custom head file (keep this in git)
+!site-lib/html/custom-head.html
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+
+# Build/export artifacts (everything goes to dist/)
+# The dist/ folder will contain the full website

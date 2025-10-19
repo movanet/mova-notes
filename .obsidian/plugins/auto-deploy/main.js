@@ -258,18 +258,19 @@ module.exports = class AutoDeployPlugin extends Plugin {
         }
       }
 
-      if (exportCommand && exportCommand.callback) {
-        // Execute the export command
-        await exportCommand.callback();
-        new Notice('✅ Export complete! Deploying...', 3000);
+      if (exportCommand) {
+        // Execute the export command using Obsidian's command system
+        this.app.commands.executeCommandById(exportCommand.id);
+        new Notice('✅ Export triggered! Waiting for completion...', 3000);
 
         // The watcher will automatically detect changes and deploy
         // Show a message that deployment is in progress
         setTimeout(() => {
-          new Notice('⏳ Waiting for auto-deploy... (check notifications)', 5000);
-        }, 2000);
+          new Notice('⏳ Auto-deploy will start when export completes...', 5000);
+        }, 3000);
       } else {
         new Notice('❌ Could not find export command. Please export manually.', 5000);
+        console.log('Available webpage export commands:', Object.keys(commands).filter(id => id.includes('webpage-html-export')));
       }
 
     } catch (err) {

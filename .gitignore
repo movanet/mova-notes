@@ -12,8 +12,9 @@
 *.gif
 
 # Obsidian vault files
-.obsidian/
-# But keep auto-deploy plugin (except status.json)
+.obsidian/*
+!.obsidian/plugins/
+.obsidian/plugins/*
 !.obsidian/plugins/auto-deploy/
 .obsidian/plugins/auto-deploy/status.json
 

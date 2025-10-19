@@ -1,221 +1,76 @@
-const { Plugin, Notice } = require('obsidian');
+const { Plugin, Notice, PluginSettingTab, Setting } = require('obsidian');
 const fs = require('fs');
 const path = require('path');
 const { exec } = require('child_process');
+const GitHubPublisher = require('../../../.deploy/GitHubPublisher');
 
-module.exports = class AutoDeployPlugin extends Plugin {
+const DEFAULT_SETTINGS = {
+  githubOwner: 'movanet',
+  githubRepo: 'mova-notes',
+  githubBranch: 'master',
+  githubToken: ''
+};
+
+module.exports = class GitHubPagesPublisher extends Plugin {
   async onload() {
-    console.log('Loading Auto Deploy plugin');
+    console.log('Loading GitHub Pages Publisher plugin');
+
+    // Load settings
+    await this.loadSettings();
 
     // Paths
     this.vaultPath = this.app.vault.adapter.basePath;
-    this.deployPath = path.join(this.vaultPath, '.deploy');
-    this.statusFile = path.join(this.vaultPath, '.obsidian', 'plugins', 'auto-deploy', 'status.json');
-    this.pidFile = path.join(this.deployPath, 'watcher.pid');
-    this.startScript = path.join(this.deployPath, 'start.bat');
+    this.docsPath = path.join(this.vaultPath, 'docs');
+    this.docsTempPath = path.join(this.vaultPath, 'docs-temp');
 
-    // Auto-install dependencies if missing (for portability)
-    await this.ensureDependencies();
+    // Add settings tab
+    this.addSettingTab(new GitHubPagesSettingTab(this.app, this));
 
-    // Auto-start watcher on vault load
-    await this.startWatcher();
-
-    // Watch status file for deploy notifications
-    this.watchStatusFile();
-
-    // Add command to manually start/stop watcher
+    // Add command: Publish single note
     this.addCommand({
-      id: 'start-watcher',
-      name: 'Start deployment watcher',
-      callback: () => this.startWatcher()
-    });
-
-    this.addCommand({
-      id: 'stop-watcher',
-      name: 'Stop deployment watcher',
-      callback: () => this.stopWatcher()
-    });
-
-    this.addCommand({
-      id: 'restart-watcher',
-      name: 'Restart deployment watcher',
-      callback: () => this.restartWatcher()
-    });
-
-    // Single-note export (safe two-folder approach)
-    this.addCommand({
-      id: 'export-current-note',
-      name: 'Export current note and deploy (single file)',
+      id: 'publish-single-note',
+      name: 'Publish current note to GitHub Pages',
       editorCallback: async (editor, view) => {
-        await this.exportCurrentNote(view);
+        await this.publishSingleNote(view);
+      }
+    });
+
+    // Add command: Publish all changed notes
+    this.addCommand({
+      id: 'publish-all-notes',
+      name: 'Publish all exported notes to GitHub Pages',
+      callback: async () => {
+        await this.publishAllNotes();
+      }
+    });
+
+    // Add command: Full vault export + publish
+    this.addCommand({
+      id: 'export-and-publish-all',
+      name: 'Export vault and publish to GitHub Pages',
+      callback: async () => {
+        await this.exportAndPublishAll();
       }
     });
   }
 
-  // Auto-install dependencies if missing (portability feature)
-  async ensureDependencies() {
-    const nodeModulesPath = path.join(this.deployPath, 'node_modules');
-
-    // Check if node_modules exists
-    if (fs.existsSync(nodeModulesPath)) {
-      console.log('Dependencies already installed');
-      return;
-    }
-
-    console.log('Installing dependencies for first-time setup...');
-    new Notice('🔧 Auto-deploy: Installing dependencies... (one-time setup)', 5000);
-
-    return new Promise((resolve) => {
-      exec('npm install', { cwd: this.deployPath }, (error, stdout, stderr) => {
-        if (error) {
-          new Notice('❌ Failed to install dependencies. Run: cd .deploy && npm install', 8000);
-          console.error('npm install failed:', error, stderr);
-        } else {
-          new Notice('✅ Dependencies installed successfully!', 3000);
-          console.log('npm install complete:', stdout);
-        }
-        resolve();
-      });
-    });
+  async loadSettings() {
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
   }
 
-  // Check if watcher is already running
-  isWatcherRunning() {
+  async saveSettings() {
+    await this.saveData(this.settings);
+  }
+
+  /**
+   * Publish single note using GitHub API
+   */
+  async publishSingleNote(view) {
     try {
-      if (!fs.existsSync(this.pidFile)) {
-        return false;
+      if (!this.validateSettings()) {
+        return;
       }
 
-      const pid = fs.readFileSync(this.pidFile, 'utf8').trim();
-
-      // Check if process with this PID exists
-      try {
-        process.kill(pid, 0); // Signal 0 just checks if process exists
-        return true;
-      } catch (e) {
-        // Process doesn't exist, clean up stale PID file
-        fs.unlinkSync(this.pidFile);
-        return false;
-      }
-    } catch (err) {
-      return false;
-    }
-  }
-
-  // Start the deployment watcher
-  async startWatcher() {
-    // Check if already running
-    if (this.isWatcherRunning()) {
-      console.log('Auto-deploy watcher is already running');
-      return;
-    }
-
-    // Check if start script exists
-    if (!fs.existsSync(this.startScript)) {
-      new Notice('❌ Auto-deploy: start.bat not found', 5000);
-      console.error('Start script not found at:', this.startScript);
-      return;
-    }
-
-    console.log('Starting auto-deploy watcher...');
-
-    return new Promise((resolve) => {
-      exec(`cmd /c "${this.startScript}"`, { cwd: this.deployPath }, (error, stdout, stderr) => {
-        if (error) {
-          new Notice(`❌ Failed to start watcher: ${error.message}`, 5000);
-          console.error('Failed to start watcher:', error, stderr);
-        } else {
-          new Notice('🚀 Auto-deploy watcher started', 3000);
-          console.log('Watcher started:', stdout);
-        }
-        resolve();
-      });
-    });
-  }
-
-  // Stop the deployment watcher
-  async stopWatcher() {
-    const stopScript = path.join(this.deployPath, 'stop.bat');
-
-    if (!fs.existsSync(stopScript)) {
-      new Notice('❌ Auto-deploy: stop.bat not found', 5000);
-      return;
-    }
-
-    return new Promise((resolve) => {
-      exec(`cmd /c "${stopScript}"`, { cwd: this.deployPath }, (error, stdout, stderr) => {
-        if (error) {
-          new Notice(`❌ Failed to stop watcher: ${error.message}`, 5000);
-          console.error('Failed to stop watcher:', error, stderr);
-        } else {
-          new Notice('🛑 Auto-deploy watcher stopped', 3000);
-          console.log('Watcher stopped:', stdout);
-        }
-        resolve();
-      });
-    });
-  }
-
-  // Restart the deployment watcher
-  async restartWatcher() {
-    await this.stopWatcher();
-    setTimeout(() => this.startWatcher(), 1000);
-  }
-
-  // Watch status file and show notifications
-  watchStatusFile() {
-    let lastStatus = null;
-
-    // Check status file periodically
-    this.statusCheckInterval = setInterval(() => {
-      try {
-        if (!fs.existsSync(this.statusFile)) {
-          return;
-        }
-
-        const statusData = JSON.parse(fs.readFileSync(this.statusFile, 'utf8'));
-
-        // Only notify on status changes
-        const statusKey = `${statusData.status}-${statusData.timestamp}`;
-        if (statusKey === lastStatus) {
-          return;
-        }
-
-        lastStatus = statusKey;
-
-        // Show notification based on status
-        switch (statusData.status) {
-          case 'success':
-            new Notice(`✅ ${statusData.message}`, 5000);
-            break;
-          case 'error':
-            new Notice(`❌ Deploy failed: ${statusData.message}`, 8000);
-            console.error('Deploy error:', statusData.error);
-            break;
-          case 'deploying':
-            new Notice(`📦 ${statusData.message}`, 3000);
-            break;
-          case 'skipped':
-            // Don't notify for skipped deploys (no changes)
-            console.log('Deploy skipped:', statusData.message);
-            break;
-        }
-      } catch (err) {
-        // Ignore errors reading status file
-      }
-    }, 1000); // Check every second
-  }
-
-  // Export current note using two-folder strategy (SAFE)
-  async exportCurrentNote(view) {
-    try {
-      // Ensure watcher is running
-      if (!this.isWatcherRunning()) {
-        await this.startWatcher();
-        await new Promise(resolve => setTimeout(resolve, 1000));
-      }
-
-      // Get current file
       const file = view.file;
       if (!file) {
         new Notice('❌ No active file', 3000);
@@ -225,120 +80,321 @@ module.exports = class AutoDeployPlugin extends Plugin {
       const fileName = file.name;
       new Notice(`📝 Exporting: ${fileName}...`, 3000);
 
-      // Paths
-      const docsPath = path.join(this.vaultPath, 'docs');
-      const tempPath = path.join(this.vaultPath, 'docs-temp');
-      const settingsPath = path.join(this.vaultPath, '.obsidian', 'plugins', 'webpage-html-export', 'data.json');
-
-      // Ensure docs-temp exists
-      if (!fs.existsSync(tempPath)) {
-        fs.mkdirSync(tempPath, { recursive: true });
-      }
-
-      // Read current export settings
-      let originalSettings;
-      try {
-        originalSettings = JSON.parse(fs.readFileSync(settingsPath, 'utf8'));
-      } catch (err) {
-        new Notice('❌ Failed to read export settings', 5000);
-        console.error('Failed to read settings:', err);
+      // Export to docs-temp folder
+      const exported = await this.exportNoteToTemp(fileName);
+      if (!exported) {
         return;
       }
 
-      // Save original export path
-      const originalExportPath = originalSettings.exportOptions.exportPath;
+      // Publish to GitHub using API
+      const htmlFileName = fileName.replace(/\.md$/, '.html');
+      const localPath = path.join(this.docsTempPath, htmlFileName);
+      const remotePath = `docs/${htmlFileName}`;
 
-      try {
-        // Step 1: Configure export to docs-temp/ with only this file
-        originalSettings.exportOptions.exportPath = tempPath;
-        originalSettings.exportOptions.filesToExport = [fileName];
-        fs.writeFileSync(settingsPath, JSON.stringify(originalSettings, null, 2), 'utf8');
-
-        console.log(`Configured export: ${fileName} -> ${tempPath}`);
-
-        // Step 2: Trigger export (this will clear docs-temp/ and export only this file)
-        const commands = this.app.commands.commands;
-        let exportCommand = null;
-
-        for (const [id, command] of Object.entries(commands)) {
-          if (id.includes('webpage-html-export') && id.includes('export')) {
-            exportCommand = command;
-            break;
-          }
-        }
-
-        if (!exportCommand) {
-          new Notice('❌ Export command not found', 5000);
-          return;
-        }
-
-        // Execute export
-        this.app.commands.executeCommandById(exportCommand.id);
-        new Notice('⏳ Exporting... Please wait', 2000);
-
-        // Wait for export to complete (adjust timing if needed)
-        await new Promise(resolve => setTimeout(resolve, 5000));
-
-        // Step 3: Copy the HTML file from docs-temp/ to docs/
-        const htmlFileName = fileName.replace(/\.md$/, '.html');
-        const sourceFile = path.join(tempPath, htmlFileName);
-        const destFile = path.join(docsPath, htmlFileName);
-
-        if (fs.existsSync(sourceFile)) {
-          fs.copyFileSync(sourceFile, destFile);
-          console.log(`Copied: ${htmlFileName} -> docs/`);
-
-          // Also copy any associated media files (images embedded in this note)
-          // This is a simple approach - copies all files that aren't HTML
-          const tempFiles = fs.readdirSync(tempPath);
-          let mediaCount = 0;
-
-          for (const tempFile of tempFiles) {
-            if (!tempFile.endsWith('.html') && !tempFile.startsWith('.')) {
-              const sourceMedia = path.join(tempPath, tempFile);
-              const destMedia = path.join(docsPath, tempFile);
-
-              // Only copy if it's a file (not directory)
-              if (fs.statSync(sourceMedia).isFile()) {
-                fs.copyFileSync(sourceMedia, destMedia);
-                mediaCount++;
-              }
-            }
-          }
-
-          const mediaMsg = mediaCount > 0 ? ` + ${mediaCount} media file(s)` : '';
-          new Notice(`✅ Exported: ${htmlFileName}${mediaMsg}`, 4000);
-          new Notice('🚀 Auto-deploy will push changes soon...', 3000);
-
-        } else {
-          new Notice(`❌ Export failed - ${htmlFileName} not found`, 5000);
-          console.error('Expected file not found:', sourceFile);
-        }
-
-      } finally {
-        // Step 4: Restore original export settings
-        originalSettings.exportOptions.exportPath = originalExportPath;
-        originalSettings.exportOptions.filesToExport = [];
-        fs.writeFileSync(settingsPath, JSON.stringify(originalSettings, null, 2), 'utf8');
-
-        console.log('Restored original export settings');
+      if (!fs.existsSync(localPath)) {
+        new Notice(`❌ Export failed - ${htmlFileName} not found`, 5000);
+        return;
       }
 
-    } catch (err) {
-      console.error('Export current note failed:', err);
-      new Notice(`❌ Export failed: ${err.message}`, 5000);
+      new Notice('🚀 Publishing to GitHub...', 2000);
+
+      const publisher = new GitHubPublisher({
+        owner: this.settings.githubOwner,
+        repo: this.settings.githubRepo,
+        branch: this.settings.githubBranch,
+        token: this.settings.githubToken,
+        docsFolder: 'docs'
+      });
+
+      const success = await publisher.uploadFile(
+        localPath,
+        remotePath,
+        `Update: ${htmlFileName}`
+      );
+
+      if (success) {
+        // Also copy to local docs/ folder for consistency
+        const destPath = path.join(this.docsPath, htmlFileName);
+        fs.copyFileSync(localPath, destPath);
+
+        // Upload associated media files
+        await this.uploadMediaFiles(publisher);
+
+        new Notice(`✅ Published: ${htmlFileName}`, 4000);
+        new Notice('🌐 Live at: https://notes.alafghani.info', 5000);
+      } else {
+        new Notice('❌ Failed to publish to GitHub', 5000);
+      }
+
+    } catch (error) {
+      console.error('Publish failed:', error);
+      new Notice(`❌ Publish failed: ${error.message}`, 5000);
     }
+  }
+
+  /**
+   * Publish all notes in docs/ folder
+   */
+  async publishAllNotes() {
+    try {
+      if (!this.validateSettings()) {
+        return;
+      }
+
+      new Notice('📦 Publishing all notes to GitHub...', 3000);
+
+      const publisher = new GitHubPublisher({
+        owner: this.settings.githubOwner,
+        repo: this.settings.githubRepo,
+        branch: this.settings.githubBranch,
+        token: this.settings.githubToken,
+        docsFolder: 'docs'
+      });
+
+      // Get all HTML files in docs/
+      const files = fs.readdirSync(this.docsPath)
+        .filter(f => f.endsWith('.html'))
+        .map(f => ({
+          localPath: path.join(this.docsPath, f),
+          remotePath: `docs/${f}`,
+          commitMessage: `Update: ${f}`
+        }));
+
+      if (files.length === 0) {
+        new Notice('❌ No HTML files found in docs/ folder', 5000);
+        return;
+      }
+
+      new Notice(`🚀 Uploading ${files.length} files...`, 3000);
+
+      const results = await publisher.uploadFiles(files);
+
+      const successCount = results.filter(r => r.success).length;
+      const failCount = results.filter(r => !r.success).length;
+
+      if (failCount === 0) {
+        new Notice(`✅ Published ${successCount} files successfully!`, 5000);
+        new Notice('🌐 Live at: https://notes.alafghani.info', 5000);
+      } else {
+        new Notice(`⚠️ Published ${successCount}, failed ${failCount}`, 5000);
+      }
+
+    } catch (error) {
+      console.error('Publish all failed:', error);
+      new Notice(`❌ Publish failed: ${error.message}`, 5000);
+    }
+  }
+
+  /**
+   * Export full vault then publish all
+   */
+  async exportAndPublishAll() {
+    try {
+      new Notice('📝 Exporting full vault...', 3000);
+
+      // Trigger full vault export
+      const commands = this.app.commands.commands;
+      const exportCommand = Object.entries(commands).find(([id]) =>
+        id.includes('webpage-html-export') && id.includes('export')
+      );
+
+      if (!exportCommand) {
+        new Notice('❌ Export plugin not found', 5000);
+        return;
+      }
+
+      // Execute export
+      this.app.commands.executeCommandById(exportCommand[0]);
+      new Notice('⏳ Waiting for export to complete...', 3000);
+
+      // Wait for export to finish
+      await new Promise(resolve => setTimeout(resolve, 10000));
+
+      // Now publish all
+      await this.publishAllNotes();
+
+    } catch (error) {
+      console.error('Export and publish failed:', error);
+      new Notice(`❌ Failed: ${error.message}`, 5000);
+    }
+  }
+
+  /**
+   * Export single note to docs-temp folder
+   */
+  async exportNoteToTemp(fileName) {
+    const settingsPath = path.join(
+      this.vaultPath,
+      '.obsidian',
+      'plugins',
+      'webpage-html-export',
+      'data.json'
+    );
+
+    try {
+      // Ensure docs-temp exists
+      if (!fs.existsSync(this.docsTempPath)) {
+        fs.mkdirSync(this.docsTempPath, { recursive: true });
+      }
+
+      // Read export settings
+      const exportSettings = JSON.parse(fs.readFileSync(settingsPath, 'utf8'));
+      const originalPath = exportSettings.exportOptions.exportPath;
+
+      // Configure export to docs-temp/
+      exportSettings.exportOptions.exportPath = this.docsTempPath;
+      exportSettings.exportOptions.filesToExport = [fileName];
+      fs.writeFileSync(settingsPath, JSON.stringify(exportSettings, null, 2));
+
+      // Trigger export
+      const commands = this.app.commands.commands;
+      const exportCommand = Object.entries(commands).find(([id]) =>
+        id.includes('webpage-html-export') && id.includes('export')
+      );
+
+      if (!exportCommand) {
+        new Notice('❌ Export plugin not found', 5000);
+        return false;
+      }
+
+      this.app.commands.executeCommandById(exportCommand[0]);
+      new Notice('⏳ Exporting... Please wait', 2000);
+
+      // Wait for export
+      await new Promise(resolve => setTimeout(resolve, 5000));
+
+      // Restore original settings
+      exportSettings.exportOptions.exportPath = originalPath;
+      exportSettings.exportOptions.filesToExport = [];
+      fs.writeFileSync(settingsPath, JSON.stringify(exportSettings, null, 2));
+
+      return true;
+
+    } catch (error) {
+      console.error('Export to temp failed:', error);
+      new Notice(`❌ Export failed: ${error.message}`, 5000);
+      return false;
+    }
+  }
+
+  /**
+   * Upload media files from docs-temp to GitHub
+   */
+  async uploadMediaFiles(publisher) {
+    try {
+      const mediaExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg',
+        '.mp3', '.mp4', '.webm', '.ogg', '.wav', '.m4a', '.pdf'];
+
+      const tempFiles = fs.readdirSync(this.docsTempPath);
+      const mediaFiles = tempFiles.filter(f => {
+        const ext = path.extname(f).toLowerCase();
+        return mediaExtensions.includes(ext);
+      });
+
+      if (mediaFiles.length === 0) {
+        return;
+      }
+
+      console.log(`Uploading ${mediaFiles.length} media files...`);
+
+      for (const file of mediaFiles) {
+        const localPath = path.join(this.docsTempPath, file);
+        const remotePath = `docs/${file}`;
+
+        // Copy to local docs/ as well
+        const destPath = path.join(this.docsPath, file);
+        if (fs.existsSync(localPath) && fs.statSync(localPath).isFile()) {
+          fs.copyFileSync(localPath, destPath);
+
+          // Upload to GitHub
+          await publisher.uploadFile(localPath, remotePath);
+        }
+      }
+
+    } catch (error) {
+      console.error('Media upload failed:', error);
+    }
+  }
+
+  validateSettings() {
+    if (!this.settings.githubToken) {
+      new Notice('❌ Please configure GitHub token in settings', 5000);
+      return false;
+    }
+    return true;
   }
 
   async onunload() {
-    console.log('Unloading Auto Deploy plugin');
-
-    // Clear status check interval
-    if (this.statusCheckInterval) {
-      clearInterval(this.statusCheckInterval);
-    }
-
-    // Optionally stop watcher on plugin unload (uncomment if desired)
-    // await this.stopWatcher();
+    console.log('Unloading GitHub Pages Publisher plugin');
   }
 };
+
+class GitHubPagesSettingTab extends PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+
+    containerEl.createEl('h2', { text: 'GitHub Pages Publisher Settings' });
+
+    new Setting(containerEl)
+      .setName('GitHub Owner')
+      .setDesc('Your GitHub username or organization')
+      .addText(text => text
+        .setPlaceholder('movanet')
+        .setValue(this.plugin.settings.githubOwner)
+        .onChange(async (value) => {
+          this.plugin.settings.githubOwner = value;
+          await this.plugin.saveSettings();
+        }));
+
+    new Setting(containerEl)
+      .setName('GitHub Repository')
+      .setDesc('Repository name (e.g., mova-notes)')
+        .addText(text => text
+        .setPlaceholder('mova-notes')
+        .setValue(this.plugin.settings.githubRepo)
+        .onChange(async (value) => {
+          this.plugin.settings.githubRepo = value;
+          await this.plugin.saveSettings();
+        }));
+
+    new Setting(containerEl)
+      .setName('GitHub Branch')
+      .setDesc('Branch to publish to')
+      .addText(text => text
+        .setPlaceholder('master')
+        .setValue(this.plugin.settings.githubBranch)
+        .onChange(async (value) => {
+          this.plugin.settings.githubBranch = value;
+          await this.plugin.saveSettings();
+        }));
+
+    new Setting(containerEl)
+      .setName('GitHub Token')
+      .setDesc('Personal access token with repo permissions')
+      .addText(text => {
+        text.inputEl.type = 'password';
+        text
+          .setPlaceholder('ghp_xxxxxxxxxxxx')
+          .setValue(this.plugin.settings.githubToken)
+          .onChange(async (value) => {
+            this.plugin.settings.githubToken = value;
+            await this.plugin.saveSettings();
+          });
+      });
+
+    containerEl.createEl('p', {
+      text: 'Get a token from: ',
+      cls: 'setting-item-description'
+    });
+    containerEl.createEl('a', {
+      text: 'https://github.com/settings/tokens',
+      href: 'https://github.com/settings/tokens'
+    });
+  }
+}

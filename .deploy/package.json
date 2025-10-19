@@ -7,10 +7,17 @@
     "start": "node auto-deploy.js",
     "dev": "node auto-deploy.js"
   },
-  "keywords": ["obsidian", "deploy", "netlify", "github"],
+  "keywords": [
+    "obsidian",
+    "deploy",
+    "netlify",
+    "github"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "chokidar": "^3.5.3"
+    "@octokit/core": "^7.0.5",
+    "chokidar": "^3.5.3",
+    "js-base64": "^3.7.8"
   }
 }

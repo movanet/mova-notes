@@ -21,6 +21,7 @@
 # But allow all media in docs/ folder (published site)
 !docs/**/*.jpg
 !docs/**/*.png
+!docs/**/*.pdf
 !docs/**/*.webp
 !docs/**/*.gif
 !docs/**/*.mp3

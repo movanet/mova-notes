@@ -138,7 +138,7 @@ async function deploy() {
 
 // Debounce timer
 let deployTimer = null;
-const DEBOUNCE_MS = 3000;
+const DEBOUNCE_MS = 5000; // Increased from 3000 to allow export to finish
 
 function scheduleDeploy() {
   if (deployTimer) {
@@ -160,9 +160,11 @@ const watcher = chokidar.watch(DIST_FOLDER, {
   persistent: true,
   ignoreInitial: true, // Don't trigger on startup
   awaitWriteFinish: {
-    stabilityThreshold: 1000,
-    pollInterval: 100
-  }
+    stabilityThreshold: 2000, // Increased from 1000
+    pollInterval: 250 // Increased from 100
+  },
+  usePolling: false,
+  depth: 99
 });
 
 watcher

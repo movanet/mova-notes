@@ -1,8 +1,6 @@
 const { Plugin, Notice, PluginSettingTab, Setting } = require('obsidian');
 const fs = require('fs');
 const path = require('path');
-const { exec } = require('child_process');
-const GitHubPublisher = require('../../../.deploy/GitHubPublisher');
 
 const DEFAULT_SETTINGS = {
   githubOwner: 'movanet',
@@ -63,6 +61,83 @@ module.exports = class GitHubPagesPublisher extends Plugin {
   }
 
   /**
+   * Base64 encode string
+   */
+  base64Encode(str) {
+    return btoa(unescape(encodeURIComponent(str)));
+  }
+
+  /**
+   * GitHub API: Get file SHA
+   */
+  async getGitHubFileSha(filePath) {
+    const url = `https://api.github.com/repos/${this.settings.githubOwner}/${this.settings.githubRepo}/contents/${filePath}?ref=${this.settings.githubBranch}`;
+
+    try {
+      const response = await fetch(url, {
+        headers: {
+          'Authorization': `Bearer ${this.settings.githubToken}`,
+          'Accept': 'application/vnd.github.v3+json'
+        }
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        return data.sha;
+      }
+      return null; // File doesn't exist
+    } catch (error) {
+      console.error('Failed to get file SHA:', error);
+      return null;
+    }
+  }
+
+  /**
+   * GitHub API: Upload file
+   */
+  async uploadToGitHub(localPath, remotePath, commitMessage) {
+    // Read file content
+    const fileContent = fs.readFileSync(localPath, 'utf8');
+
+    // Base64 encode
+    const encodedContent = this.base64Encode(fileContent);
+
+    // Get existing file SHA
+    const sha = await this.getGitHubFileSha(remotePath);
+
+    // Prepare request
+    const url = `https://api.github.com/repos/${this.settings.githubOwner}/${this.settings.githubRepo}/contents/${remotePath}`;
+
+    const body = {
+      message: commitMessage || `Update: ${path.basename(remotePath)}`,
+      content: encodedContent,
+      branch: this.settings.githubBranch
+    };
+
+    if (sha) {
+      body.sha = sha; // Required for updates
+    }
+
+    // Upload to GitHub
+    const response = await fetch(url, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `Bearer ${this.settings.githubToken}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(body)
+    });
+
+    if (!response.ok) {
+      const error = await response.text();
+      throw new Error(`GitHub API error: ${response.status} - ${error}`);
+    }
+
+    return response.ok;
+  }
+
+  /**
    * Publish single note using GitHub API
    */
   async publishSingleNote(view) {
@@ -98,15 +173,7 @@ module.exports = class GitHubPagesPublisher extends Plugin {
 
       new Notice('🚀 Publishing to GitHub...', 2000);
 
-      const publisher = new GitHubPublisher({
-        owner: this.settings.githubOwner,
-        repo: this.settings.githubRepo,
-        branch: this.settings.githubBranch,
-        token: this.settings.githubToken,
-        docsFolder: 'docs'
-      });
-
-      const success = await publisher.uploadFile(
+      const success = await this.uploadToGitHub(
         localPath,
         remotePath,
         `Update: ${htmlFileName}`
@@ -118,7 +185,7 @@ module.exports = class GitHubPagesPublisher extends Plugin {
         fs.copyFileSync(localPath, destPath);
 
         // Upload associated media files
-        await this.uploadMediaFiles(publisher);
+        await this.uploadMediaFiles();
 
         new Notice(`✅ Published: ${htmlFileName}`, 4000);
         new Notice('🌐 Live at: https://notes.alafghani.info', 5000);
@@ -143,22 +210,8 @@ module.exports = class GitHubPagesPublisher extends Plugin {
 
       new Notice('📦 Publishing all notes to GitHub...', 3000);
 
-      const publisher = new GitHubPublisher({
-        owner: this.settings.githubOwner,
-        repo: this.settings.githubRepo,
-        branch: this.settings.githubBranch,
-        token: this.settings.githubToken,
-        docsFolder: 'docs'
-      });
-
       // Get all HTML files in docs/
-      const files = fs.readdirSync(this.docsPath)
-        .filter(f => f.endsWith('.html'))
-        .map(f => ({
-          localPath: path.join(this.docsPath, f),
-          remotePath: `docs/${f}`,
-          commitMessage: `Update: ${f}`
-        }));
+      const files = fs.readdirSync(this.docsPath).filter(f => f.endsWith('.html'));
 
       if (files.length === 0) {
         new Notice('❌ No HTML files found in docs/ folder', 5000);
@@ -167,10 +220,21 @@ module.exports = class GitHubPagesPublisher extends Plugin {
 
       new Notice(`🚀 Uploading ${files.length} files...`, 3000);
 
-      const results = await publisher.uploadFiles(files);
+      let successCount = 0;
+      let failCount = 0;
 
-      const successCount = results.filter(r => r.success).length;
-      const failCount = results.filter(r => !r.success).length;
+      for (const file of files) {
+        try {
+          const localPath = path.join(this.docsPath, file);
+          const remotePath = `docs/${file}`;
+
+          await this.uploadToGitHub(localPath, remotePath, `Update: ${file}`);
+          successCount++;
+        } catch (error) {
+          console.error(`Failed to upload ${file}:`, error);
+          failCount++;
+        }
+      }
 
       if (failCount === 0) {
         new Notice(`✅ Published ${successCount} files successfully!`, 5000);
@@ -280,7 +344,7 @@ module.exports = class GitHubPagesPublisher extends Plugin {
   /**
    * Upload media files from docs-temp to GitHub
    */
-  async uploadMediaFiles(publisher) {
+  async uploadMediaFiles() {
     try {
       const mediaExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg',
         '.mp3', '.mp4', '.webm', '.ogg', '.wav', '.m4a', '.pdf'];
@@ -307,7 +371,11 @@ module.exports = class GitHubPagesPublisher extends Plugin {
           fs.copyFileSync(localPath, destPath);
 
           // Upload to GitHub
-          await publisher.uploadFile(localPath, remotePath);
+          try {
+            await this.uploadToGitHub(localPath, remotePath);
+          } catch (error) {
+            console.error(`Failed to upload ${file}:`, error);
+          }
         }
       }
 
@@ -355,7 +423,7 @@ class GitHubPagesSettingTab extends PluginSettingTab {
     new Setting(containerEl)
       .setName('GitHub Repository')
       .setDesc('Repository name (e.g., mova-notes)')
-        .addText(text => text
+      .addText(text => text
         .setPlaceholder('mova-notes')
         .setValue(this.plugin.settings.githubRepo)
         .onChange(async (value) => {

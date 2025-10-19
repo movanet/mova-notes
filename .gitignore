@@ -29,3 +29,6 @@ Thumbs.db
 
 # Build/export artifacts (everything goes to dist/)
 # The dist/ folder will contain the full website
+
+# Local Netlify folder
+.netlify

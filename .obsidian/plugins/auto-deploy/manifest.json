@@ -1,0 +1,10 @@
+{
+  "id": "auto-deploy",
+  "name": "Auto Deploy to Netlify",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Automatically deploys exported HTML to GitHub and Netlify when vault is exported",
+  "author": "Mova AlAfghani",
+  "authorUrl": "https://notes.alafghani.info",
+  "isDesktopOnly": true
+}

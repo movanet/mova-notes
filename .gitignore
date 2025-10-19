@@ -2,6 +2,7 @@
 *.md
 !README-DEPLOYMENT.md
 !netlify.toml
+!.deploy/*.md
 
 # Images and assets (source)
 *.jpg
@@ -12,6 +13,9 @@
 
 # Obsidian vault files
 .obsidian/
+# But keep auto-deploy plugin (except status.json)
+!.obsidian/plugins/auto-deploy/
+.obsidian/plugins/auto-deploy/status.json
 
 # Custom head file (keep this in git)
 !site-lib/html/custom-head.html
@@ -32,3 +36,8 @@ Thumbs.db
 
 # Local Netlify folder
 .netlify
+
+# Auto-deploy system
+.deploy/node_modules/
+.deploy/logs/
+.deploy/watcher.pid

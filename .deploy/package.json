@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-auto-deploy",
+  "version": "1.0.0",
+  "description": "Auto-deploy Obsidian exported HTML to GitHub and Netlify",
+  "main": "auto-deploy.js",
+  "scripts": {
+    "start": "node auto-deploy.js",
+    "dev": "node auto-deploy.js"
+  },
+  "keywords": ["obsidian", "deploy", "netlify", "github"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  }
+}

@@ -10,11 +10,27 @@
 /*.pdf
 /*.webp
 /*.gif
-# But allow images in docs/ folder (published site)
+/*.mp3
+/*.mp4
+/*.webm
+/*.ogg
+/*.wav
+/*.m4a
+/*.avi
+/*.mov
+# But allow all media in docs/ folder (published site)
 !docs/**/*.jpg
 !docs/**/*.png
 !docs/**/*.webp
 !docs/**/*.gif
+!docs/**/*.mp3
+!docs/**/*.mp4
+!docs/**/*.webm
+!docs/**/*.ogg
+!docs/**/*.wav
+!docs/**/*.m4a
+!docs/**/*.avi
+!docs/**/*.mov
 
 # Obsidian vault files
 .obsidian/*

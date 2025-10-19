@@ -4,12 +4,17 @@
 !netlify.toml
 !.deploy/*.md
 
-# Images and assets (source)
-*.jpg
-*.png
-*.pdf
-*.webp
-*.gif
+# Images and assets (source - but allow in docs/)
+/*.jpg
+/*.png
+/*.pdf
+/*.webp
+/*.gif
+# But allow images in docs/ folder (published site)
+!docs/**/*.jpg
+!docs/**/*.png
+!docs/**/*.webp
+!docs/**/*.gif
 
 # Obsidian vault files
 .obsidian/*

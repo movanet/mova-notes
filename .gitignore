@@ -1,6 +1,7 @@
 # Source files (keep in vault, not in git)
 *.md
 !README-DEPLOYMENT.md
+!SITEMAP_PROTOCOL.md
 !netlify.toml
 !.deploy/*.md
 

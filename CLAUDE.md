@@ -217,6 +217,56 @@ cat deploy-errors.log # Error logs
 - Never commit tokens or sensitive credentials
 - Token requires `repo` scope for GitHub API publishing
 
+### CRITICAL: File Deletion Safety
+
+**DANGER: The `deleteOldFiles` setting can cause mass file deletion!**
+
+Location: `.obsidian/plugins/auto-deploy/data.json` line 225
+
+```json
+"deleteOldFiles": false,  // MUST be false for safety
+```
+
+**What it does**:
+- When `true`: Exporting a single file DELETES ALL OTHER HTML files not in the current export
+- When `false`: Only updates/adds the files being exported (SAFE)
+
+**Real incident (2025-10-28)**:
+- Setting was `true` by default
+- User exported ONE file via Ctrl+P
+- Plugin deleted 304 HTML files automatically
+- Watcher auto-committed the deletions
+- Required full restoration from backup
+
+**Why it's dangerous**:
+1. The HTMLExporter library reads this GLOBAL setting
+2. It overrides function parameters (even when code passes `deleteOld = false`)
+3. Single-file exports compare against ALL files in docs/
+4. Everything not in current export gets deleted
+5. Watcher immediately commits deletions to git
+
+**Recovery from mass deletion**:
+```bash
+# If this happens:
+1. IMMEDIATELY stop the watcher (taskkill /IM node.exe /F)
+2. Check damage: ls docs/*.html | wc -l
+3. Restore from backup: cp docs_backup/* docs/
+4. Fix setting: Change deleteOldFiles to false in data.json
+5. Commit restoration: git add . && git commit && git push
+```
+
+**Prevention**:
+- ✅ Keep `deleteOldFiles: false` at ALL times
+- ✅ Create backups before testing: `cp -r docs docs_backup`
+- ✅ Never change this setting to `true` unless doing a full vault re-export
+- ✅ Test single-file exports in a separate branch first
+- ⚠️  This setting affects ALL export operations globally
+
+**When to use `deleteOldFiles: true`** (rare):
+- Only for complete vault re-export when you want to remove old/renamed files
+- ALWAYS backup first
+- Immediately change back to `false` after
+
 ### Content Structure
 - Primary content is in root markdown files and topic folders (e.g., 01-Lingkungan/)
 - `docs/` folder is auto-generated - do not manually edit HTML files

@@ -1,0 +1,8 @@
+# Robots.txt for notes.alafghani.info
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://notes.alafghani.info/sitemap.xml

@@ -222,7 +222,7 @@
   "titleProperty": "title",
   "rssDateProperty": "date",
   "onlyExportModified": true,
-  "deleteOldFiles": true,
+  "deleteOldFiles": false,
   "exportPreset": "online",
   "openAfterExport": true,
   "filePickerBlacklist": [

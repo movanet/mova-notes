@@ -1,0 +1,21 @@
+{
+  "name": "obsidian-autodeploy",
+  "version": "2.0.0",
+  "description": "Auto-deploy Obsidian HTML exports to GitHub",
+  "main": "watcher.js",
+  "scripts": {
+    "start": "node watcher.js",
+    "dev": "node watcher.js"
+  },
+  "keywords": [
+    "obsidian",
+    "deploy",
+    "github",
+    "automation"
+  ],
+  "author": "Mohamad Mova AlAfghani",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  }
+}

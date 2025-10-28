@@ -1,14 +1,36 @@
 # Deployment Guide for Mova's Notes
 
-## 🚀 Quick Start (GitHub Pages Publisher v2.0)
+## 🚀 Quick Start (Hybrid Automation v3.0)
 
-### ✨ New in v2.0: GitHub API Publishing
-- **No more file watchers** - Direct GitHub API integration
-- **Safer single-note publishing** - Never deletes other files
-- **Simpler architecture** - No background processes needed
-- **Instant deployment** - Publishes directly to GitHub
+### ✨ New in v3.0: Fully Automated Deployment
+- **Complete automation** - Export → Auto-commit → Auto-push → GitHub Actions
+- **File watcher** - Monitors docs/ folder automatically
+- **GitHub Actions** - Deploys to Pages on every push
+- **Zero manual steps** - Just export in Obsidian, everything else is automatic
+
+### 🎯 How It Works
+
+```
+Edit note in Obsidian
+    ↓
+Ctrl+P → "Publish current note"
+    ↓
+Plugin exports to docs/
+    ↓
+Watcher detects change (3s delay)
+    ↓
+Auto-commit with timestamp
+    ↓
+Auto-push to GitHub
+    ↓
+GitHub Actions deploys to Pages
+    ↓
+Live at https://notes.alafghani.info (~30 seconds)
+```
 
 ### Setup (One-Time)
+
+**Step 1: Configure Obsidian Plugin**
 
 1. **Get a GitHub Personal Access Token:**
    - Go to https://github.com/settings/tokens/new
@@ -28,23 +50,49 @@
      - Token: (paste your token)
    - Click away to save
 
-### Single-Note Publishing ⚡ (Fastest!)
+**Step 2: Start Auto-Deploy Watcher**
 
-**Publish just the note you're editing:**
+1. **Install dependencies:**
+   ```bash
+   cd .autodeploy
+   npm install
+   ```
+
+2. **Start the watcher:**
+   - Double-click `.autodeploy/start.bat`
+   - Or run: `cd .autodeploy && npm start`
+   - A console window will open showing watcher status
+
+3. **Keep it running:**
+   - Leave the watcher console window open while working
+   - Watcher automatically commits and pushes changes to GitHub
+   - GitHub Actions then deploys to Pages
+
+**Step 3: Configure GitHub Pages (If Not Already Done)**
+
+1. Go to: https://github.com/movanet/mova-notes/settings/pages
+2. Set source: **GitHub Actions** (not branch)
+3. Save changes
+
+### Daily Usage (Fully Automated)
+
+**To publish any note:**
 
 1. Open a note in Obsidian
 2. Press `Ctrl/Cmd + P`
 3. Type: **"Publish current note to GitHub Pages"**
 4. Press Enter
-5. Wait ~7 seconds
-6. Done! ✅
+5. Done! ✅
 
-**What happens:**
-- Exports note to `docs-temp/` (temporary)
-- Uploads HTML file directly to GitHub via API
-- Copies to local `docs/` folder for consistency
-- All other pages remain untouched
-- GitHub Pages deploys automatically
+**What happens automatically:**
+- Plugin exports HTML to `docs/` folder
+- Watcher detects change (waits 3 seconds)
+- Auto-commits with timestamp: "Auto-deploy: 2025-10-28 14:30:45"
+- Auto-pushes to GitHub master branch
+- GitHub Actions deploys to Pages (~30 seconds)
+- Site live at https://notes.alafghani.info
+
+**No manual git commands needed!**
 
 ### Full Vault Publishing
 
@@ -85,13 +133,28 @@ All media files are automatically uploaded when you publish a note!
 - **Multiple files** → Batch upload with progress
 - **Media included** → Automatically detects and uploads
 
-### 🔄 Architecture
-- ✅ Uses GitHub REST API (Octokit)
-- ✅ No file watchers or background processes
-- ✅ No git CLI commands needed
-- ✅ Direct API communication with GitHub
-- ✅ Based on obsidian-digital-garden approach
-- ✅ Publishes to **https://notes.alafghani.info** (GitHub Pages)
+### 🔄 Architecture (v3.0 Hybrid System)
+
+**Three-Layer Automation:**
+
+1. **Obsidian Plugin** (`.obsidian/plugins/auto-deploy/`)
+   - Exports markdown → HTML with full features
+   - Saves to `docs/` folder
+   - Based on obsidian-webpage-export
+
+2. **File Watcher** (`.autodeploy/watcher.js`)
+   - Monitors `docs/` folder using chokidar
+   - Auto-commits changes with timestamps
+   - Auto-pushes to GitHub master branch
+   - Runs as local Node.js process
+
+3. **GitHub Actions** (`.github/workflows/deploy-pages.yml`)
+   - Triggers on push to `docs/` folder
+   - Updates sitemap timestamps automatically
+   - Deploys to GitHub Pages
+   - Provides deployment logs
+
+**Result:** ✅ Fully automated from Obsidian to live site!
 
 ---
 
@@ -135,17 +198,23 @@ PUT /repos/{owner}/{repo}/contents/{path}
 
 ```
 D:\Obsidian\obsidianpublish\
-├── docs/                      # Published HTML files (local copy)
-├── docs-temp/                 # Temporary export folder
+├── docs/                      # Published HTML files (GitHub Pages source)
+├── docs-temp/                 # Temporary export folder (single-note)
 ├── .obsidian/
 │   └── plugins/
-│       └── auto-deploy/       # Plugin code
-│           ├── main.js        # Main plugin
+│       └── auto-deploy/       # Obsidian plugin
+│           ├── main.js        # Main plugin (1.8 MB)
 │           ├── manifest.json  # Plugin metadata
 │           └── data.json      # Settings (inc. GitHub token)
-└── .deploy/
-    ├── GitHubPublisher.js     # GitHub API wrapper
-    └── package.json           # Dependencies (Octokit)
+├── .autodeploy/               # Auto-deploy watcher system
+│   ├── watcher.js             # File watcher script
+│   ├── package.json           # Dependencies (chokidar)
+│   ├── start.bat              # Start watcher
+│   ├── stop.bat               # Stop watcher
+│   └── deploy.log             # Deployment logs
+└── .github/
+    └── workflows/
+        └── deploy-pages.yml   # GitHub Actions workflow
 ```
 
 ---
@@ -180,6 +249,29 @@ D:\Obsidian\obsidianpublish\
 ---
 
 ## 🐛 Troubleshooting
+
+### Watcher Not Starting?
+1. Check if Node.js is installed: `node --version`
+2. Install dependencies: `cd .autodeploy && npm install`
+3. Check error logs: `.autodeploy/deploy-errors.log`
+4. Verify git is configured: `git config --list`
+
+### Changes Not Auto-Deploying?
+1. **Check watcher status**: Look at watcher console window
+2. **Check logs**: View `.autodeploy/deploy.log`
+3. **Verify git push works**: Try `git push` manually
+4. **Check GitHub Actions**: https://github.com/movanet/mova-notes/actions
+
+### Watcher Committing Too Often?
+- The watcher has a 3-second debounce
+- Multiple rapid changes are batched into one commit
+- Check `deploy.log` for commit frequency
+
+### GitHub Actions Failing?
+1. Go to: https://github.com/movanet/mova-notes/actions
+2. Click on failed workflow
+3. View logs for error details
+4. Verify `docs/` folder exists and has HTML files
 
 ### Plugin Not Loading?
 1. Settings → Community plugins → Reload

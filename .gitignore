@@ -2,8 +2,9 @@
 *.md
 !README-DEPLOYMENT.md
 !SITEMAP_PROTOCOL.md
+!CLAUDE.md
 !netlify.toml
-!.deploy/*.md
+!.autodeploy/*.md
 
 # Images and assets (source - but allow in docs/)
 /*.jpg
@@ -64,7 +65,8 @@ docs-temp/
 # Local Netlify folder
 .netlify
 
-# Auto-deploy system
-.deploy/node_modules/
-.deploy/logs/
-.deploy/watcher.pid
+# Auto-deploy system v2.0
+.autodeploy/node_modules/
+.autodeploy/package-lock.json
+.autodeploy/*.log
+.autodeploy/watcher.pid

@@ -1,16 +1,16 @@
 {
   "metadata": {
-    "project": "Lake Governance Policy Network Analysis",
+    "project": "CSIRO Rawapening Lake Governance Analysis",
     "version": "1.0",
     "date": "2025-01-28",
-    "description": "Actor-policy network for lake governance showing institutional relationships and policy dynamics"
+    "description": "Actor-policy network for Rawapening lake governance showing actors, policies, and their relationships"
   },
   "nodes": [
     {
       "id": "PAN",
       "type": "actor",
-      "name": "BWS Representative",
-      "nameID": "Perwakilan BWS",
+      "name": "Pandu",
+      "nameID": "Pandu",
       "organization": "BWS Pemali Juana",
       "organizationID": "BWS Pemali Juana",
       "organizationCode": "BWS",
@@ -44,8 +44,8 @@
     {
       "id": "SWE",
       "type": "actor",
-      "name": "FORUM_PETANI Representative",
-      "nameID": "Perwakilan FORUM_PETANI",
+      "name": "Swestiono (68 years)",
+      "nameID": "Swestiono (68 tahun)",
       "organization": "Forum Petani Rawapening Bersatu (Chair)",
       "organizationID": "Forum Petani Rawapening Bersatu (Ketua)",
       "organizationCode": "FORUM_PETANI",
@@ -80,8 +80,8 @@
     {
       "id": "NOV",
       "type": "actor",
-      "name": "DINAS_PERTANIAN Representative",
-      "nameID": "Perwakilan DINAS_PERTANIAN",
+      "name": "Novi",
+      "nameID": "Novi",
       "organization": "Dinas Pertanian Provinsi (Provincial Agriculture)",
       "organizationID": "Dinas Pertanian Provinsi",
       "organizationCode": "DINAS_PERTANIAN",
@@ -114,8 +114,8 @@
     {
       "id": "GIT",
       "type": "actor",
-      "name": "COMMUNITY Representative",
-      "nameID": "Perwakilan COMMUNITY",
+      "name": "Pak Gito",
+      "nameID": "Pak Gito",
       "organization": "Community Fisher-Farmer Leader",
       "organizationID": "Pemimpin Komunitas Nelayan-Petani",
       "organizationCode": "COMMUNITY",
@@ -155,8 +155,8 @@
     {
       "id": "MBP",
       "type": "actor",
-      "name": "COMMUNITY Representative",
-      "nameID": "Perwakilan COMMUNITY",
+      "name": "Mbah Pandi (72 years)",
+      "nameID": "Mbah Pandi (72 tahun)",
       "organization": "Community Elder",
       "organizationID": "Sesepuh Komunitas",
       "organizationCode": "COMMUNITY",
@@ -182,8 +182,8 @@
     {
       "id": "HER",
       "type": "actor",
-      "name": "PUPR Representative",
-      "nameID": "Perwakilan PUPR",
+      "name": "Heri",
+      "nameID": "Heri",
       "organization": "Kementerian PUPR (Ministry of Public Works)",
       "organizationID": "Kementerian PUPR",
       "organizationCode": "PUPR",
@@ -202,8 +202,8 @@
     {
       "id": "RIN",
       "type": "actor",
-      "name": "SETDA Representative",
-      "nameID": "Perwakilan SETDA",
+      "name": "Rini",
+      "nameID": "Rini",
       "organization": "Setda Provinsi Jawa Tengah (Provincial Secretariat)",
       "organizationID": "Setda Provinsi Jawa Tengah",
       "organizationCode": "SETDA",
@@ -229,8 +229,8 @@
     {
       "id": "DIN",
       "type": "actor",
-      "name": "BPDAS Representative",
-      "nameID": "Perwakilan BPDAS",
+      "name": "Dinda",
+      "nameID": "Dinda",
       "organization": "BPDAS Pemali Jratun (Watershed Management)",
       "organizationID": "BPDAS Pemali Jratun",
       "organizationCode": "BPDAS",
@@ -248,8 +248,8 @@
     {
       "id": "DIA",
       "type": "actor",
-      "name": "DLHK Representative",
-      "nameID": "Perwakilan DLHK",
+      "name": "Diana",
+      "nameID": "Diana",
       "organization": "DLHK Provinsi (Provincial Environmental Agency)",
       "organizationID": "DLHK Provinsi",
       "organizationCode": "DLHK",

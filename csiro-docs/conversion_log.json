@@ -1,0 +1,114 @@
+[
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Resources\\Webinar CSIRO-BRIN-CRPG 24 Feb 25\\Lake Actors.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\test\\Lake Actors.md",
+    "file_size": 18416,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:28.227315"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Resources\\Webinar CSIRO-BRIN-CRPG 24 Feb 25\\Lake Actors.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Stakeholder-Analysis\\Lake Actors.md",
+    "file_size": 18416,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:28.473467"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Resources\\Webinar CSIRO-BRIN-CRPG 24 Feb 25\\BRIN -- CSIRO Lake Meeting Report -- Hybrid -- DIST.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Stakeholder-Analysis\\BRIN -- CSIRO Lake Meeting Report -- Hybrid -- DIST.md",
+    "file_size": 2798230,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:29.052622"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Resources\\Webinar CSIRO-BRIN-CRPG 24 Feb 25\\BRIN -- CSIRO Lake Meeting Report -- Hybrid(1).docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Stakeholder-Analysis\\BRIN -- CSIRO Lake Meeting Report -- Hybrid(1).md",
+    "file_size": 894153,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:29.645047"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Resources\\Webinar CSIRO-BRIN-CRPG 24 Feb 25\\BRIN -- CSIRO Lake Meeting Report -- Hybrid.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Stakeholder-Analysis\\BRIN -- CSIRO Lake Meeting Report -- Hybrid.md",
+    "file_size": 886144,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:30.139247"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Deliverables\\Semarang Conference Draft Outlines\\Paper 1 -- What is the Lake For.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Stakeholder-Analysis\\Paper 1 -- What is the Lake For.md",
+    "file_size": 3195348,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:30.435281"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Deliverables\\Semarang Conference Draft Outlines\\Paper 2 -- Lake Tempe.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Stakeholder-Analysis\\Paper 2 -- Lake Tempe.md",
+    "file_size": 3192507,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:30.791446"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Deliverables\\Semarang Conference Draft Outlines\\Paper 3 -- Rawapening.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Stakeholder-Analysis\\Paper 3 -- Rawapening.md",
+    "file_size": 3193419,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:31.101529"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Deliverables\\Semarang Conference Draft Outlines\\Paper 4 -- Lake Batur.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Stakeholder-Analysis\\Paper 4 -- Lake Batur.md",
+    "file_size": 3192352,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:31.378296"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Deliverables\\Semarang Conference Draft Outlines\\Paper 5 -- Lake Toba.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Stakeholder-Analysis\\Paper 5 -- Lake Toba.md",
+    "file_size": 13755,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:31.578582"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Deliverables\\RawaPening_Analysis_20250112\\Synthesis_Narrative\\Chapter_1_Introduction_Context.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Synthesis\\Chapter_1_Introduction_Context.md",
+    "file_size": 27062,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:31.804810"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Deliverables\\RawaPening_Analysis_20250112\\Synthesis_Narrative\\Chapter_2_Environmental_Physical_Dimensions.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Synthesis\\Chapter_2_Environmental_Physical_Dimensions.md",
+    "file_size": 41442,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:32.130567"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Deliverables\\RawaPening_Analysis_20250112\\Synthesis_Narrative\\Chapter_3_Governance_Institutional_Analysis.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Synthesis\\Chapter_3_Governance_Institutional_Analysis.md",
+    "file_size": 41497,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:32.414257"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Deliverables\\RawaPening_Analysis_20250112\\Synthesis_Narrative\\Chapter_4_Community_Livelihoods_Justice.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Synthesis\\Chapter_4_Community_Livelihoods_Justice.md",
+    "file_size": 43233,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:32.762473"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Deliverables\\RawaPening_Analysis_20250112\\Synthesis_Narrative\\Chapter_5_Resources_Power_Recommendations.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Synthesis\\Chapter_5_Resources_Power_Recommendations.md",
+    "file_size": 41588,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:33.119430"
+  },
+  {
+    "input_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\Deliverables\\RawaPening_Analysis_20250112\\Synthesis_Narrative\\Synthesis_Narrative.docx",
+    "output_file": "D:\\Obsidian\\OneNoteExport\\01-Projects\\12-CSIRO\\CSIRO-Converted-Docs\\Synthesis\\Synthesis_Narrative.md",
+    "file_size": 16130,
+    "status": "success",
+    "timestamp": "2025-10-29T21:26:33.281068"
+  }
+]

@@ -1,0 +1,3032 @@
+---
+title: "Prioritas Nasional 2: Memantapkan Sistem Pertahanan Keamanan Negara dan Kemandirian Bangsa"
+chapter: "BAB III"
+priority: "PN 2"
+tags:
+  - pn2
+  - pertahanan
+  - kemandirian
+  - swasembada-pangan
+  - swasembada-energi
+  - swasembada-air
+  - ekonomi-digital
+  - ekonomi-hijau
+  - ekonomi-biru
+  - ekonomi-syariah
+categories:
+  - National Priorities
+  - Defense
+  - Self-Sufficiency
+  - Economic Transformation
+key_concepts:
+  - Swasembada Pangan
+  - Swasembada Energi
+  - Swasembada Air
+  - FEW Nexus
+  - Ekonomi Digital
+  - Ekonomi Hijau
+  - Ekonomi Biru
+status: "validated"
+date: "2025-10-29"
+---
+
+> **Navigation:** [[00_INDEX|🏠 Index]] | [[README|📖 About]]
+>
+> **You are here:** Prioritas Nasional 2: Memantapkan Sistem Pertahanan Keamanan Negara dan Kemandirian Bangsa
+
+---
+
+3.2 Prioritas Nasional 2: Memantapkan Sistem Pertahanan Keamanan
+Negara dan Mendorong Kemandirian Bangsa melalui Swasembada
+Pangan, Energi, Air, Ekonomi Syariah, Ekonomi Digital, Ekonomi Hijau,
+dan Ekonomi Biru
+
+Negara yang kuat adalah negara yang memiliki
+
+berkelanjutan dengan tetap mempertimbangkan
+
+sistem pertahanan keamanan negara yang dapat
+
+daya dukung dan daya tampung
+
+lingkungan;
+
+melindungi dan menjamin kedamaian di dalam
+itu,
+kesatuan.
+wilayah
+
+Sementara
+
+negara
+
+ekonomi biru akan menekankan nilai penting dari
+kekayaan kelautan kita.
+
+kemandirian bangsa mencerminkan kapabilitas
+
+sebuah bangsa untuk berdiri tanpa bergantung
+
+pada negara lain.
+
+Dalam kemandirian bangsa, Indonesia perlu fokus
+
+Dengan mengoptimalkan kesempatan di setiap
+
+sektor tersebut secara berkelanjutan, Indonesia
+
+mempertegas posisinya sebagai negara yang
+berdaulat. Atas dasar hal tersebut, pembangunan
+
+pada pencapaian swasembada dalam berbagai
+
+jangka menengah nasional
+
+tahun 2025–2029
+
+sektor krusial yang mencakup sektor pangan
+
+merumuskan pemantapan sistem pertahanan
+
+sebagai pilar kehidupan bangsa; sektor energi
+sebagai pendorong inovasi dan kemajuan; dan
+
+keamanan negara dan kemandirian bangsa melalui
+swasembada pangan, energi, air, ekonomi syariah,
+
+sektor air sebagai
+
+fondasi kehidupan yang
+
+ekonomi digital, ekonomi hijau, dan ekonomi biru.
+
+berkelanjutan.
+
+Prinsip pertama dari Ekonomi Pancasila adalah
+ekonomi yang religius dan mampu mewujudkan
+
+perekonomian yang berdaulat dan berdaya saing di
+
+tingkat global. Prinsip
+dengan mendorong
+
+ini diimplementasikan
+Indonesia menjadi pusat
+
+ekonomi syariah dunia. Sementara
+
+itu, era
+
+digitalisasi mengharuskan ekonomi digital menjadi
+
+akselerasi peningkatan daya saing. Dengan sumber
+daya alam yang melimpah, ekonomi hijau akan
+
+mendorong
+
+pertumbuhan
+
+ekonomi
+
+yang
+
+Sasaran Utama pada Prioritas Nasional 2
+
+Dalam mendukung proses pemantapan sistem
+
+pertahanan keamanan negara dan mendorong
+
+kemandirian bangsa melalui swasembada pangan,
+
+energi, air, ekonomi syariah, ekonomi digital,
+ekonomi hijau, dan ekonomi biru, telah dirumuskan
+
+6 (enam) sasaran pembangunan jangka menengah
+
+untuk membantu mengawal keberhasilan pada
+
+tahun 2025–2029 sebagai berikut.
+
+Sasaran Utama pada Prioritas Nasional 2
+
+No
+
+Sasaran dan Indikator
+
+Baseline 2024
+
+Target 2025
+
+Target 2029
+
+Terjaganya kedaulatan negara dan penguatan stabilitas keamanan nasional sebagai fondasi pelaksanaan
+
+pembangunan
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Asia Power Index (Military Capability)
+
+Asia Power Index (Diplomatic
+Influence)
+
+Proporsi Penduduk yang Merasa
+Aman Berjalan Sendirian di Area
+
+Tempat Tinggalnya (%)
+
+Global Cybersecurity Index
+
+Indeks Keamanan Laut Nasional
+
+15,7
+
+65,6
+
+62,8 (2020)
+
+100
+
+59
+
+16
+
+65,7
+
+67,5
+
+100
+
+60
+
+Meningkatnya kemandirian bangsa dalam memenuhi kebutuhan pangan yang berkualitas secara berkelanjutan
+dengan pendekatan Nexus Pangan, Energi, dan Air (FEW Nexus)
+
+Indeks Ketahanan Pangan
+
+Pertumbuhan PDB Pertanian,
+
+Kehutanan, dan Perikanan (%)
+
+71,2 a)
+
+1,30 (2023)
+
+73,2
+
+2,2
+
+6
+
+7
+
+98
+
+20
+
+66,1
+
+68,5
+
+98
+
+64
+
+82,0
+
+3,46
+
+No
+
+Sasaran dan Indikator
+
+Baseline 2024
+
+Target 2025
+
+Target 2029
+
+Meningkatnya kemandirian bangsa dalam memenuhi kebutuhan energi secara berkelanjutan dengan pendekatan
+Nexus Pangan, Energi, dan Air (FEW Nexus)
+
+8
+
+9
+
+Indeks Ketahanan Energi
+
+Porsi EBT dalam Bauran Energi
+Primer (%)b)
+
+6,64
+
+13,2 (2023)
+
+6,77
+
+20
+
+6,95
+
+23
+
+Meningkatnya kemandirian bangsa dalam memenuhi kebutuhan air secara berkelanjutan dengan pendekatan Nexus
+Pangan, Energi, dan Air (FEW Nexus)
+
+10
+
+11
+
+Indeks Ketahanan Air Nasional
+
+Kapasitas tampungan air (m3/kapita)
+b)
+
+3,48 (2022)
+
+59,59
+
+12
+
+Akses rumah tangga perkotaan
+
+24 (2020)
+
+3,50
+
+59,31
+
+39,20
+
+terhadap air siap minum perpipaan
+(%)b)
+
+13
+
+Rumah Tangga dengan Akses
+Sanitasi Aman (%)b)
+
+10,21 (2023)
+
+12,5
+
+Terwujudnya perekonomian nasional yang progresif, inklusif, dan berkelanjutan
+
+14
+
+Posisi ekonomi syariah Indonesia di
+
+3 (2023)
+
+tingkat global (peringkat)
+
+15
+
+16
+
+Indonesia Blue Economy Index (IBEI)
+
+34,25 (2023)
+
+Indeks Daya Saing Digital di Tingkat
+
+45 (2023)
+
+3
+
+38,76
+
+43
+
+Global (peringkat)
+
+Terwujudnya Transformasi Ekonomi Hijau
+
+3,75
+
+63,54
+
+51,36
+
+30
+
+1
+
+50,73
+
+40
+
+Indeks Ekonomi Hijau
+
+60,08 (2023)
+
+68,34
+
+77,20
+
+Timbulan Sampah Terolah di Fasilitas
+Pengolahan Sampah (%)b)
+
+15 (13 terdaur ulang)
+(2022)
+
+24 (16 terdaur ulang)
+
+38 (20 terdaur ulang)
+
+17
+
+18
+
+19
+
+20
+
+Persentase Penurunan Emisi Gas
+Rumah Kaca (GRK) Kumulatif (%)b)
+
+Persentase Penurunan Emisi Gas
+Rumah Kaca (GRK) Tahunan (%)b)
+
+21
+
+Indeks Pengelolaan
+
+Keanekaragaman Hayati
+
+22
+
+23
+
+24
+
+25
+
+26
+
+Indeks Kualitas Lingkungan Hidup
+
+Indeks Kualitas Udarab)
+
+Indeks Kualitas Airb)
+
+Indeks Kualitas Lahanb)
+
+Indeks Kualitas Air Lautb)
+
+17,02 (2023)
+
+23,48 (2023)
+
+0,35 (2020)
+
+72,54 (2023)c)
+
+88,67 (2023)c)
+
+54,59 (2023)
+
+61,79
+
+78,84
+
+18,37
+
+26,67
+
+0,44
+
+76,49
+
+78,53
+
+72,02
+
+77,97
+
+81,02
+
+21,12
+
+30,11
+
+0,55
+
+77,20
+
+79,49
+
+72,77
+
+78,19
+
+81,22
+
+Sumber: Kementerian PPN/Bappenas, 2024 (diolah)
+
+Keterangan: a) sangat sementara, b) indikator tingkat Program Prioritas, c) perhitungan menggunakan metode lama
+
+Arah Kebijakan
+
+Dalam rangka mewujudkan sasaran-sasaran pembangunan pada Prioritas Nasional 2, dilaksanakan arah
+kebijakan sebagai berikut:
+
+99
+
+100
+
+101
+
+102
+
+Intervensi Kebijakan
+
+Sebagai upaya pencapaian sasaran Prioritas
+
+Nasional 2, dilakukan serangkaian intervensi pada
+masing-masing arah kebijakan sebagai berikut.
+
+(1) Pembangunan postur pertahanan dalam
+rangka meningkatkan kemampuan multi
+
+domain untuk melindungi kedaulatan negara,
+
+keselamatan
+
+bangsa,
+
+dan
+
+kepentingan
+
+nasional, serta menjaga stabilitas kawasan dari
+segala bentuk ancaman dan gangguan
+
+dilaksanakan melalui (a) melanjutkan program
+
+penguatan postur pertahanan dengan konsep
+
+optimum
+rangka
+meningkatkan efektivitas menjaga kedaulatan
+
+force dalam
+
+essential
+
+Negara Kesatuan Republik
+
+Indonesia,
+
+(b)
+
+meningkatkan kekuatan Tentara Nasional
+Indonesia di daerah perbatasan dan pulau
+
+terluar, (c) memperkuat keamanan teknologi
+
+informasi telekomunikasi dan memperkuat
+
+kapabilitas badan pertahanan
+
+siber,
+
+(d)
+
+peningkatan
+
+profesionalisme
+
+dan
+
+kesejahteraan prajurit, dan (e) meningkatkan
+
+kesiapan alat peralatan pertahanan dan
+keamanan melalui
+dan
+perawatan.
+
+pemeliharaan
+
+(2) Pembangunan dan pengembangan industri
+rangka mewujudkan
+
+pertahanan dalam
+
+industri pertahanan yang sehat, maju, mandiri,
+
+dan berdaya saing dilaksanakan melalui (a)
+kemampuan
+peningkatan
+mempercepat
+
+industri strategis nasional dalam memenuhi
+
+kebutuhan alat utama sistem senjata bagi
+
+Tentara Nasional Indonesia/Kepolisian Negara
+(b) meningkatkan
+Republik
+
+Indonesia,
+
+komitmen untuk menggunakan produk-
+
+produk
+strategis nasional dan
+mendayagunakan sebesar mungkin kapasitas
+
+industri
+
+industri strategis dalam negeri, dan
+
+(c)
+
+transformasi tata kelola industri pertahanan
+dan penerapan skema spend to invest.
+
+103
+
+(3) Komponen
+pendukung
+
+cadangan
+dalam
+
+dan
+
+komponen
+rangka mendukung
+
+(c)
+
+dan
+laut;
+pemeliharaan keamanan, keselamatan, dan
+
+pengawasan
+
+kolaborasi
+
+ketahanan
+
+dan
+
+kemandirian
+
+bangsa
+
+penegakan hukum di wilayah yurisdiksi laut
+
+dilaksanakan melalui (a) penguatan konsep
+
+Indonesia, Alur Laut Kepulauan Indonesia, dan
+
+dan praktik wawasan nusantara bagi seluruh
+rakyat Indonesia dan memperkuat komponen
+
+choke point; (d) peningkatan profesionalisme
+lembaga
+dan
+
+kesejahteraan
+
+personel
+
+cadangan, serta (b) pembinaan komponen
+
+keamanan laut; serta (e) pemetaan batimetri
+
+pendukung untuk penguatan pertahanan
+negara.
+
+intelijen dan keamanan dalam
+
+(4) Penguatan
+negeri
+ancaman,
+tantangan, hambatan, dan gangguan terhadap
+
+dalam menghadapi
+
+dan alur laut serta modernisasi peralatan dan
+
+sarana prasarana penyelenggaraan hidro-
+oseanografi.
+
+(7) Pemeliharaan keamanan dan ketertiban
+masyarakat dalam rangka menciptakan kondisi
+
+keutuhan wilayah dan keselamatan bangsa
+
+bebas dari bahaya, ancaman dan gangguan
+
+baik dari dalam maupun luar negeri serta
+
+keamanan
+
+dan
+
+ketertiban masyarakat
+
+pencegahan ekstremisme berbasis
+ideologi
+dan kekerasan yang mengarah pada terorisme
+
+dilaksanakan melalui
+(a) melakukan
+peningkatan kemampuan penanganan konflik
+
+dilaksanakan melalui (a) melakukan sinergi
+
+sosial dan pengamanan objek vital, dan (b)
+
+pendekatan sejarah, budaya, kearifan lokal,
+dan sosial ekonomi, serta paham kebhinekaan
+
+melakukan
+penyelesaian tindak pidana.
+
+peningkatan
+
+efektivitas
+
+di daerah-daerah yang rawan konflik serta
+
+rentan
+
+isu
+
+separatisme;
+
+(b) penguatan
+
+kapabilitas penyelidikan, pengamanan, dan
+penggalangan keamanan dalam negeri; (c)
+
+koordinasi sinergi antar-instrumen pertahanan
+
+dan keamanan dalam pencegahan dan
+
+penanggulangan aksi terorisme; (d) penguatan
+kontra radikalisasi; (e) penguatan deradikalisasi
+
+terorisme; serta (f) penguatan pusat analisis
+dan pengendalian krisis.
+
+(5) Keamanan siber, sandi, dan sinyal dalam
+identifikasi,
+
+rangka penguatan tata kelola,
+
+proteksi, deteksi,
+dilaksanakan melalui
+
+respons, dan
+
+recovery
+(a) memperkuat
+
+keamanan teknologi informasi telekomunikasi;
+
+(b) pengembangan sumber daya manusia,
+
+peningkatan
+kesejahteraan
+
+profesionalisme,
+
+dan
+daya manusia
+
+sumber
+
+keamanan siber, sandi, dan sinyal;
+
+(c)
+
+penguatan kelembagaan keamanan siber,
+
+sandi, dan sinyal; serta (d) operasi keamanan
+siber, sandi, dan sinyal strategis.
+
+(8) Peningkatan
+
+profesionalisme
+
+pelayanan
+
+kepolisian dalam rangka menjaga stabilitas
+ketertiban masyarakat
+keamanan
+
+dan
+
+dilaksanakan melalui
+
+(a) melakukan
+
+peningkatan kesiapan peralatan material
+
+khusus dan sarana prasarana Kepolisian
+Negara Republik Indonesia, (b) melakukan
+
+peningkatan kualitas dan digitalisasi layanan
+
+kepolisian, (c) melakukan peningkatan jumlah
+(d)
+dan proporsi polisi wanita,
+
+serta
+
+peningkatan kualitas dan kuantitas pendidikan
+
+dan pelatihan anggota Kepolisian Negara
+Republik Indonesia.
+
+(9) Diplomasi asta cita dan diplomasi ekonomi
+pemeliharaan
+
+landasan
+
+menjadi
+
+dalam
+
+hubungan
+penjagaan
+
+internasional
+kepentingan
+
+kondusif
+nasional
+
+dan
+yang
+
+diwujudkan melalui serangkaian
+
+intervensi
+
+kebijakan sebagai berikut
+(a) percepatan
+penyelesaian perjanjian batas maritim dan
+
+darat Indonesia dengan negara tetangga dan
+
+tetap mengedepankan prinsip kedaulatan dan
+
+(6) Penguatan
+oseanografi
+
+keamanan
+dalam
+
+laut dan hidro-
+penguatan
+
+rangka
+
+kesejahteraan rakyat dalam skema good
+neighbor policy; (b) penguatan kepemimpinan
+
+surveillance dan penegakan hukum di laut serta
+
+di tingkat global melalui peran aktif dalam fora
+
+penyediaan
+
+update data
+
+survei untuk
+
+dan organisasi internasional, pembangunan
+
+keselamatan pelayaran dilaksanakan melalui
+(a) memperkuat strategi diplomasi maritim
+dan
+untuk meneguhkan
+
+kedaulatan
+
+postur diplomasi, serta pelibatan diaspora
+Indonesia. Peran aktif Indonesia di tingkat
+global di antaranya dilakukan dengan
+
+meningkatkan keamanan di seluruh wilayah
+
+mendorong penjagaan perdamaian dunia,
+
+Negara Kesatuan Republik
+penguatan kapabilitas
+
+Indonesia;
+(b)
+lembaga keamanan
+
+menjunjung hak untuk menentukan nasib
+sendiri (self determination), dan penguatan
+
+104
+
+diplomasi
+Palestina;
+
+terhadap upaya kemerdekaan
+sama
+(c)
+
+penguatan
+
+kerja
+
+keamanan
+biofortifikasi
+
+pangan;
+
+(f)
+
+pangan;
+
+(g)
+
+fortifikasi
+
+dan
+penanganan
+
+pembangunan internasional; (d) penguatan
+
+kerawanan pangan;
+
+(h) pengembangan
+
+diplomasi
+
+ekonomi;
+
+(e)
+
+kerja
+
+sama
+
+kelembagaan ekonomi, regenerasi sumber
+
+internasional tentang ketenagakerjaan dan
+pergerakan tenaga kerja terampil; serta (f)
+
+daya manusia pertanian dan perikanan, riset,
+inovasi, modernisasi, digitalisasi dan bantuan
+
+proses aksesi Indonesia ke Organisation for
+Economic Co-operation and Development.
+
+langsung yang adaptif dan
+
+inklusif;
+
+(i)
+
+penguatan produksi komoditas pertanian
+
+(10) Swasembada pangan menopang ketahanan
+nasional dan kemandirian bangsa, melalui
+
+pengembangan eco-region sistem pangan
+berbasis sumber daya dan kearifan lokal, yang
+
+nilai
+
+(j)
+berorientasi
+pengembangan sistem budi daya pertanian
+berkelanjutan.
+
+tambah;
+
+serta
+
+(11) Swasembada
+
+Energi
+
+diarahkan
+
+untuk
+
+sehat dan bergizi,
+
+inklusif, berkeadilan,
+
+memperkuat ketahanan dan kemandirian
+
+berkelanjutan,
+
+dan
+
+tangguh,
+
+dengan
+
+energi,
+
+yaitu dalam
+
+rangka memenuhi
+
+pendekatan nexus pangan, energi, dan air.
+(a)
+Swasembada pangan diarahkan untuk
+
+kebutuhan
+Upaya
+mewujudkan swasembada energi dilaksanakan
+
+nasional.
+
+energi
+
+memperkuat ketersediaan bahan pangan
+
+melalui
+
+reformasi
+
+subsidi,
+
+intensifikasi
+
+terutama dari produksi dalam negeri melalui
+Pengembangan dan penguatan sentra-sentra
+
+produksi minyak bumi dan gas, akselerasi
+energi
+pemanfaatan
+
+energi baru dan
+
+produksi pangan, wanatani
+
+(agroforestry),
+
+terbarukan
+
+termasuk nuklir, dekarbonisasi
+
+revitalisasi tambak, dan penguatan input dan
+
+industri melalui
+
+penggunaan
+
+energi
+
+sarana prasarana pendukung produksi; (b)
+peningkatan pengelolaan distribusi pangan
+
+terbarukan, dan intensifikasi biofuel. Dalam
+rangka untuk mencapai swasembada energi
+
+dan penguatan Badan Urusan Logistik; (c)
+
+tersebut,
+
+arah
+
+kebijakan dan
+
+strategi
+
+menjamin aksesibilitas pangan bagi seluruh
+
+pelaksanaan akan dilakukan melalui
+
+(a)
+
+rakyat agar dapat hidup secara sehat, aktif, dan
+produktif; (d) mendorong pemanfaatan dan
+
+peningkatan penyediaan energi, (b) perluasan
+akses dan jangkauan pelayanan energi, serta
+
+konsumsi pangan secara beragam, bergizi
+
+seimbang, sehat dan aman; (e) meningkatkan
+
+(c) penguatan implementasi transisi energi
+berkeadilan.
+
+kesejahteraan petani/nelayan/ pembudidaya
+ikan/petani hutan; serta (f) pembangunan
+
+sistem budi daya pertanian dan perikanan
+
+berkelanjutan melalui pendekatan nature-
+based solutions, pengelolaan bentang lahan
+
+terpadu, piloting bantuan langsung petani,
+
+kesehatan lahan (soil health), dan yurisdiksi
+
+berkelanjutan, termasuk pertanian organik dan
+pertanian regeneratif.
+
+(12) Swasembada air menjadi salah satu penerapan
+pendekatan Food, Energi, Water Nexus dalam
+
+rangka mewujudkan kemandirian bangsa
+air
+terkait
+
+pemenuhan
+
+kebutuhan
+
+berkelanjutan.
+
+Upaya
+
+mewujudkan
+
+swasembada
+
+air
+
+dilaksanakan
+
+secara
+
+terintegrasi dari hulu ke hilir dengan konsep
+source to sea melalui penyelamatan mata air
+
+kritis; konservasi dan pengelolaan air tanah;
+
+Beberapa intervensi kebijakan swasembada
+
+konservasi daerah
+
+tangkapan air melalui
+
+pangan, terutama (a) pengembangan kawasan
+sentra produksi pangan/lumbung pangan
+
+rehabilitasi hutan dan lahan; pembangunan
+tampungan air untuk
+dan pengelolaan
+
+secara berkelanjutan, termasuk di Kalimantan
+
+pemanfaatan pertanian, peternakan, air
+
+Tengah, Sumatera Utara, Sumatera Selatan,
+Nusa Tenggara Timur, Papua, Papua Selatan,
+
+minum, dan energi terbarukan; penyediaan
+pasokan air berkelanjutan sebagai tumpuan
+
+dan daerah/kawasan lain yang berpotensi; (b)
+
+pengembangan
+
+lumbung
+
+pangan
+
+dan
+
+penguatan
+
+cadangan
+
+pangan;
+
+(c)
+
+pertumbuhan
+
+sektor
+
+produktif melalui
+
+pengembangan pangan akuatik (blue food),
+pangan hewani, pangan lokal, serta pangan
+
+penerapan smart water management dan
+prinsip water accounting untuk menjaga neraca
+
+nabati;
+
+(d) penganekaragaman konsumsi
+
+air pada tingkat wilayah sungai tidak dalam
+
+pangan; (e) pengendalian penyakit asal hewan,
+
+kondisi defisit/kritis/tertekan; tindak
+
+lanjut
+
+ikan, tumbuhan, serta penjaminan mutu dan
+
+pemanfaatan air baku dan
+
+irigasi dari
+
+105
+
+terbangun; pengelolaan risiko
+bendungan
+daya rusak air yang berorientasi pada kesiapan
+
+peningkatan nilai tambah dan daya saing
+produk halal dilakukan melalui penguatan halal
+
+dan ketahanan bencana melalui
+
+integrasi
+
+value chain dan promosi industri halal dalam
+
+pendekatan struktural dan non-struktural
+
+negeri untuk semua sektor meliputi makanan
+
+(seperti solusi berbasis alam), revitalisasi
+sungai, serta percepatan persiapan giant sea
+
+dan minuman halal, fesyen muslim, farmasi
+dan kosmetik halal, serta pengembangan
+
+wall sebagai bentuk pengamanan terpadu
+
+pariwisata untuk mengoptimalkan potensi
+
+wilayah perkotaan yang terintegrasi dengan
+
+jumlah kunjungan wisatawan muslim domestik
+
+rencana pengembangan
+serta
+penyediaan layanan air minum dan sanitasi (air
+
+kawasan;
+
+dan mancanegara. Untuk penguatan industri
+halal, arah kebijakannya diselaraskan dengan
+
+limbah domestik) aman bagi masyarakat.
+
+strategi pengembangan industri halal nasional
+
+Upaya
+transformasi
+
+tersebut perlu didukung dengan
+tata kelola yang mencakup
+
+yang termuat dalam Master Plan Industri Halal
+Indonesia 2023-2029. Selanjutnya, penguatan
+
+perencanaan yang terpadu, penguatan fungsi
+
+ekspor halal dan kerja sama ekonomi syariah
+
+dan kelembagaan regulator, pengelolaan aset
+
+internasional bertujuan untuk meningkatkan
+
+yang terintegrasi, penetapan dan penerapan
+transparan,
+tarif/retribusi yang adil dan
+
+ekspor halal berdaya saing global dan
+dilakukan melalui penguatan kerja sama
+
+operasionalisasi
+
+yang
+
+efisien,
+
+serta
+
+jaminan produk halal global serta kerja sama
+
+penyusunan peraturan perundang-undangan
+dan enabling environment lainnya. Langkah-
+langkah ini diwujudkan melalui penerapan
+
+dengan berbagai stakeholders
+internasional
+termasuk dengan negara-negara anggota
+Organisasi Kerjasama Islam dan berbagai
+
+pendekatan pengelolaan peningkatan nilai
+
+standing committee serta organ di bawahnya.
+
+(Land Value Capture), Program
+kawasan
+Percepatan Penyediaan Air Minum, dan
+
+Dalam
+ekosistem
+
+rangka meningkatkan
+
+halal
+
+guna
+
+kapasitas
+mendukung
+
+Program Percepatan Pembangunan Sanitasi
+
+pertumbuhan ekonomi syariah, penguatan
+
+Permukiman, dengan memperhatikan aspek
+
+ekosistem halal dilakukan melalui akselerasi
+
+teknis, kelembagaan, regulasi dan kebijakan,
+serta
+pendanaan
+
+pembiayaan,
+
+dan
+
+fasilitasi sertifikasi halal, penguatan lembaga
+sumber daya manusia pendukung
+dan
+
+masyarakat.
+
+Dalam
+
+rangka mencapai
+
+ekosistem halal, pengembangan kebijakan
+
+swasembada air
+
+tersebut beberapa arah
+
+ekosistem
+
+halal,
+
+penguatan
+
+kemitraan
+
+kebijakan dan strategi pelaksanaan yaitu (a)
+pembangunan dan pengelolaan tampungan
+
+riset
+ekosistem
+pendukung ekosistem halal dan penghitungan
+
+pengembangan
+
+halal,
+
+air, (b) penyediaan pasokan air berkelanjutan,
+
+Pendapatan Domestik Bruto Syariah. Untuk
+
+(c) pengelolaan risiko daya rusak air,
+
+(d)
+
+meningkatkan peran dan kapasitas keuangan
+
+konservasi sumber daya air, (e) pengembangan
+sistem penyediaan air minum terintegrasi hulu
+
+syariah dalam pembiayaan pembangunan,
+penguatan keuangan syariah dilakukan melalui
+
+ke hilir, (f) penyediaan dan pengawasan sanitasi
+
+penguatan perbankan syariah seperti dengan
+
+aman, berkelanjutan, dan berketahanan iklim
+(g)
+berbasis Citi-Wide
+
+Inclusive Sanitation,
+
+pengembangan ekosistem kegiatan usaha
+bullion dan diversifikasi produk berfokus pada
+
+penguatan tata kelola penyelenggaraan air
+
+pengembangan
+
+instrumen
+
+baru
+
+yang
+
+minum dan sanitasi yang berorientasi pada
+
+menonjolkan
+
+keunikan
+
+prinsip
+
+syariah;
+
+peran
+keberlanjutan,
+masyarakat dan ekosistem air minum dan
+
+penguatan
+
+(h)
+
+sanitasi berbasis inovasi dan kolaborasi, serta
+(i) pengembangan terpadu pesisir utara Jawa.
+
+(13) Penguatan ekonomi syariah dilakukan untuk
+mengoptimalkan potensi ekonomi syariah
+
+penguatan pasar modal syariah dengan inovasi
+pengembangan instrumen untuk pembiayaan
+
+pembangunan berkelanjutan (hijau dan biru);
+
+dan penguatan industri keuangan non-bank
+
+syariah, dengan pengembangan asuransi,
+dana pensiun, lembaga pembiayaan, modal
+
+global
+tujuan
+menjadikan Indonesia sebagai pusat ekonomi
+
+domestik
+
+dengan
+
+dan
+
+ventura,
+keuangan mikro dan
+
+finansial
+
+teknologi,
+
+lembaga
+lembaga keuangan
+
+syariah dunia. Penguatan industri halal dan
+
+usaha mikro, kecil, dan menengah halal untuk
+
+khusus syariah (seperti pegadaian syariah dan
+skema syariah lainnya). Untuk mendukung
+
+perlindungan
+
+sosial dan perekonomian
+
+106
+
+nasional, penguatan dana sosial syariah (zakat,
+infaq, sedekah dan wakaf) dilakukan melalui
+
+ekonomi sirkular sektor pangan, pengelolaan
+susut dan sisa pangan (food loss and waste)
+
+akselerasi bauran zakat, infaq, sedekah, dan
+
+merupakan
+
+sebagai
+
+salah
+
+satu
+
+fokus
+
+wakaf, serta keuangan syariah, salah satunya
+
+pembangunan, termasuk pemanfaatan limbah
+
+dengan penyempurnaan bentuk kelembagaan
+dan skema bisnis bank wakaf serta penguatan
+
+pertanian menjadi biochar. Perubahan juga
+harus dilakukan dengan menargetkan adanya
+
+tata kelola dan literasi zakat, infaq, sedekah,
+
+recycle content bagi produk dan
+
+industri
+
+dan wakaf. Keseluruhan upaya penguatan
+
+tertentu. Arah kebijakan pengembangan
+
+ekonomi syariah di atas didukung oleh
+kelembagaan,
+penguatan
+
+regulasi
+
+dan
+
+ekosistem ekonomi sirkular terdiri dari empat
+kegiatan prioritas, yakni (a) penerapan efisiensi
+
+peningkatan literasi, peningkatan digitalisasi
+
+sumber daya dan peningkatan daur ulang, (b)
+
+dan pengelolaan data, penyediaan insentif
+serta penguatan dukungan bagi pelaku
+
+ekonomi syariah baik dari badan usaha milik
+
+negara dan swasta nasional. Dengan demikian,
+
+penguatan ekonomi syariah dilaksanakan
+melalui penguatan (a) industri halal dan usaha
+
+mikro, kecil, dan menengah halal; (b) ekspor
+
+halal dan kerja sama ekonomi syariah
+internasional; (c) ekosistem halal; (d) keuangan
+syariah; dan (e) dana sosial syariah.
+
+pengelolaan susut dan sisa pangan,
+pengembangan produk ramah
+dan (d) penguatan ekosistem daur ulang.
+
+(c)
+lingkungan,
+
+(16) Pengelolaan
+
+hayati
+ekosistem, spesies, dan genetik merupakan
+
+keanekaragaman
+
+upaya yang dilakukan untuk mempertahankan
+
+kelestarian
+hayati,
+mengoptimalkan pemanfaatan berkelanjutan,
+
+keanekaragaman
+
+dan memperkuat tata kelola keanekaragaman
+
+hayati yang diselaraskan dengan Indonesian
+
+(14) Ekonomi digital yang merupakan salah satu
+pilar transformasi digital diharapkan akan
+
+Biodiversity Strategy and Action Plan 2025–
+2045. Kegiatan konservasi keanekaragaman
+
+memberikan
+
+kontribusi
+
+besar
+
+dalam
+
+hayati tidak hanya dilakukan pada kawasan
+
+pertumbuhan ekonomi nasional. Hal ini untuk
+
+suaka alam, kawasan pelestarian alam, dan
+
+mendorong transformasi di berbagai sektor-
+sektor strategis guna meningkatkan kualitas
+
+kawasan konservasi di perairan, wilayah pesisir,
+juga area
+dan pulau-pulau kecil, namun
+
+dan
+
+layanan digital serta meningkatkan
+
+preservasi. Potensi pengembangan area
+
+pengembangan ekosistem ekonomi digital.
+
+preservasi di Indonesia sangat besar, termasuk
+
+Adapun pertumbuhan kontribusi ekonomi
+tetap akan didukung oleh
+digital
+
+ini
+
+pada kawasan bentang alam karst, cagar alam
+geologi, dan geopark yang sejalan dengan
+
+peningkatan dan distribusi
+
+infrastruktur
+
+upaya pelestarian keanekaragaman ekosistem.
+
+teknologi
+informasi dan komunikasi yang
+semakin luas serta adopsi digital di berbagai
+
+Pengembangan
+dapat
+diwujudkan melalui penguatan tata kelola
+
+preservasi
+
+area
+
+sektor secara optimal yang dilaksanakan
+
+kelembagaan, optimalisasi pendanaan, serta
+
+melalui kebijakan, yaitu (a) penguatan faktor
+
+penyusunan rencana aksi yang terintegrasi.
+
+pendukung ekonomi digital, dan (b) penguatan
+industri digital serta sektor
+ekonomi dan
+strategis lainnya.
+
+(15) Ekosistem ekonomi
+
+sirkular mendorong
+transisi penerapan ekonomi linear ke sirkular,
+
+yang meningkatkan efisiensi penggunaan
+
+sumber daya, memperpanjang daya guna
+sumber daya maupun usia pakai produk, serta
+
+memaksimalkan potensi daur ulang dan
+
+pemulihan sumber daya yang diselaraskan
+
+dengan Peta Jalan dan Rencana Aksi Nasional
+Ekonomi Sirkular 2045. Terdapat 5 (lima) sektor
+
+prioritas penerapan ekonomi sirkular, yaitu
+
+pangan, tekstil, konstruksi, elektronik, dan
+
+retail (fokus pada kemasan plastik). Pada
+
+Selain
+itu,
+keanekaragaman hayati
+
+potensi
+
+pemanfaatan
+juga masih perlu
+
+didorong dengan menerapkan prinsip-prinsip
+
+berkelanjutan
+
+melalui
+
+pengembangan
+
+bioekonomi dan bioprospeksi. Rencana dan
+strategi yang dapat mendukung arah kebijakan
+
+pengelolaan keanekaragaman hayati tersebut
+
+dalam lima tahun ke depan diwujudkan melalui
+
+(a) perlindungan dan pengelolaan ekosistem
+serta areal bernilai keanekaragaman hayati
+
+tinggi; (b) pengurangan status keterancaman
+
+spesies tumbuhan, satwa, dan biota perairan;
+(c) penguatan tata kelola keanekaragaman
+
+hayati; (d) pemanfaatan sumber daya hayati
+
+dan jasa ekosistem berkelanjutan mendukung
+
+107
+
+peningkatan
+bioekonomi;
+bioprospeksi, bioteknologi, keamanan hayati,
+
+serta
+
+(e)
+
+serta akses dan pembagian keuntungan
+sumber daya genetik.
+
+(17) Peningkatan kualitas lingkungan hidup dan
+tata ruang dilakukan untuk memastikan
+
+ketersediaan daya dukung dan daya tampung
+lingkungan yang sejalan dengan pertumbuhan
+
+ekonomi. Selain itu, arah kebijakan ini juga
+
+akan memastikan penataan
+
+ruang yang
+
+berkeadilan untuk mencapai seluruh target
+pembangunan nasional. Arah kebijakan ini
+
+dilaksanakan melalui
+
+(a)
+
+peningkatan
+
+pengelolaan kualitas air di sungai dan danau;
+
+(b) peningkatan pengelolaan kualitas udara di
+kabupaten/kota; (c) peningkatan pengelolaan
+
+kualitas dan kesehatan air laut; (d) peningkatan
+
+kualitas
+ekosistem gambut;
+
+lahan;
+
+(e) peningkatan kualitas
+(f) pengelolaan bahan
+
+berbahaya dan beracun,
+
+limbah bahan
+
+berbahaya dan beracun, dan limbah radioaktif;
+
+(g) penguatan kelembagaan, pengendalian,
+penertiban dan penegakan hukum lingkungan
+
+hidup serta kehutanan dan penataan ruang;
+
+serta (h) penguatan instrumen pencegahan
+dampak lingkungan hidup.
+
+(18) Reformasi pengelolaan sampah terintegrasi
+dari hulu ke hilir, yang mencakup seluruh rantai
+pewadahan,
+layanan
+
+(pemilahan,
+
+pengumpulan, pengangkutan, pengolahan,
+
+dan pemrosesan akhir) yang disertai dengan
+
+penguatan serta penegakan hukum dan
+peraturan, dilakukan dengan menjadikan
+
+sampah sebagai arus utama di berbagai
+
+tingkat dan fungsi pemerintahan dengan
+
+pembagian wewenang yang clean and clear,
+serta dengan memastikan tersedianya seluruh
+
+norma, standar, prosedur, dan kriteria yang
+
+dibutuhkan dan dijalankan dengan koherensi
+
+dan konsisten dari mulai tahap perencanaan
+sampai dengan operasional dan pemeliharaan
+
+serta
+
+penguatan
+
+pengelolaan
+
+aset.
+
+Pengelolaan sampah harus menjadi standar
+pelayanan minimal yang didukung dengan
+
+penguatan kebijakan, perbaikan dalam tata
+
+kelola, kinerja kelembagaan dan keuangan
+
+daerah, serta komitmen kepala daerah, diawali
+Induk
+dengan
+
+penyusunan
+
+Rencana
+
+Pengelolaan Sampah yang komprehensif dan
+
+layak
+
+secara
+
+finansial/financially
+
+viable,
+
+pemisahan
+
+operator
+
+dan
+
+regulator,
+
+108
+
+penyesuaian tarif retribusi sesuai dengan
+peraturan perundang-undangan yang berlaku,
+
+dan penetapan standar tipping fee. Reformasi
+
+dilakukan sejak hulu yaitu melalui perubahan
+
+perilaku seluruh penghasil sampah menuju
+literasi sampah yang diawali dari
+budaya
+
+pemicuan, pemilahan, dan pengurangan
+
+sampah yang harus konsisten dan terintegrasi
+
+dengan
+pengangkutan yang
+
+sistem
+
+dan
+pengumpulan
+terpilah, dan serta
+
+pengolahan sampah dengan teknologi tepat
+
+guna sesuai kondisi masing-masing daerah.
+Penerapan reformasi tata kelola persampahan
+
+harus menjadi indikator kunci kinerja kepala
+
+daerah
+
+sehingga penataan
+
+fungsi dan
+
+peningkatan kapasitas penyusunan kebijakan,
+kapasitas regulator dan operator, pelaksanaan,
+
+pengawasan, maupun penegakan hukum
+
+berjalan seimbang dan optimal. Reformasi juga
+insentif dan
+dilakukan melalui penyediaan
+disinsentif berbasis kinerja serta pendanaan
+
+inovatif, baik bagi pemerintah daerah maupun
+
+lainnya. Penguatan kinerja kepala
+pelaku
+daerah dan perangkatnya juga perlu diatur,
+
+dibina, dan diawasi oleh pemerintah provinsi.
+
+Polluter pay principle perlu ditegakkan melalui
+
+penerapan
+berkeadilan. Selain
+
+retribusi persampahan
+
+yang
+itu, biaya pengelolaan
+
+sampah
+
+juga bisa dimasukkan
+
+sebagai
+
+tambahan komponen pada Pajak Bumi dan
+
+Bangunan Perdesaan dan Perkotaan sebagai
+salah satu alternatif penerapan prinsip ini.
+
+Pemastian kelengkapan regulasi dan norma,
+
+standar, prosedur, dan kriteria untuk batas
+
+aman kesehatan dan lingkungan diperlukan
+untuk seluruh upaya pengelolaan sampah.
+
+Pengelolaan aset juga akan dilakukan, baik
+
+pada proses pengadaan barang, transfer, serta
+penataan aset di pusat dan daerah. Agar
+
+reformasi tersebut berjalan dengan baik,
+
+diperlukan koherensi kebijakan dan integrasi
+
+vertikal serta horizontal yang pelaksanaannya
+dikoordinasikan oleh Tim Koordinasi Nasional
+
+dan Kelompok Kerja di pusat dan daerah. Selain
+
+itu, di hilir dilakukan optimalisasi pengolahan
+
+sampah berupa penyediaan dan revitalisasi
+sarana prasarana (Tempat Pengolahan Sampah
+
+Reduce, Reuse, Recycle-Pusat Daur Ulang-Rumah
+Kompos, dan lain-lain), penggunaan teknologi
+
+tepat guna (komposting, maggot/black soldier
+fly, refuse derived fuel, waste to energy, pirolisis,
+
+dan
+
+lain-lain), dan pengintegrasian sektor
+
+informal; optimalisasi Tempat Pengolahan
+Sampah Terpadu dan memastikan oﬀ-taker
+
+aman, serta pelindungan dan pemenuhan hak-
+hak pekerja. Keseimbangan permintaan
+
+hasil olahan
+
+sampah, penataan
+
+sistem
+
+tenaga kerja hijau untuk pekerjaan hijau/green
+
+pengelolaan lindi dan gas metana, konservasi
+
+jobs dan penyediaan tenaga kerja hijau yang
+
+landfill
+tempat pemrosesan akhir dengan
+mining serta pembatasan tempat pemrosesan
+
+berkualitas sangat penting diwujudkan untuk
+implementasi
+keberhasilan
+mendukung
+
+akhir/lahan urug residu sehingga hanya residu
+
+ekonomi hijau, termasuk visi net zero emission
+
+masuk ke tempat pemrosesan akhir/lahan
+
+pada tahun 2060 melalui transisi energi yang
+
+urug residu yang menerapkan sistem sanitary
+landfill. Sebagai upaya penurunan sampah
+
+berkeadilan. Penciptaan pekerjaan hijau/green
+(a)
+jobs
+
+diwujudkan melalui
+
+akan
+
+yang mencemari laut dan perairan, sarana dan
+
+pengembangan
+
+ekosistem
+
+pekerjaan
+
+prasarana penanganan sampah perairan yang
+sistem pengelolaan
+terintegrasi dengan
+
+persampahan
+
+land-based di daerah akan
+
+ditingkatkan. Reformasi pengelolaan sampah
+
+terintegrasi dari hulu ke hilir tersebut akan
+dilakukan melalui arah kebijakan berikut (a)
+
+perubahan perilaku dan penguatan tata kelola
+
+persampahan, (b) peningkatan pengumpulan
+dan pengolahan sampah serta pemrosesan
+residu di tempat pemrosesan akhir/lahan urug
+residu.
+
+(19) Pembangunan rendah karbon diupayakan
+dalam kerangka kontribusi Indonesia terhadap
+
+hijau/green
+kompetensi tenaga kerja hijau.
+
+jobs, dan
+
+(b) pengembangan
+
+(21) Pengelolaan hutan
+
+lestari perlu didorong
+
+karena Indonesia memiliki potensi sumber
+daya hutan yang sangat besar sebagai sumber
+
+pertumbuhan baru, pengentasan kemiskinan,
+
+serta ketahanan pangan dan energi. Namun
+demikian, hingga saat ini potensi tersebut
+
+belum dimanfaatkan secara optimal. Oleh
+
+karena
+
+itu, perlu
+
+transformasi kebijakan
+
+melalui pengelolaan hutan
+lestari yang
+meliputi (a) peningkatan produktivitas hutan,
+
+(b) pengembangan produk bioekonomi hutan
+
+penurunan emisi gas rumah kaca guna
+
+melalui
+
+agroforestri,
+
+(c)
+
+penguatan
+
+menekan laju kenaikan suhu secara global
+beserta perubahan iklim dan dampak yang
+
+pengelolaan hutan
+prakondisi pengelolaan hutan
+
+lestari,
+
+(d) penguatan
+(e)
+lestari,
+
+ditimbulkannya.
+
+Aksi-aksi
+
+pembangunan
+
+rendah karbon terus diperkuat untuk dapat
+
+peningkatan fungsi sosial kawasan hutan, dan
+(f) perlindungan dan pengamanan hutan.
+
+menurunkan emisi dan intensitas emisi gas
+rumah kaca melalui beberapa kebijakan, yakni
+
+(a) penurunan emisi gas rumah kaca dari sektor
+
+energi; (b) penurunan emisi gas rumah kaca
+(c) peningkatan
+lahan;
+sektor berbasis
+
+cadangan karbon di ekosistem karbon biru; (d)
+
+peningkatan upaya dekarbonisasi industri; (e)
+
+penguatan aksi penurunan emisi gas rumah
+kaca di sektor pengelolaan limbah; dan (f)
+
+penguatan tata kelola dan faktor pendukung
+
+pencapaian target penurunan emisi gas rumah
+kaca serta nilai ekonomi karbon.
+
+(22) Pengembangan ekonomi biru sebagai sumber
+untuk
+baru
+
+pertumbuhan
+
+diarahkan
+
+meningkatkan
+kluster
+kemaritiman dan kelautan dalam transformasi
+
+strategis
+
+peran
+
+ekonomi secara berkelanjutan melalui
+
+(a)
+
+peningkatan produktivitas dan nilai tambah di
+
+sektor perikanan tangkap dan akuakultur,
+perikanan
+pengelolaan
+
+pelabuhan
+
+berwawasan
+
+lingkungan
+
+(ecofishing port),
+
+pengembangan kluster komoditas unggulan
+
+akuakultur, termasuk ikan hias, tuna cakalang
+tongkol, dan budidaya lobster, tilapia, dan
+
+(20) Pekerjaan hijau/green
+
+jobs didorong untuk
+
+udang; (b) penguatan
+
+industri manufaktur
+
+penciptaan lapangan kerja dan pertumbuhan
+ekonomi yang sekaligus berkontribusi positif
+
+berbasis sumber daya laut dan perairan yang
+berfokus pada pengembangan produk pangan,
+
+terhadap pelestarian
+
+lingkungan, efisiensi
+
+energi, dan farmasi yang bernilai tambah dan
+
+energi dan
+
+sumber daya alam,
+
+serta
+
+berteknologi tinggi; (c) penguatan
+
+industri
+
+pembangunan rendah karbon melalui bisnis
+industri yang ramah
+proses dan praktik
+
+transportasi dan logistik maritim utamanya
+industri pelayaran, pelabuhan, dan perkapalan;
+
+lingkungan. Pekerjaan hijau/green jobs juga
+
+serta (d) pengembangan pariwisata bahari
+
+didorong untuk memenuhi kriteria kerja layak,
+
+berkelanjutan yang didukung penerapan
+
+seperti kecukupan gaji, kondisi kerja yang
+
+standar, sumber daya manusia, investasi, dan
+
+109
+
+pengelolaan destinasi berbasis masyarakat;
+sekaligus (e) mempromosikan sektor-sektor
+
+(1) Mencetak dan Meningkatkan Produktivitas
+Lahan Pertanian dan Lumbung Pangan Desa,
+
+baru yang mencakup
+
+inovasi energi
+
+laut
+
+Daerah, dan Nasional
+
+terbarukan, pengembangan bioteknologi,
+
+bioprospecting dan bioekonomi kelautan, serta
+(f) pengelolaan konservasi dan jasa ekosistem.
+
+Upaya peningkatan produktivitas dan nilai
+
+tambah ekonomi biru tersebut membutuhkan
+
+tata kelola yang lebih baik meliputi: kebijakan
+yang terintegrasi, regulasi yang kondusif,
+
+kelembagaan yang kompeten, infrastruktur
+
+yang berkualitas, dan pembiayaan yang
+berkelanjutan. Selain itu, akan terus dilakukan
+
+pengelolaan kesehatan ekosistem pesisir dan
+
+laut (ocean health), neraca sumber daya laut
+
+(ocean accounting), penerapan marine nature
+based solution, inventarisasi potensi sumber
+
+daya kelautan, pengaturan tata ruang laut dan
+
+zonasi pesisir yang harmonis, penangkapan
+terukur, dan peningkatan efektivitas
+ikan
+pengelolaan Wilayah Pengelolaan Perikanan.
+
+Pengembangan
+
+ekonomi
+
+biru
+
+yang
+
+berkelanjutan, secara garis besar mencakup (a)
+(b)
+penguatan tata kelola ekonomi biru;
+
+Permasalahan
+
+dan
+
+tantangan.
+
+Berdasarkan
+
+Undang-Undang Nomor 18 Tahun 2012 tentang
+Pangan, negara diamanatkan untuk memenuhi
+
+kebutuhan pangan bagi setiap individu agar dapat
+
+hidup secara sehat, aktif, dan produktif. Pemenuhan
+
+kebutuhan pangan diutamakan berasal dari
+produksi dalam negeri. Kebutuhan bahan pangan
+
+semakin meningkat, baik jumlah, kualitas, ragam,
+
+dan jenis peruntukannya. Di lain pihak, kapasitas
+produksi pangan dalam negeri menghadapi
+
+beberapa tantangan, antara lain: (a) menurunnya
+
+kuantitas, kualitas, dan kapasitas faktor produksi
+
+pangan, terutama lahan dan air; (b) semakin tinggi
+dampak negatif dan tidak menentunya perubahan
+
+iklim; (c) rendahnya skala usaha tani; (d) relatif
+
+terbatasnya
+
+dukungan
+
+dan
+
+ketersediaan
+
+infrastruktur wilayah di pedesaan dan pertanian;
+serta (e) masih terdapatnya potensi lahan yang
+
+dapat dikembangkan untuk pangan
+
+secara
+
+berkelanjutan.
+
+peningkatan pengelolaan konservasi perairan
+
+Langkah-langkah penyelesaian masalah. Dalam
+
+dan ekosistem pesisir;
+
+(c) peningkatan
+
+membangun
+
+kemandirian
+
+bangsa melalui
+
+terintegrasi,
+produktivitas perikanan yang
+modern dan berkelanjutan; (d) pengembangan
+
+industri garam dan produk olahan hasil laut; (e)
+
+swasembada pangan, intervensi ini diarahkan untuk
+
+meningkatkan kapasitas produksi pangan dalam
+negeri, dengan membangun kawasan sentra
+
+penguatan
+
+industri
+
+transportasi
+
+laut;
+
+(f)
+
+produksi/lumbung pangan, terutama di daerah-
+
+pengembangan pariwisata bahari dan danau;
+dan (g) pengembangan ilmu pengetahuan dan
+
+teknologi, inovasi, dan sumber daya manusia
+ekonomi biru.
+
+Selain intervensi yang telah dijabarkan, terdapat
+
+juga dukungan program yang menjadi penekanan
+
+dan memiliki daya ungkit tinggi. Dalam merespons
+
+hal tersebut, pencapaian Prioritas Nasional 2
+didukung oleh Program Hasil Terbaik Cepat:
+
+Mencetak dan meningkatkan produktivitas lahan
+
+pertanian dengan lumbung pangan desa, daerah,
+
+dan nasional. Implementasi Program Hasil Terbaik
+Cepat dilakukan melalui beberapa Kegiatan Prioritas
+
+yaitu: Pengembangan Kawasan Sentra Produksi
+
+daerah yang mempunyai potensi lahan yang dapat
+
+dimanfaatkan untuk memproduksi pangan secara
+berkelanjutan. Langkah ini dilakukan, baik melalui
+
+intensifikasi maupun ekstensifikasi lahan produksi
+
+pangan. Intensifikasi terutama diarahkan untuk
+
+meningkatkan
+dan
+produktivitas komoditas pangan. Sedangkan,
+
+pertanaman
+
+intensitas
+
+strategi ekstensifikasi diarahkan untuk menambah
+
+lahan pangan baru, dengan memperhatikan
+kesesuaian sumber daya alam, ketersediaan sumber
+
+daya manusia, sosial, ekonomi, dan lingkungan
+
+hidup setempat secara berkelanjutan.
+
+Sampai dengan
+ini
+ditargetkan untuk menambah produksi pangan
+
+tahun 2029,
+
+intervensi
+
+Pangan/Lumbung Pangan Kalimantan Tengah,
+
+setara padi 20 juta ton gabah kering giling atau
+
+Pengembangan
+Produksi
+Pangan/Lumbung Pangan Sumatera Selatan,
+
+Kawasan
+
+Sentra
+
+Pengembangan
+
+Kawasan
+
+Sentra
+
+Produksi
+
+setara 10
+
+juta ton beras, yang diperkirakan
+
+memerlukan penambahan luas panen sekitar 4 juta
+ha setara luas sawah. Adapun highlight intervensi
+
+Pangan/Lumbung Pangan Papua Selatan, dan
+
+dari mencetak dan meningkatkan produktivitas
+
+Pengembangan
+Pangan/Lumbung Pangan Lainnya.
+
+Kawasan
+
+Sentra
+
+Produksi
+
+lahan pertanian dan lumbung pangan desa, daerah,
+
+dan nasional termuat dalam infografis di bawah ini.
+
+110
+
+dan
+
+Kerangka
+
+Rancangan Undang-Undang Keamanan dan
+
+Kerangka
+Kelembagaan
+
+Regulasi
+
+Prioritas Nasional
+
+2 Memantapkan
+
+Sistem
+
+Pertahanan Keamanan Negara dan Mendorong
+
+Kemandirian Bangsa melalui Swasembada Pangan,
+Energi, Air, Ekonomi Syariah, Ekonomi Digital,
+
+Ekonomi Hijau, dan Ekonomi Biru, mencakup
+
+sasaran yang luas dari berbagai sektor. Kerangka
+
+regulasi yang dibutuhkan untuk mendukung
+ketercapaian Prioritas Nasional 2 dijabarkan sebagai
+berikut:
+
+(1) Rancangan
+
+Undang-Undang
+
+tentang
+
+Keamanan dan Ketahanan Siber
+
+Penyusunan
+Rancangan Undang-Undang
+Keamanan dan Ketahanan Siber didasari oleh
+
+salah satu cerminan dinamika ancaman
+
+keamanan nasional yaitu peningkatan jumlah
+
+serangan
+ke
+Indonesia. Penggunaan dan pemanfaatan
+
+siber berbentuk malware
+
+ruang siber di segala aktivitas saat ini dapat
+
+berpotensi buruk jika disalahgunakan oleh
+jawab.
+aktor
+
+tidak bertanggung
+
+yang
+
+Ketahanan Siber ini akan mengisi kekosongan
+terhadap kebutuhan pengaturan
+hukum
+
+terkait pembangunan dan penjaminan sistem
+
+keamanan dan ketahanan siber di Indonesia
+yang saat ini masih bersifat sektoral.
+
+(2) Rancangan
+
+Undang-Undang
+
+tentang
+
+Perubahan atas Undang-Undang Nomor 24
+Tahun 2000 tentang Perjanjian Internasional
+
+Revisi Undang-undang akan mendukung
+penyelenggaraan Diplomasi Total dengan
+
+semakin memperkuat mekanisme pembuatan
+
+perjanjian internasional (Treaty Making Power)
+
+dan hubungan
+memudahkan
+
+luar negeri. Hal
+
+ini akan
+pemahaman
+
+kementerian/lembaga teknis terkait dalam
+
+proses
+
+pembuatan
+
+suatu
+
+perjanjian
+
+internasional, misalnya dengan
+adanya
+kejelasan kriteria perjanjian internasional yang
+
+perlu disahkan melalui undang-undang,
+
+diharapkan suatu perjanjian
+
+internasional
+
+dapat memberikan manfaat yang riil dan
+
+111
+
+jangka panjang di
+termasuk dalam mendukung investasi.
+
+tengah masyarakat,
+
+optimalisasi sumber daya. Dengan langkah ini,
+mutu penyelenggaraan layanan air minum dan
+
+(3) Rancangan
+
+Undang-Undang
+
+tentang
+
+Perubahan atas Undang-Undang Nomor 16
+Tahun 2006
+tentang Sistem Penyuluhan
+Pertanian, Perikanan, dan Kehutanan
+
+Perubahan Undang-undang Nomor 16 Tahun
+
+2006 tentang Sistem Penyuluhan Pertanian,
+
+sanitasi bagi masyarakat diharapkan terus
+
+meningkat dan memberikan manfaat nyata
+
+bagi kesejahteraan dan peningkatan kualitas
+sumber daya manusia.
+
+(2) Penataan
+
+Kewenangan
+Penyelenggaraan Urusan Air Limbah Domestik
+
+Fungsi
+
+dan
+
+Perikanan, dan Kehutanan diperlukan untuk
+
+Penataan ini bertujuan untuk menciptakan
+
+pencapaian swasembada pangan. Hal ini guna
+menguatkan dan mengembangkan sektor
+
+pembagian peran dan tanggung jawab yang
+lebih jelas antara pemerintah pusat, provinsi,
+
+pertanian dengan sistem penyuluhan yang
+
+dan kabupaten/kota dalam penyelenggaraan
+
+terkoordinasi dari pusat sampai daerah. Lebih
+
+layanan air
+
+limbah domestik. Pertama,
+
+lanjut, hal ini juga mendukung pengembangan
+sumber daya manusia di sektor pertanian
+dengan penguatan kelembagaan penyuluhan.
+
+Selain itu, kerangka kelembagaan yang didesain
+
+untuk mendukung ketercapaian sasaran-sasaran
+
+dalam Prioritas Nasional 2 dijabarkan sebagai
+berikut:
+
+(1) Pembentukan Badan Regulator Air Minum dan
+
+Sanitasi
+
+Pembentukan Badan Regulator Air Minum dan
+
+Sanitasi memperkuat
+
+fungsi pengaturan,
+
+pengawasan, dan advisori yang selama ini
+terfragmentasi dan belum berjalan optimal,
+
+sekaligus menjadi
+
+langkah debottlenecking
+
+untuk menciptakan tata kelola lebih efektif dan
+efisien. Sejalan dengan visi swasembada air,
+
+badan ini dirancang memiliki independensi
+
+operasional serta finansial untuk memastikan
+
+ketersediaan air yang berkeadilan dan
+berkelanjutan bagi seluruh rakyat Indonesia,
+
+mencakup pengelolaan terpadu dari hulu ke
+
+hilir mulai dari penyediaan air baku,
+
+penyediaan dan distribusi air minum, hingga
+pengolahan air limbah domestik. Badan ini
+
+memiliki peran utama yaitu: (1) penilaian
+
+kinerja layanan melalui sistem benchmarking;
+
+(2) pemberian rekomendasi tarif dan retribusi
+berbasis prinsip keadilan, efisiensi ekonomi,
+
+model pemulihan biaya, dan keterjangkauan;
+
+(3) pemantauan terhadap standar kuantitas
+dan kualitas layanan; serta (4) peningkatan
+
+transparansi melalui pelaporan publik dan
+
+pengelolaan
+
+data.
+
+Untuk mendukung
+
+peningkatan
+menjalankan mekanisme
+
+layanan,
+
+badan
+
+ini
+insentif
+
+juga
+dan
+
+disinsentif yang diharapkan dapat memacu
+
+kinerja
+
+operator,
+
+efisiensi
+
+biaya,
+
+dan
+
+112
+
+kerangka kelembagaan ini bertujuan untuk
+memperkuat peran pemerintah provinsi
+
+sebagai perpanjangan tangan pemerintah
+
+pusat dalam penyelenggaraan
+layanan air
+limbah domestik. Provinsi akan menjalankan
+
+fungsi pengawasan untuk memastikan kinerja
+
+layanan di tingkat kabupaten/kota sesuai
+
+dengan standar yang telah ditetapkan. Provinsi
+juga diberikan kewenangan lebih untuk ikut
+
+serta dalam menyediakan layanan air limbah
+
+domestik pada kabupaten/kotanya
+
+yang
+
+kesulitan dalam penyediaan layanan air limbah
+domestik. Kedua, dalam rangka meningkatkan
+
+kualitas
+
+layanan, fungsi operasional akan
+
+didelegasikan kepada
+tingkat
+kabupaten/kota seperti Unit Pelaksana Teknis
+
+institusi di
+
+Daerah, Badan Layanan Umum Daerah, Badan
+
+Usaha Milik Daerah, atau Perusahaan Daerah
+
+Air Minum. Institusi-institusi ini diharapkan
+dapat fokus menyediakan layanan secara lebih
+
+efisien dan profesional untuk memenuhi
+
+kebutuhan masyarakat. Selain itu, penataan ini
+
+juga mencakup upaya untuk menutup gap
+fungsi serta penegakan regulasi yang belum
+
+diamanatkan secara jelas pada tingkat pusat
+
+seperti
+
+rekomendasi
+
+tarif/retribusi,
+
+pengawasan terhadap kualitas layanan, serta
+pengawasan terhadap baku mutu air limbah
+domestik.
+
+(3) Penataan Kelembagaan Pengelolaan Sampah
+di Tingkat Pusat dan Daerah sesuai dengan
+
+Platform Transformasi Pengelolaan Sampah
+
+Rumah Tangga dan Sampah Sejenis Sampah
+Rumah Tangga
+
+Tata kelola persampahan telah diatur dalam
+Undang-Undang Nomor 18 Tahun 2008
+
+tentang Pengelolaan Sampah. Pemerintah
+
+bertugas
+pengelolaan
+
+menjamin
+sampah
+
+terselenggaranya
+dan
+baik
+
+yang
+
+sumber daya manusia persampahan dapat
+diimplementasikan.
+
+berwawasan
+
+lingkungan.
+
+Lebih
+
+lanjut,
+
+pengaturan
+
+kelembagaan
+
+pengelolaan
+
+sampah juga diamanatkan dalam Peraturan
+Pemerintah Nomor 81 Tahun 2012 tentang
+
+Pengelolaan Sampah Rumah Tangga dan
+
+Sampah Sejenis Sampah Rumah Tangga.
+
+rangka mendukung
+
+Dalam
+kelola
+persampahan yang partisipatif, terintegrasi,
+
+tata
+
+serta tidak tumpang tindih, maka diperlukan
+
+penataan kelembagaan di tingkat pusat dan
+daerah. Penataan kelembagaan ini lebih lanjut
+
+akan diatur pada Peraturan Presiden tentang
+
+Transformasi Pengelolaan Sampah Rumah
+
+Tangga dan Sampah Sejenis Sampah Rumah
+Tangga.
+
+(4) Pembentukan Kelembagaan Operator Layanan
+Persampahan yang Terpisah dari Regulator
+
+Saat ini, baru terdapat 3 dari 38 pemerintah
+
+provinsi dan 3 dari 514 pemerintah
+kabupaten/kota yang mempunyai Badan
+
+Layanan Umum Daerah Persampahan. Lebih
+
+lanjut, operator layanan swasta dan berbasis
+
+masyarakat yang berupa kelompok swadaya
+masyarakat dan Badan Usaha Milik Desa masih
+
+terbatas
+
+secara kuantitas dan kualitas.
+
+Pembinaan
+terhadap
+berbagai jenis operator tersebut juga masih
+
+pengawasan
+
+dan
+
+belum
+
+optimal,
+
+termasuk
+
+pendataan,
+
+registrasi, dan sistem perizinan operasi. Selain
+
+itu, potensi kerja sama antarpemerintah
+daerah, antara pemerintah daerah dengan
+
+swasta, ataupun antara Badan Layanan Umum
+
+Daerah dengan swasta
+
+juga belum digali
+
+sehingga ke depan diperlukan penguatan
+kebijakan dan ekosistem bagi operator dan
+
+kerja sama dalam
+
+layanan persampahan.
+
+Keberadaan unit khusus (operator) layanan
+
+persampahan dan kerja sama ini juga telah
+diamanatkan di dalam Undang-undang Nomor
+
+18 Tahun 2008 dan akan lebih lanjut diatur
+
+pada Peraturan Presiden tentang Transformasi
+Pengelolaan Sampah Rumah Tangga dan
+
+Sampah Sejenis Sampah Rumah Tangga.
+
+Standar
+
+Kompetensi
+
+Kinerja
+
+Nasional
+
+Indonesia, Kerangka Kualifikasi Nasional
+Indonesia, berikut Peta Okupasi perlu untuk
+
+dilegalkan
+
+sehingga
+
+pembinaan
+
+dan
+
+pengembangan standar kompetensi untuk
+
+(5) Penataan dan Pengelolaan Aset Sarana dan
+
+Prasarana Persampahan
+
+Penataan dan pengelolaan aset diperlukan
+
+untuk melindungi jaminan kepemilikan dan
+pengelolaan aset sesuai dengan ketentuan
+
+peraturan
+
+perundang-undangan
+
+yang
+
+mengatur mengenai sektor persampahan dan
+
+tata kelola aset. Lebih lanjut, penataan dan
+pengelolaan aset ini juga diatur pada Peraturan
+
+Presiden tentang Transformasi Pengelolaan
+
+Sampah Rumah Tangga dan Sampah Sejenis
+Sampah Rumah Tangga.
+
+(6) Pembentukan
+
+Lembaga
+
+Pembiayaan
+
+Pembangunan Berbasis Wakaf
+
+Dalam rangka implementasi amanat asta cita
+
+terkait
+diperlukan
+
+penyempurnaan
+
+pembentukan
+
+“bank wakaf”,
+lembaga
+
+pembiayaan pembangunan berbasis wakaf
+
+sebagai special mission vehicle yang ditujukan
+
+untuk mengoptimalisasi pemanfaatan wakaf
+dalam negeri dan memaksimalkan potensi
+penarikan dana wakaf global ke dalam negeri.
+
+(7) Penguatan Kelembagaan Pangan, termasuk
+Pupuk,
+
+Tata Kelola Kebijakan
+
+Subsidi
+
+Perbenihan,
+Penyuluhan
+
+Pemuliaan
+
+Tanaman,
+
+dan
+
+Pangan merupakan salah satu kebutuhan
+
+dasar rakyat dan salah satu unsur penting
+
+ketahanan nasional. Untuk melaksanakan dan
+mencapai swasembada pangan, diperlukan
+
+penguatan dan perbaikan
+
+kelembagaan
+
+pangan secara terpadu, dari hulu sampai hilir.
+
+Penguatan kelembagaan dan
+tata kelola
+tersebut mencakup, antara lain namun tidak
+
+terbatas pada aspek produksi pangan, aspek
+
+sarana dan prasarana produksi pangan (benih,
+pupuk, dan sebagainya), aspek manajemen
+
+logistik pangan, aspek perbenihan dan
+
+pemuliaan tanaman, aspek penyuluhan, aspek
+
+konsumsi pangan dan gizi, serta aspek
+pendukung penting lainnya. Penguatan tata
+
+kelola institusi-institusi terkait benih diperlukan
+
+untuk mendorong aktivitas
+
+inovasi dan
+
+penelitian dalam mendukung pengadaan
+benih unggul dan teknik budidaya, serta
+
+pengendalian
+pemanfaatan pestisida nabati dan bio.
+
+hama
+
+terpadu melalui
+
+113
+

@@ -1,0 +1,157 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lake Information System Data Model",
+  "description": "Complete schema for Rawa Pening LIS data structures",
+  "definitions": {
+    "Stakeholder": {
+      "type": "object",
+      "required": ["id", "code", "name", "organization", "role", "tier"],
+      "properties": {
+        "id": {"type": "string"},
+        "code": {"type": "string"},
+        "name": {"type": "string"},
+        "organization": {"type": "string"},
+        "org_code": {"type": "string"},
+        "role": {"type": "string"},
+        "tier": {"enum": ["national", "provincial", "local", "community"]},
+        "authority_level": {"type": "number", "minimum": 1, "maximum": 10},
+        "budget_control": {"type": "boolean"},
+        "contact": {"type": "string"},
+        "quotes_spoken": {"type": "array", "items": {"type": "string"}},
+        "themes_involved": {"type": "array", "items": {"enum": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]}},
+        "data_systems_accessed": {"type": "array", "items": {"type": "string"}},
+        "policies_influenced": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "DataSystem": {
+      "type": "object",
+      "required": ["id", "name", "owner_agency", "status"],
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "owner_agency": {"type": "string"},
+        "status": {"enum": ["active", "orphaned", "planned", "inactive"]},
+        "coverage": {"type": "string"},
+        "frequency": {"type": "string"},
+        "data_types": {"type": "array", "items": {"type": "string"}},
+        "access_restrictions": {"type": "string"},
+        "creation_date": {"type": "string", "format": "date"},
+        "orphaning_date": {"type": "string", "format": "date"},
+        "integration_status": {"enum": ["isolated", "partial", "fully-integrated"]},
+        "stakeholders_using": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "Policy": {
+      "type": "object",
+      "required": ["id", "document_name", "date", "issuing_authority"],
+      "properties": {
+        "id": {"type": "string"},
+        "document_name": {"type": "string"},
+        "date": {"type": "string", "format": "date"},
+        "issuing_authority": {"type": "string"},
+        "scope": {"type": "string"},
+        "key_provisions": {"type": "array", "items": {"type": "string"}},
+        "contradicts": {"type": "array", "items": {"type": "string"}},
+        "enforcement_status": {"enum": ["enforced", "partially-enforced", "not-enforced", "ambiguous"]},
+        "affected_stakeholders": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "MonitoringPoint": {
+      "type": "object",
+      "required": ["id", "location", "type", "agency_responsible"],
+      "properties": {
+        "id": {"type": "string"},
+        "location": {
+          "type": "object",
+          "required": ["lat", "lon"],
+          "properties": {
+            "lat": {"type": "number"},
+            "lon": {"type": "number"}
+          }
+        },
+        "type": {"enum": ["water-quality", "tributary", "aerial", "sediment"]},
+        "agency_responsible": {"type": "string"},
+        "parameters_measured": {"type": "array", "items": {"type": "string"}},
+        "data_history": {"type": "array", "items": {"type": "object"}},
+        "frequency": {"type": "string"},
+        "status": {"enum": ["active", "inactive", "irregular"]}
+      }
+    },
+    "LandParcel": {
+      "type": "object",
+      "required": ["id", "location"],
+      "properties": {
+        "id": {"type": "string"},
+        "location": {
+          "type": "object",
+          "properties": {
+            "geometry": {"type": "object"}
+          }
+        },
+        "certification_status": {"enum": ["certified", "uncertified", "in-process", "disputed"]},
+        "ownership_status": {"type": "string"},
+        "lake_zone": {"enum": ["within-original", "within-expansion", "outside", "disputed"]},
+        "regulatory_zone": {"type": "string"},
+        "size_ha": {"type": "number"},
+        "dispute_status": {"type": "boolean"}
+      }
+    },
+    "BudgetAllocation": {
+      "type": "object",
+      "required": ["id", "amount", "agency_allocated_to", "purpose", "fiscal_year"],
+      "properties": {
+        "id": {"type": "string"},
+        "amount": {"type": "number"},
+        "currency": {"type": "string", "default": "IDR"},
+        "agency_allocated_to": {"type": "string"},
+        "purpose": {"type": "string"},
+        "fiscal_year": {"type": "string"},
+        "outcomes": {"type": "array", "items": {"type": "string"}},
+        "community_impact": {"type": "string"},
+        "stakeholders_benefited": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "Quote": {
+      "type": "object",
+      "required": ["quote_id", "stakeholder_code", "themes", "indonesian_text", "transcript_source"],
+      "properties": {
+        "quote_id": {"type": "string", "pattern": "^[A-Z]{3}-[A-J]-\\d{2}$"},
+        "stakeholder_code": {"type": "string"},
+        "themes": {"type": "array", "items": {"enum": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]}},
+        "indonesian_text": {"type": "string"},
+        "english_translation": {"type": "string"},
+        "context": {"type": "string"},
+        "transcript_source": {"type": "string"},
+        "line_number": {"type": "number"},
+        "annex_location": {"type": "string"}
+      }
+    },
+    "Theme": {
+      "type": "object",
+      "required": ["code", "title", "description"],
+      "properties": {
+        "code": {"enum": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]},
+        "title": {"type": "string"},
+        "description": {"type": "string"},
+        "sub_themes": {"type": "array", "items": {"type": "string"}},
+        "quotes": {"type": "array", "items": {"type": "string"}},
+        "stakeholders": {"type": "array", "items": {"type": "string"}},
+        "policies": {"type": "array", "items": {"type": "string"}},
+        "data_systems": {"type": "array", "items": {"type": "string"}},
+        "insights": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "Paradox": {
+      "type": "object",
+      "required": ["id", "name", "description"],
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "description": {"type": "string"},
+        "evidence_quotes": {"type": "array", "items": {"type": "string"}},
+        "affected_stakeholders": {"type": "array", "items": {"type": "string"}},
+        "visualization_type": {"type": "string"}
+      }
+    }
+  }
+}

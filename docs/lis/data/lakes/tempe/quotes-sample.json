@@ -1,0 +1,122 @@
+[
+  {
+    "quote_id": "TEMPE-BWS-A-01",
+    "stakeholder_name": "Kepala BWS Pompengan-Jeneberang",
+    "stakeholder_code": "BWS",
+    "organization": "BWS Pompengan-Jeneberang",
+    "organizational_code": "BWS",
+    "indonesian_verbatim": "Kami melakukan pengerukan darurat dengan anggaran 80 miliar untuk mengeluarkan sedimen yang mengubur dasar Danau Tempe. Tapi ini solusi temporer. Sedimen datang dari hulu, dari deforestasi di pegunungan. Dalam 2-3 tahun, sedimen akan kembali lagi. Kami tahu akar masalahnya, tapi anggaran kami hanya untuk pengerukan, bukan untuk reboisasi hulu.",
+    "english_translation": "We conducted emergency dredging with an 80 billion budget to remove sediment burying the bottom of Lake Tempe. But this is a temporary solution. Sediment comes from upstream, from deforestation in the mountains. In 2-3 years, the sediment will return. We know the root cause, but our budget is only for dredging, not for upstream reforestation.",
+    "context_explanation": "Explicitly acknowledges treating symptoms rather than root causes; agency mandate and budget structure prevents addressing upstream deforestation despite knowing it drives the crisis",
+    "themes": ["A", "H"],
+    "module": "budget_resources"
+  },
+  {
+    "quote_id": "TEMPE-FISHER-D-01",
+    "stakeholder_name": "Ketua Forum Nelayan Tempe",
+    "stakeholder_code": "FISHER",
+    "organization": "Forum Nelayan Tempe",
+    "organizational_code": "FISHER",
+    "indonesian_verbatim": "Lima ribu lebih keluarga nelayan Bugis bergantung pada Danau Tempe sejak nenek moyang kami. Sekarang danau menyusut 30 persen, KJA merebut area tangkap kami, sawah maju ke area yang dulu danau. Kami dapat bantuan 8 miliar untuk alat tangkap, tapi KJA dapat subsidi 35 miliar dari pemerintah pusat. Mereka datang, menggusur kami, dapat subsidi lebih besar.",
+    "english_translation": "More than five thousand Bugis fishing families have depended on Lake Tempe since our ancestors. Now the lake has shrunk 30 percent, KJA are taking our fishing areas, rice fields are advancing into areas that were once lake. We received 8 billion assistance for fishing equipment, but KJA received 35 billion in subsidies from the central government. They come, displace us, and get bigger subsidies.",
+    "context_explanation": "Reveals distributive injustice where external KJA operators receive 4.4x more government support than traditional fishers being displaced; government subsidizes the displacement",
+    "themes": ["D", "H"],
+    "module": "community_justice"
+  },
+  {
+    "quote_id": "TEMPE-BUGIS-G-01",
+    "stakeholder_name": "To Manurung (Pemimpin Adat Bugis)",
+    "stakeholder_code": "BUGIS",
+    "organization": "Bugis Traditional Council",
+    "organizational_code": "BUGIS",
+    "indonesian_verbatim": "Sistem adat kami, To Manurung, telah mengatur perikanan Danau Tempe selama ratusan tahun. Ada aturan kapan boleh tangkap, area mana yang dilindungi, bagaimana membagi hasil secara adil. Tapi sekarang tidak ada yang mau dengar. Forum Koordinasi tidak mengundang kami. Anggaran nol untuk dewan adat. Mereka bilang kami 'advisory' saja, tidak ada kewenangan formal. Padahal kami yang paling tahu danau ini.",
+    "english_translation": "Our customary system, To Manurung, has governed Lake Tempe fishing for hundreds of years. There are rules on when you can fish, which areas are protected, how to fairly distribute catches. But now no one wants to listen. The Coordination Forum doesn't invite us. Zero budget for the traditional council. They say we are 'advisory' only, with no formal authority. Yet we know this lake best.",
+    "context_explanation": "Illustrates recognition injustice: centuries of sustainable customary governance systematically excluded from modern formal institutions despite demonstrated ecological knowledge",
+    "themes": ["G", "B"],
+    "module": "governance_network"
+  },
+  {
+    "quote_id": "TEMPE-DLH-I-01",
+    "stakeholder_name": "Kepala Seksi Monitoring DLH Sulsel",
+    "stakeholder_code": "DLH",
+    "organization": "DLH South Sulawesi Province",
+    "organizational_code": "DLH",
+    "indonesian_verbatim": "Kami melakukan survey luas danau setiap triwulan dengan citra satelit. Data kami jelas: tahun 2020 danau 12.800 hektar, sekarang tinggal 9.100 hektar di musim kering. Menyusut 30 persen. Kami laporkan ke kabupaten, ke provinsi, ke pusat. Tapi tidak ada enforcement. Izin konversi lahan terus dikeluarkan Kabupaten Wajo. Bahkan Kementerian Pertanian kasih subsidi untuk sawah baru di area danau yang surut.",
+    "english_translation": "We conduct lake area surveys every quarter with satellite imagery. Our data is clear: in 2020 the lake was 12,800 hectares, now it's only 9,100 hectares in dry season. Shrunk 30 percent. We report to the regency, province, central government. But there is no enforcement. Land conversion permits continue to be issued by Wajo Regency. Even the Ministry of Agriculture provides subsidies for new rice fields in receding lake areas.",
+    "context_explanation": "Demonstrates monitoring-action paradox: comprehensive documentation of lake disappearance but zero enforcement authority to prevent government-subsidized destruction",
+    "themes": ["I", "D"],
+    "module": "environmental_monitoring"
+  },
+  {
+    "quote_id": "TEMPE-UNHAS-A-02",
+    "stakeholder_name": "Profesor Hasanuddin University (Tim Riset Danau Tempe)",
+    "stakeholder_code": "UNHAS",
+    "organization": "Hasanuddin University Research Team",
+    "organizational_code": "UNHAS",
+    "indonesian_verbatim": "Penelitian kami selama 15 tahun menunjukkan laju sedimentasi 5-8 cm per tahun. Penyebab utama adalah deforestasi hulu di DAS Walanae. Kami sudah publikasi di jurnal internasional, sudah presentasi ke pemerintah provinsi, sudah rekomendasikan reboisasi masif. Tapi anggaran BWS lebih besar untuk pengerukan daripada BPDAS untuk reboisasi. Mereka lebih suka mengobati gejala daripada mengatasi akar masalah.",
+    "english_translation": "Our 15 years of research shows sedimentation rate of 5-8 cm per year. The main cause is upstream deforestation in the Walanae watershed. We've published in international journals, presented to provincial government, recommended massive reforestation. But BWS's budget for dredging is larger than BPDAS's for reforestation. They prefer treating symptoms rather than addressing root causes.",
+    "context_explanation": "Scientific validation of root cause analysis, yet budget allocations contradict evidence-based recommendations; academic knowledge production disconnected from governance action",
+    "themes": ["A", "I"],
+    "module": "information_systems"
+  },
+  {
+    "quote_id": "TEMPE-KJA-D-01",
+    "stakeholder_name": "Ketua Asosiasi Operator KJA Tempe",
+    "stakeholder_code": "KJA",
+    "organization": "KJA Operators Association",
+    "organizational_code": "KJA",
+    "indonesian_verbatim": "Kami investasi besar untuk KJA, dapat dukungan penuh dari Kementerian Kelautan dan Perikanan. Mereka kasih subsidi 35 miliar, bimbingan teknis, akses pasar ekspor. Izin dari Kabupaten Wajo mudah diproses. Memang ada komplain dari nelayan tradisional tentang area tangkap, tapi kami sudah dapat izin resmi. KJA ini bisa meningkatkan produksi perikanan nasional.",
+    "english_translation": "We invested heavily in KJA, received full support from the Ministry of Marine Affairs and Fisheries. They provided 35 billion in subsidies, technical guidance, export market access. Permits from Wajo Regency are easy to process. There are indeed complaints from traditional fishers about fishing areas, but we already have official permits. This KJA can increase national fisheries production.",
+    "context_explanation": "Reveals how external investors receive government subsidies and easy permitting despite displacing traditional communities and contributing to eutrophication; national production goals override local livelihoods",
+    "themes": ["D", "E"],
+    "module": "budget_resources"
+  },
+  {
+    "quote_id": "TEMPE-FARMER-D-02",
+    "stakeholder_name": "Ketua Kelompok Tani Wajo",
+    "stakeholder_code": "FARMER",
+    "organization": "Wajo Rice Farmer Association",
+    "organizational_code": "FARMER",
+    "indonesian_verbatim": "Ketika musim kering, air danau surut, tanah subur muncul. Kami tanam padi di sana, produktivitas tinggi. Kementerian Pertanian kasih subsidi pupuk dan benih 25 miliar untuk perluasan sawah. Ini kan program pemerintah untuk ketahanan pangan. Nelayan protes, tapi kami juga butuh hidup. Kalau danau menyusut permanen, itu masalah sedimentasi, bukan salah kami.",
+    "english_translation": "When the dry season comes, lake water recedes, fertile soil appears. We plant rice there, high productivity. The Ministry of Agriculture provided 25 billion in fertilizer and seed subsidies for rice field expansion. This is a government program for food security. Fishers protest, but we also need to make a living. If the lake shrinks permanently, that's a sedimentation problem, not our fault.",
+    "context_explanation": "Shows how competing government priorities (food security vs lake conservation) create conflicts; farmers rationally respond to subsidies that accelerate lake destruction while displacing fishing livelihoods",
+    "themes": ["D", "A"],
+    "module": "land_spatial"
+  },
+  {
+    "quote_id": "TEMPE-FORUM-B-01",
+    "stakeholder_name": "Sekretaris Forum Koordinasi Danau Tempe",
+    "stakeholder_code": "FORUM",
+    "organization": "Forum Koordinasi Danau Tempe",
+    "organizational_code": "FORUM",
+    "indonesian_verbatim": "Forum Koordinasi didirikan untuk mediasi konflik nelayan, petani, KJA, dan instansi pemerintah. Kami adakan rapat setiap tiga bulan. Tapi anggaran kami hanya 5 miliar, dan kami tidak punya kewenangan enforcement. BWS dapat 80 miliar untuk pengerukan, BPDAS 45 miliar, Kementan 25 miliar, Kementerian Kelautan 35 miliar - total 185 miliar. Tapi tidak ada yang wajib koordinasi dengan kami. Kami hanya bisa mengajak rapat.",
+    "english_translation": "The Coordination Forum was established to mediate conflicts among fishers, farmers, KJA, and government agencies. We hold meetings every three months. But our budget is only 5 billion, and we have no enforcement authority. BWS receives 80 billion for dredging, BPDAS 45 billion, Ministry of Agriculture 25 billion, Ministry of Marine Affairs 35 billion - total 185 billion. But none are required to coordinate with us. We can only invite meetings.",
+    "context_explanation": "Exposes institutional powerlessness: coordination body established but receives 2.7% of combined sectoral budgets and has no authority to enforce integrated decisions; fragmentation by design",
+    "themes": ["B", "H"],
+    "module": "governance_network"
+  },
+  {
+    "quote_id": "TEMPE-WAJO-E-01",
+    "stakeholder_name": "Kepala Bappeda Kabupaten Wajo",
+    "stakeholder_code": "WAJO",
+    "organization": "Wajo Regency Government",
+    "organizational_code": "WAJO",
+    "indonesian_verbatim": "Kami keluarkan izin KJA dan izin konversi lahan sesuai RTRW kabupaten yang sudah disahkan DPRD. DLH provinsi bilang danau menyusut, tapi otonomi daerah memberikan kami kewenangan penuh untuk perizinan. Forum Koordinasi kasih rekomendasi berhenti izin baru, tapi itu hanya rekomendasi, bukan perintah. Kami harus pikirkan pendapatan daerah dan kesejahteraan rakyat Wajo.",
+    "english_translation": "We issue KJA permits and land conversion permits according to the regency spatial plan already approved by the district parliament. The provincial DLH says the lake is shrinking, but regional autonomy gives us full authority over permits. The Coordination Forum recommended stopping new permits, but that's only a recommendation, not an order. We must think about regional income and the welfare of Wajo people.",
+    "context_explanation": "Reveals how regional autonomy structure prevents integrated lake governance; regency prioritizes local revenue over lake conservation, and coordination mechanisms lack enforcement power",
+    "themes": ["E", "B"],
+    "module": "policy_framework"
+  },
+  {
+    "quote_id": "TEMPE-FISHER-C-01",
+    "stakeholder_name": "Nelayan Tradisional Bugis",
+    "stakeholder_code": "FISHER",
+    "organization": "Forum Nelayan Tempe",
+    "organizational_code": "FISHER",
+    "indonesian_verbatim": "Eceng gondok sekarang tutup 30 persen permukaan danau. Pemerintah kabupaten bawa traktor amphibi untuk angkat eceng gondok, habis 20 miliar. Tapi setelah dibersihkan, dalam tiga bulan eceng gondok muncul lagi. Kami tahu penyebabnya: air danau terlalu banyak nutrisi dari pakan KJA dan pupuk pertanian. Tapi tidak ada yang hentikan KJA atau atur penggunaan pupuk. Jadi eceng gondok akan terus kembali.",
+    "english_translation": "Water hyacinth now covers 30 percent of the lake surface. The regency government brought amphibious tractors to remove the hyacinth, spent 20 billion. But after cleaning, within three months the hyacinth reappears. We know the cause: lake water has too many nutrients from KJA feed and agricultural fertilizers. But no one stops KJA or regulates fertilizer use. So the hyacinth will keep coming back.",
+    "context_explanation": "Traditional fishers accurately diagnose root cause (nutrient loading) but their knowledge is ignored; symptom treatment continues while nutrient sources (KJA, agriculture) receive government subsidies",
+    "themes": ["C", "G"],
+    "module": "community_justice"
+  }
+]

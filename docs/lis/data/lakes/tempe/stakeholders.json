@@ -1,0 +1,172 @@
+[
+  {
+    "id": "bws_pompengan",
+    "name": "BWS Pompengan-Jeneberang",
+    "code": "BWS",
+    "type": "national_agency",
+    "tier": 1,
+    "authority_level": "national",
+    "coordination_role": "technical",
+    "description": {
+      "en": "Water Resources Management Agency responsible for Pompengan-Jeneberang watershed including Lake Tempe",
+      "id": "Balai Wilayah Sungai bertanggung jawab atas DAS Pompengan-Jeneberang termasuk Danau Tempe"
+    },
+    "responsibilities": ["Sedimentation control", "Water infrastructure", "Flood management", "Water quality monitoring"],
+    "budget_access": "high",
+    "data_access": "high",
+    "community_engagement": "low"
+  },
+  {
+    "id": "bpdas_sulsel",
+    "name": "BPDAS Jeneberang-Walanae",
+    "code": "BPDAS",
+    "type": "national_agency",
+    "tier": 1,
+    "authority_level": "national",
+    "coordination_role": "technical",
+    "description": {
+      "en": "Watershed Management Agency addressing upstream deforestation and erosion feeding Lake Tempe sedimentation",
+      "id": "Balai Pengelolaan DAS menangani deforestasi hulu dan erosi yang menyebabkan sedimentasi Danau Tempe"
+    },
+    "responsibilities": ["Watershed restoration", "Reforestation", "Erosion control", "Upstream management"],
+    "budget_access": "high",
+    "data_access": "high",
+    "community_engagement": "moderate"
+  },
+  {
+    "id": "dlh_sulsel",
+    "name": "DLH South Sulawesi Province",
+    "code": "DLH",
+    "type": "provincial_agency",
+    "tier": 2,
+    "authority_level": "provincial",
+    "coordination_role": "monitoring",
+    "description": {
+      "en": "Provincial Environmental Office monitoring lake shrinkage and water quality degradation",
+      "id": "Dinas Lingkungan Hidup Provinsi memantau penyusutan danau dan degradasi kualitas air"
+    },
+    "responsibilities": ["Environmental monitoring", "Lake area surveys", "Pollution control", "Data collection"],
+    "budget_access": "moderate",
+    "data_access": "high",
+    "community_engagement": "moderate"
+  },
+  {
+    "id": "wajo_regency",
+    "name": "Wajo Regency Government",
+    "code": "WAJO",
+    "type": "local_government",
+    "tier": 3,
+    "authority_level": "regency",
+    "coordination_role": "local",
+    "description": {
+      "en": "Primary regency governing Lake Tempe, managing local regulations and KJA permits",
+      "id": "Kabupaten utama yang mengatur Danau Tempe, mengelola regulasi lokal dan izin KJA"
+    },
+    "responsibilities": ["Local regulation", "KJA permits", "Land use planning", "Community services"],
+    "budget_access": "moderate",
+    "data_access": "low",
+    "community_engagement": "high"
+  },
+  {
+    "id": "bugis_council",
+    "name": "Bugis Traditional Council (To Manurung)",
+    "code": "BUGIS",
+    "type": "traditional_authority",
+    "tier": 4,
+    "authority_level": "customary",
+    "coordination_role": "advisory",
+    "description": {
+      "en": "Indigenous Bugis community leaders representing traditional fishing rights and customary water governance",
+      "id": "Pemimpin masyarakat adat Bugis mewakili hak nelayan tradisional dan tata kelola air adat"
+    },
+    "responsibilities": ["Customary law", "Traditional fishing rights", "Cultural preservation", "Water rights advocacy"],
+    "budget_access": "none",
+    "data_access": "none",
+    "community_engagement": "very_high"
+  },
+  {
+    "id": "fisher_nelayan_tempe",
+    "name": "Forum Nelayan Tempe",
+    "code": "FISHER",
+    "type": "community_organization",
+    "tier": 5,
+    "authority_level": "community",
+    "coordination_role": "advocacy",
+    "description": {
+      "en": "Traditional fisher organization representing 5,000+ fishing families dependent on Lake Tempe",
+      "id": "Organisasi nelayan tradisional mewakili 5.000+ keluarga nelayan yang bergantung pada Danau Tempe"
+    },
+    "responsibilities": ["Fisher advocacy", "Traditional fishing techniques", "KJA opposition", "Livelihood protection"],
+    "budget_access": "none",
+    "data_access": "none",
+    "community_engagement": "very_high"
+  },
+  {
+    "id": "rice_farmer_wajo",
+    "name": "Wajo Rice Farmer Association",
+    "code": "FARMER",
+    "type": "community_organization",
+    "tier": 5,
+    "authority_level": "community",
+    "coordination_role": "stakeholder",
+    "description": {
+      "en": "Rice farmers expanding cultivation into receding lake areas, competing with fishers for land",
+      "id": "Petani padi yang memperluas budidaya ke area danau yang surut, bersaing dengan nelayan untuk lahan"
+    },
+    "responsibilities": ["Agricultural expansion", "Land conversion", "Water allocation", "Food production"],
+    "budget_access": "low",
+    "data_access": "none",
+    "community_engagement": "high"
+  },
+  {
+    "id": "kja_operators",
+    "name": "KJA Operators Association (Tempe)",
+    "code": "KJA",
+    "type": "private_sector",
+    "tier": 5,
+    "authority_level": "private",
+    "coordination_role": "stakeholder",
+    "description": {
+      "en": "Floating cage aquaculture operators, primarily external investors, expanding rapidly in Lake Tempe",
+      "id": "Operator keramba jaring apung, terutama investor eksternal, berkembang pesat di Danau Tempe"
+    },
+    "responsibilities": ["Fish farming", "Commercial aquaculture", "Export production", "Economic investment"],
+    "budget_access": "private",
+    "data_access": "low",
+    "community_engagement": "low"
+  },
+  {
+    "id": "koordinasi_tempe",
+    "name": "Forum Koordinasi Danau Tempe",
+    "code": "FORUM",
+    "type": "coordination_body",
+    "tier": 2,
+    "authority_level": "multi_agency",
+    "coordination_role": "lead",
+    "description": {
+      "en": "Multi-stakeholder coordination forum attempting to mediate sedimentation, fishing, and land use conflicts",
+      "id": "Forum koordinasi multi-pihak yang mencoba mediasi konflik sedimentasi, nelayan, dan tata guna lahan"
+    },
+    "responsibilities": ["Multi-stakeholder dialogue", "Conflict mediation", "Integrated planning", "Policy coordination"],
+    "budget_access": "low",
+    "data_access": "moderate",
+    "community_engagement": "high"
+  },
+  {
+    "id": "university_hasanuddin",
+    "name": "Hasanuddin University Research Team",
+    "code": "UNHAS",
+    "type": "research_institution",
+    "tier": 3,
+    "authority_level": "academic",
+    "coordination_role": "advisory",
+    "description": {
+      "en": "University researchers documenting lake shrinkage, sedimentation rates, and ecological changes",
+      "id": "Peneliti universitas mendokumentasikan penyusutan danau, laju sedimentasi, dan perubahan ekologis"
+    },
+    "responsibilities": ["Scientific research", "Sedimentation monitoring", "Ecological surveys", "Policy recommendations"],
+    "budget_access": "moderate",
+    "data_access": "high",
+    "community_engagement": "moderate"
+  }
+]

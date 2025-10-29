@@ -1,0 +1,10 @@
+[
+  {"id": "toba_central", "name": "Toba Central - Parapat", "type": "primary", "coordinates": {"x": 300, "y": 250}, "latest_tsi": 55, "latest_phosphate": 0.025, "latest_status": "mesotrophic"},
+  {"id": "toba_samosir", "name": "Samosir Island North", "type": "primary", "coordinates": {"x": 280, "y": 200}, "latest_tsi": 52, "latest_phosphate": 0.022, "latest_status": "mesotrophic"},
+  {"id": "toba_balige", "name": "Balige Bay", "type": "primary", "coordinates": {"x": 350, "y": 280}, "latest_tsi": 58, "latest_phosphate": 0.028, "latest_status": "mesotrophic"},
+  {"id": "toba_tourist", "name": "Tourist Zone - Tuktuk", "type": "primary", "coordinates": {"x": 320, "y": 220}, "latest_tsi": 61, "latest_phosphate": 0.032, "latest_status": "eutrophic"},
+  {"id": "toba_deep", "name": "Deep Water Central", "type": "primary", "coordinates": {"x": 300, "y": 240}, "latest_tsi": 48, "latest_phosphate": 0.018, "latest_status": "oligotrophic"},
+  {"id": "tributary_asahan", "name": "Asahan River Inlet", "type": "secondary", "coordinates": {"x": 380, "y": 300}, "latest_tsi": 65, "latest_phosphate": 0.042, "latest_status": "eutrophic"},
+  {"id": "tributary_sipiso", "name": "Sipiso-piso Stream", "type": "secondary", "coordinates": {"x": 240, "y": 180}, "latest_tsi": 62, "latest_phosphate": 0.035, "latest_status": "eutrophic"},
+  {"id": "tributary_farm1", "name": "Agricultural Runoff North", "type": "secondary", "coordinates": {"x": 260, "y": 200}, "latest_tsi": 68, "latest_phosphate": 0.048, "latest_status": "eutrophic"}
+]

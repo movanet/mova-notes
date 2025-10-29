@@ -1,0 +1,130 @@
+[
+  {
+    "paradox_id": "BATUR-P01",
+    "paradox_name": {
+      "en": "Sacred Water Source with Zero Traditional Authority Budget",
+      "id": "Sumber Air Suci dengan Anggaran Otoritas Tradisional Nol"
+    },
+    "theme": "G",
+    "description": {
+      "en": "Pura Ulun Danu Batur is the most important water temple in Bali, governing sacred water for entire island, yet receives zero government budget while tourism development receives 120 billion IDR",
+      "id": "Pura Ulun Danu Batur adalah pura air terpenting di Bali, mengatur air suci untuk seluruh pulau, namun menerima anggaran pemerintah nol sementara pengembangan pariwisata menerima 120 miliar IDR"
+    },
+    "evidence_summary": "Temple maintains 1,000+ year tradition of water governance through donations and tithes; government allocates 120B for tourism, 35B for UNESCO Geopark, 0 for traditional water temple authority",
+    "stakeholders_affected": ["PURA", "SUBAK", "TOURISM", "BANGLI"],
+    "governance_impact": "very_high",
+    "environmental_justice_dimension": "recognition"
+  },
+  {
+    "paradox_id": "BATUR-P02",
+    "paradox_name": {
+      "en": "Parallel Governance: Traditional vs Modern with No Integration",
+      "id": "Tata Kelola Paralel: Tradisional vs Modern Tanpa Integrasi"
+    },
+    "theme": "B",
+    "description": {
+      "en": "Two complete governance systems operate in parallel - 1,000+ year old subak/temple system and modern government agencies - with minimal integration despite managing same water resource",
+      "id": "Dua sistem tata kelola lengkap beroperasi paralel - sistem subak/pura berusia 1.000+ tahun dan instansi pemerintah modern - dengan integrasi minimal meskipun mengelola sumber air yang sama"
+    },
+    "evidence_summary": "BWS manages technical infrastructure (45B budget) but water allocation still follows traditional subak calendar and temple ceremonies; no formal coordination mechanism; Forum Koordinasi attempts bridge but has only 8B budget and no authority",
+    "stakeholders_affected": ["SUBAK", "PURA", "BWS", "FORUM"],
+    "governance_impact": "very_high",
+    "environmental_justice_dimension": "procedural"
+  },
+  {
+    "paradox_id": "BATUR-P03",
+    "paradox_name": {
+      "en": "Government Subsidizes Conflict with Traditional Authority",
+      "id": "Pemerintah Mensubsidi Konflik dengan Otoritas Tradisional"
+    },
+    "theme": "D",
+    "description": {
+      "en": "Ministry of Marine Affairs provides 15 billion IDR subsidies for KJA expansion that directly violates traditional temple authority over sacred water, government funding creates conflict",
+      "id": "Kementerian Kelautan memberikan subsidi 15 miliar IDR untuk ekspansi KJA yang langsung melanggar otoritas pura tradisional atas air suci, pendanaan pemerintah menciptakan konflik"
+    },
+    "evidence_summary": "Pura Ulun Danu and Desa Adat oppose KJA as polluting sacred water; Bangli Regency issues permits without temple consultation; central government subsidizes KJA operators; traditional authority excluded from decision-making",
+    "stakeholders_affected": ["KJA", "PURA", "DESA_ADAT", "BANGLI"],
+    "governance_impact": "high",
+    "environmental_justice_dimension": "recognition"
+  },
+  {
+    "paradox_id": "BATUR-P04",
+    "paradox_name": {
+      "en": "UNESCO Recognition Without Traditional System Integration",
+      "id": "Pengakuan UNESCO Tanpa Integrasi Sistem Tradisional"
+    },
+    "theme": "I",
+    "description": {
+      "en": "Batur has UNESCO Global Geopark status celebrating geological heritage, but UNESCO monitoring system does not integrate traditional Balinese spiritual water governance that has sustained the lake for millennia",
+      "id": "Batur memiliki status UNESCO Global Geopark yang merayakan warisan geologis, tetapi sistem monitoring UNESCO tidak mengintegrasikan tata kelola air spiritual Bali tradisional yang telah mempertahankan danau selama ribuan tahun"
+    },
+    "evidence_summary": "UNESCO Geopark dashboard (60M IDR) monitors geological and educational indicators; traditional subak and temple water management systems operate completely separately with 0 integration despite being primary reason lake has survived centuries",
+    "stakeholders_affected": ["UNESCO", "SUBAK", "PURA", "DLH"],
+    "governance_impact": "moderate",
+    "environmental_justice_dimension": "recognition"
+  },
+  {
+    "paradox_id": "BATUR-P05",
+    "paradox_name": {
+      "en": "Tourism Revenue Depends on Sacred Water Quality Government Degrades",
+      "id": "Pendapatan Pariwisata Bergantung pada Kualitas Air Suci yang Dirusak Pemerintah"
+    },
+    "theme": "H",
+    "description": {
+      "en": "Tourism industry (120B investment) depends on lake's sacred status and pristine water quality, yet same government prioritizes tourism development over sacred water protection opposed by temple authorities",
+      "id": "Industri pariwisata (investasi 120M) bergantung pada status suci danau dan kualitas air yang masih asli, namun pemerintah yang sama memprioritaskan pengembangan pariwisata di atas perlindungan air suci yang ditentang otoritas pura"
+    },
+    "evidence_summary": "Tourism marketing emphasizes 'sacred lake' and 'holy water'; TSI increased from 48 to 64 (2020-2024) due to tourism wastewater and KJA; temple authorities warn of spiritual and ecological degradation but are excluded from tourism planning",
+    "stakeholders_affected": ["TOURISM", "PURA", "BANGLI", "DLH"],
+    "governance_impact": "high",
+    "environmental_justice_dimension": "distributive"
+  },
+  {
+    "paradox_id": "BATUR-P06",
+    "paradox_name": {
+      "en": "Farmers Blamed for Runoff, Tourism Wastewater Receives Less Scrutiny",
+      "id": "Petani Disalahkan atas Limpasan, Limbah Pariwisata Lebih Sedikit Diperiksa"
+    },
+    "theme": "A",
+    "description": {
+      "en": "Crater slope farmers receive erosion control programs (18B) and blamed for agricultural runoff, while tourism zone with higher pollution load (TSI 62 vs 58) receives infrastructure investment (120B) but minimal wastewater regulation",
+      "id": "Petani lereng kawah menerima program pengendalian erosi (18M) dan disalahkan atas limpasan pertanian, sementara zona pariwisata dengan beban polusi lebih tinggi (TSI 62 vs 58) menerima investasi infrastruktur (120M) tetapi regulasi limbah minimal"
+    },
+    "evidence_summary": "Monitoring shows tourism zone TSI 62 (eutrophic) vs agricultural zone TSI 58 (mesotrophic); farmers receive erosion control programs while hotels receive infrastructure subsidies; temple authorities report tourism wastewater threatens sacred water quality",
+    "stakeholders_affected": ["FARMER", "TOURISM", "DLH", "PURA"],
+    "governance_impact": "moderate",
+    "environmental_justice_dimension": "distributive"
+  },
+  {
+    "paradox_id": "BATUR-P07",
+    "paradox_name": {
+      "en": "Modern Permits Violate Traditional Law Without Consultation",
+      "id": "Izin Modern Melanggar Hukum Tradisional Tanpa Konsultasi"
+    },
+    "theme": "E",
+    "description": {
+      "en": "Bangli Regency issues modern KJA and tourism permits without consulting Desa Adat, Pura Ulun Danu, or Subak Abian despite these traditional authorities having established customary law governance over lake and surrounding lands",
+      "id": "Kabupaten Bangli mengeluarkan izin KJA dan pariwisata modern tanpa berkonsultasi dengan Desa Adat, Pura Ulun Danu, atau Subak Abian meskipun otoritas tradisional ini memiliki tata kelola hukum adat yang sudah mapan atas danau dan tanah sekitarnya"
+    },
+    "evidence_summary": "Regency permitting system (25M IDR) operates independently; traditional authorities maintain customary law but excluded from formal permit process; creates permits that violate traditional law, leading to community conflicts",
+    "stakeholders_affected": ["BANGLI", "DESA_ADAT", "PURA", "SUBAK"],
+    "governance_impact": "high",
+    "environmental_justice_dimension": "procedural"
+  },
+  {
+    "paradox_id": "BATUR-P08",
+    "paradox_name": {
+      "en": "Traditional System Proven Sustainable, Excluded from Modern Governance",
+      "id": "Sistem Tradisional Terbukti Berkelanjutan, Dikecualikan dari Tata Kelola Modern"
+    },
+    "theme": "G",
+    "description": {
+      "en": "Subak and temple water management system sustained Lake Batur and downstream irrigation for 1,000+ years, yet receives zero budget and no formal role in modern government governance that has degraded water quality in 4 years",
+      "id": "Sistem manajemen air subak dan pura mempertahankan Danau Batur dan irigasi hilir selama 1.000+ tahun, namun menerima anggaran nol dan tidak ada peran formal dalam tata kelola pemerintah modern yang telah mendegradasi kualitas air dalam 4 tahun"
+    },
+    "evidence_summary": "Traditional system demonstrated sustainability for millennia; modern governance (2020-2024) shows TSI increase 33% (48→64); traditional authorities excluded from decision-making despite proven track record",
+    "stakeholders_affected": ["SUBAK", "PURA", "BWS", "DLH"],
+    "governance_impact": "very_high",
+    "environmental_justice_dimension": "recognition"
+  }
+]

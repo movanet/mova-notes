@@ -1,0 +1,130 @@
+[
+  {
+    "paradox_id": "TOBA-P01",
+    "paradox_name": {
+      "en": "UNESCO Recognition vs Implementation Gap",
+      "id": "Pengakuan UNESCO vs Kesenjangan Implementasi"
+    },
+    "theme": "B",
+    "description": {
+      "en": "Lake Toba has UNESCO Global Geopark status with international conservation standards, yet local implementation remains weak with continued environmental degradation",
+      "id": "Danau Toba memiliki status UNESCO Global Geopark dengan standar konservasi internasional, namun implementasi lokal tetap lemah dengan degradasi lingkungan yang berlanjut"
+    },
+    "evidence_summary": "UNESCO requires comprehensive conservation management, but TSI has increased from 48 to 63 (2020-2024), with no enforcement of Geopark environmental standards at the local level",
+    "stakeholders_affected": ["UNESCO", "BODT", "DLH", "BATAK"],
+    "governance_impact": "high",
+    "environmental_justice_dimension": "recognition"
+  },
+  {
+    "paradox_id": "TOBA-P02",
+    "paradox_name": {
+      "en": "Tourism Revenue vs Environmental Protection",
+      "id": "Pendapatan Pariwisata vs Perlindungan Lingkungan"
+    },
+    "theme": "H",
+    "description": {
+      "en": "250 billion IDR invested in tourism infrastructure while environmental protection receives minimal funding, despite tourism depending on lake health",
+      "id": "250 miliar IDR diinvestasikan dalam infrastruktur pariwisata sementara perlindungan lingkungan menerima dana minimal, meskipun pariwisata bergantung pada kesehatan danau"
+    },
+    "evidence_summary": "BODT allocates 250B for tourism development, 0 for traditional authority engagement, only 30B for monitoring, yet tourism industry directly depends on maintaining lake quality",
+    "stakeholders_affected": ["BODT", "HOTEL", "FISHER", "BATAK"],
+    "governance_impact": "high",
+    "environmental_justice_dimension": "distributive"
+  },
+  {
+    "paradox_id": "TOBA-P03",
+    "paradox_name": {
+      "en": "Multi-Regency Coordination Authority vs Fragmented Implementation",
+      "id": "Otoritas Koordinasi Multi-Kabupaten vs Implementasi Terfragmentasi"
+    },
+    "theme": "B",
+    "description": {
+      "en": "BODT established as special authority to coordinate across 7 regencies, yet each regency continues separate spatial planning and permitting with no unified enforcement",
+      "id": "BODT dibentuk sebagai otoritas khusus untuk berkoordinasi lintas 7 kabupaten, namun setiap kabupaten melanjutkan perencanaan tata ruang dan perizinan terpisah tanpa penegakan terpadu"
+    },
+    "evidence_summary": "40B IDR allocated for coordination, but 7 regencies maintain separate spatial databases with no interoperability, leading to contradictory land use decisions around lake perimeter",
+    "stakeholders_affected": ["BODT", "TOBA", "BWS"],
+    "governance_impact": "very_high",
+    "environmental_justice_dimension": "procedural"
+  },
+  {
+    "paradox_id": "TOBA-P04",
+    "paradox_name": {
+      "en": "Traditional Authority Excluded from Sacred Lake Governance",
+      "id": "Otoritas Tradisional Dikecualikan dari Tata Kelola Danau Suci"
+    },
+    "theme": "G",
+    "description": {
+      "en": "Lake Toba holds deep sacred significance in Batak cosmology, yet Batak Traditional Council receives zero budget allocation and has no formal role in BODT governance structure",
+      "id": "Danau Toba memiliki makna sakral yang mendalam dalam kosmologi Batak, namun Dewan Adat Batak menerima alokasi anggaran nol dan tidak memiliki peran formal dalam struktur tata kelola BODT"
+    },
+    "evidence_summary": "Batak Traditional Council maintains detailed knowledge of sacred sites and traditional management practices, but is classified as 'advisory only' with no budget, data access, or decision-making authority",
+    "stakeholders_affected": ["BATAK", "BODT", "UNESCO"],
+    "governance_impact": "high",
+    "environmental_justice_dimension": "recognition"
+  },
+  {
+    "paradox_id": "TOBA-P05",
+    "paradox_name": {
+      "en": "Extensive Monitoring, Minimal Action",
+      "id": "Monitoring Ekstensif, Aksi Minimal"
+    },
+    "theme": "I",
+    "description": {
+      "en": "DLH operates 15 monitoring stations with 30B IDR budget for biannual sampling, yet no enforcement actions taken despite documented water quality degradation",
+      "id": "DLH mengoperasikan 15 stasiun monitoring dengan anggaran 30M IDR untuk sampling dua kali setahun, namun tidak ada tindakan penegakan meskipun ada dokumentasi degradasi kualitas air"
+    },
+    "evidence_summary": "Comprehensive monitoring shows TSI increase of 31% (2020-2024), phosphate increase of 100%, but zero hotel permits revoked, zero KJA operations suspended, zero agricultural runoff interventions",
+    "stakeholders_affected": ["DLH", "BWS", "HOTEL", "FARM"],
+    "governance_impact": "high",
+    "environmental_justice_dimension": "procedural"
+  },
+  {
+    "paradox_id": "TOBA-P06",
+    "paradox_name": {
+      "en": "Fisher Livelihood Displacement by Tourism Development",
+      "id": "Perpindahan Mata Pencaharian Nelayan oleh Pengembangan Pariwisata"
+    },
+    "theme": "D",
+    "description": {
+      "en": "Traditional fishers receive 5B IDR support while tourism infrastructure receives 250B, yet fisher displacement directly caused by tourism expansion funded by government",
+      "id": "Nelayan tradisional menerima dukungan 5M IDR sementara infrastruktur pariwisata menerima 250M, namun perpindahan nelayan langsung disebabkan oleh ekspansi pariwisata yang didanai pemerintah"
+    },
+    "evidence_summary": "Fisher Association reports loss of traditional fishing grounds to hotel zones, reduced catch due to water quality decline, yet receives only 2% of budget compared to tourism sector causing the displacement",
+    "stakeholders_affected": ["FISHER", "HOTEL", "BODT"],
+    "governance_impact": "high",
+    "environmental_justice_dimension": "distributive"
+  },
+  {
+    "paradox_id": "TOBA-P07",
+    "paradox_name": {
+      "en": "Data Abundance, Integration Absence",
+      "id": "Kelimpahan Data, Ketiadaan Integrasi"
+    },
+    "theme": "I",
+    "description": {
+      "en": "Eight separate data systems maintained by different agencies with combined budget of 980M IDR, yet no data integration or unified monitoring dashboard exists",
+      "id": "Delapan sistem data terpisah dipelihara oleh berbagai instansi dengan anggaran gabungan 980 juta IDR, namun tidak ada integrasi data atau dashboard monitoring terpadu"
+    },
+    "evidence_summary": "BWS, DLH, BODT, UNESCO, 7 regencies, hotels all collect data, but BODT's modern dashboard shows only tourism metrics while BWS's water quality data remains in isolated Access databases with no API",
+    "stakeholders_affected": ["BWS", "DLH", "BODT", "UNESCO"],
+    "governance_impact": "moderate",
+    "environmental_justice_dimension": "procedural"
+  },
+  {
+    "paradox_id": "TOBA-P08",
+    "paradox_name": {
+      "en": "Community Knowledge Exclusion Despite High Engagement",
+      "id": "Pengecualian Pengetahuan Masyarakat Meskipun Keterlibatan Tinggi"
+    },
+    "theme": "G",
+    "description": {
+      "en": "Traditional fishers and Batak communities maintain daily ecological observations and decades of local knowledge, yet this data is completely excluded from formal monitoring systems",
+      "id": "Nelayan tradisional dan komunitas Batak memelihara pengamatan ekologis harian dan puluhan tahun pengetahuan lokal, namun data ini sepenuhnya dikecualikan dari sistem monitoring formal"
+    },
+    "evidence_summary": "Fisher Association logs daily catch and water conditions, Batak Traditional Council documents sacred site changes, but both have 'none' data access level and zero integration with government monitoring worth 210M IDR annually",
+    "stakeholders_affected": ["FISHER", "BATAK", "DLH", "BWS"],
+    "governance_impact": "moderate",
+    "environmental_justice_dimension": "recognition"
+  }
+]

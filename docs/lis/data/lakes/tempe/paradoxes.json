@@ -1,0 +1,130 @@
+[
+  {
+    "paradox_id": "TEMPE-P01",
+    "paradox_name": {
+      "en": "Symptom Treatment vs Root Cause Neglect",
+      "id": "Pengobatan Gejala vs Pengabaian Akar Masalah"
+    },
+    "theme": "A",
+    "description": {
+      "en": "80 billion IDR spent on dredging sediment (symptom) while only 45 billion on upstream watershed restoration (root cause), despite knowing deforestation drives sedimentation",
+      "id": "80 miliar IDR dihabiskan untuk pengerukan sedimen (gejala) sementara hanya 45 miliar untuk restorasi DAS hulu (akar masalah), meskipun mengetahui deforestasi menyebabkan sedimentasi"
+    },
+    "evidence_summary": "BWS emergency dredging removes sediment that returns within 2-3 years; BPDAS reforestation addresses cause but receives 44% less budget and slower implementation",
+    "stakeholders_affected": ["BWS", "BPDAS", "FISHER"],
+    "governance_impact": "very_high",
+    "environmental_justice_dimension": "distributive"
+  },
+  {
+    "paradox_id": "TEMPE-P02",
+    "paradox_name": {
+      "en": "Government Subsidizes Lake Destruction",
+      "id": "Pemerintah Mensubsidi Penghancuran Danau"
+    },
+    "theme": "D",
+    "description": {
+      "en": "Government provides 25 billion for rice field expansion in receding lake areas, directly subsidizing permanent lake disappearance and fisher displacement",
+      "id": "Pemerintah memberikan 25 miliar untuk perluasan sawah di area danau yang surut, langsung mensubsidi penghilangan danau permanen dan perpindahan nelayan"
+    },
+    "evidence_summary": "Ministry of Agriculture funds agricultural conversion of seasonal lake zones; DLH documents 30% lake area loss but no coordination with agriculture subsidies accelerating the destruction",
+    "stakeholders_affected": ["FARMER", "FISHER", "DLH", "WAJO"],
+    "governance_impact": "very_high",
+    "environmental_justice_dimension": "distributive"
+  },
+  {
+    "paradox_id": "TEMPE-P03",
+    "paradox_name": {
+      "en": "KJA Expansion vs Traditional Fisher Displacement",
+      "id": "Ekspansi KJA vs Perpindahan Nelayan Tradisional"
+    },
+    "theme": "D",
+    "description": {
+      "en": "Government subsidizes KJA expansion (35B) that displaces traditional Bugis fishers who receive minimal support (8B), destroying indigenous fishing livelihoods",
+      "id": "Pemerintah mensubsidi ekspansi KJA (35M) yang menggusur nelayan tradisional Bugis yang menerima dukungan minimal (8M), menghancurkan mata pencaharian nelayan adat"
+    },
+    "evidence_summary": "Ministry of Marine Affairs promotes floating cage aquaculture with subsidies and technical support; traditional fishers report catch decline and displacement but receive 77% less budget",
+    "stakeholders_affected": ["KJA", "FISHER", "BUGIS"],
+    "governance_impact": "high",
+    "environmental_justice_dimension": "distributive"
+  },
+  {
+    "paradox_id": "TEMPE-P04",
+    "paradox_name": {
+      "en": "Indigenous Governance Exclusion Despite Centuries of Lake Management",
+      "id": "Pengecualian Tata Kelola Adat Meskipun Berabad-abad Mengelola Danau"
+    },
+    "theme": "G",
+    "description": {
+      "en": "Bugis Traditional Council (To Manurung) has governed Lake Tempe fishing for centuries with customary law, but receives zero budget allocation and no formal role in modern governance",
+      "id": "Dewan Adat Bugis (To Manurung) telah mengatur perikanan Danau Tempe selama berabad-abad dengan hukum adat, tetapi menerima alokasi anggaran nol dan tidak ada peran formal dalam tata kelola modern"
+    },
+    "evidence_summary": "Traditional authority maintained sustainable fishing practices pre-modern interventions; now excluded from Forum Koordinasi decision-making despite 5,000+ fishing families under their customary governance",
+    "stakeholders_affected": ["BUGIS", "FISHER", "FORUM"],
+    "governance_impact": "high",
+    "environmental_justice_dimension": "recognition"
+  },
+  {
+    "paradox_id": "TEMPE-P05",
+    "paradox_name": {
+      "en": "Monitoring Lake Disappearance Without Intervention",
+      "id": "Memantau Penghilangan Danau Tanpa Intervensi"
+    },
+    "theme": "I",
+    "description": {
+      "en": "DLH documents 30% lake area shrinkage (13,000 ha to 9,100 ha) with quarterly monitoring, yet no enforcement to halt agricultural conversion or KJA expansion",
+      "id": "DLH mendokumentasikan penyusutan area danau 30% (13.000 ha menjadi 9.100 ha) dengan monitoring triwulanan, namun tidak ada penegakan untuk menghentikan konversi pertanian atau ekspansi KJA"
+    },
+    "evidence_summary": "Provincial environmental office publishes annual reports showing lake crisis, satellite imagery confirms permanent loss, but no authority to enforce spatial planning or revoke conversion permits",
+    "stakeholders_affected": ["DLH", "WAJO", "UNHAS"],
+    "governance_impact": "very_high",
+    "environmental_justice_dimension": "procedural"
+  },
+  {
+    "paradox_id": "TEMPE-P06",
+    "paradox_name": {
+      "en": "Traditional Knowledge Exclusion Despite Scientific Validation",
+      "id": "Pengecualian Pengetahuan Tradisional Meskipun Validasi Ilmiah"
+    },
+    "theme": "G",
+    "description": {
+      "en": "Hasanuddin University research validates traditional fisher ecological knowledge, yet fisher observations remain excluded from formal monitoring systems",
+      "id": "Penelitian Universitas Hasanuddin memvalidasi pengetahuan ekologis nelayan tradisional, namun pengamatan nelayan tetap dikecualikan dari sistem monitoring formal"
+    },
+    "evidence_summary": "UNHAS research shows traditional fishers accurately predict seasonal fish migrations and water quality changes; Forum Nelayan maintains daily catch logs, but BWS and DLH never integrate this data despite 0 IDR cost to access",
+    "stakeholders_affected": ["FISHER", "UNHAS", "BWS", "DLH"],
+    "governance_impact": "moderate",
+    "environmental_justice_dimension": "recognition"
+  },
+  {
+    "paradox_id": "TEMPE-P07",
+    "paradox_name": {
+      "en": "Water Hyacinth Symptom Treatment Cycle",
+      "id": "Siklus Pengobatan Gejala Eceng Gondok"
+    },
+    "theme": "C",
+    "description": {
+      "en": "20 billion IDR spent removing water hyacinth that returns within months, while nutrient pollution (root cause) from KJA and agriculture remains unaddressed",
+      "id": "20 miliar IDR dihabiskan untuk menghilangkan eceng gondok yang kembali dalam beberapa bulan, sementara polusi nutrisi (akar masalah) dari KJA dan pertanian tetap tidak ditangani"
+    },
+    "evidence_summary": "Manual and mechanical hyacinth removal treats surface symptom; TSI increase from 62 to 78 (2020-2024) shows nutrient loading accelerates but no KJA feed controls or agricultural runoff management implemented",
+    "stakeholders_affected": ["WAJO", "DLH", "KJA", "FARMER"],
+    "governance_impact": "moderate",
+    "environmental_justice_dimension": "procedural"
+  },
+  {
+    "paradox_id": "TEMPE-P08",
+    "paradox_name": {
+      "en": "Coordination Forum Without Authority",
+      "id": "Forum Koordinasi Tanpa Kewenangan"
+    },
+    "theme": "B",
+    "description": {
+      "en": "Forum Koordinasi Danau Tempe established for multi-stakeholder coordination but receives minimal budget (5B) and no authority to enforce integrated decisions",
+      "id": "Forum Koordinasi Danau Tempe dibentuk untuk koordinasi multi-pihak tetapi menerima anggaran minimal (5M) dan tidak ada kewenangan untuk menegakkan keputusan terpadu"
+    },
+    "evidence_summary": "Forum mediates conflicts between fishers, farmers, KJA operators but cannot compel BWS, BPDAS, or Ministry of Agriculture to coordinate budgets or halt contradictory interventions; 233B IDR allocated to sector agencies with zero coordination requirement",
+    "stakeholders_affected": ["FORUM", "BWS", "BPDAS", "WAJO"],
+    "governance_impact": "high",
+    "environmental_justice_dimension": "procedural"
+  }
+]

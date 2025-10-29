@@ -1,0 +1,122 @@
+[
+  {
+    "id": "budget_tourism_infra",
+    "source_agency": "Bangli Regency + Provincial Tourism",
+    "recipient": "Tourism Infrastructure Development",
+    "amount_idr_billion": 120,
+    "period": "2021-2024",
+    "theme": "H",
+    "purpose": "Sunrise viewpoint facilities, parking, hotels, restaurants, visitor centers around Lake Batur",
+    "community_impact": "mixed",
+    "impact_score": 0,
+    "notes": "Largest budget allocation supports tourism generating wastewater pressure on sacred lake; no corresponding environmental protection budget"
+  },
+  {
+    "id": "budget_unesco_geopark",
+    "source_agency": "UNESCO + Ministry of Tourism",
+    "recipient": "Batur UNESCO Global Geopark Programs",
+    "amount_idr_billion": 35,
+    "period": "2020-2024",
+    "theme": "I",
+    "purpose": "Geopark education centers, geological conservation, international promotion, standards monitoring",
+    "community_impact": "positive",
+    "impact_score": 1,
+    "notes": "UNESCO status brings international recognition but limited integration with traditional subak water management system"
+  },
+  {
+    "id": "budget_water_monitoring",
+    "source_agency": "DLH Bali + BWS",
+    "recipient": "Water Quality Monitoring & Allocation Management",
+    "amount_idr_billion": 25,
+    "period": "2020-2024",
+    "theme": "I",
+    "purpose": "Monthly water quality sampling, downstream allocation monitoring, volcanic activity tracking",
+    "community_impact": "neutral",
+    "impact_score": 0,
+    "notes": "Modern monitoring system operates parallel to traditional subak water observations with minimal integration"
+  },
+  {
+    "id": "budget_subak_zero",
+    "source_agency": "None",
+    "recipient": "Subak Abian Traditional Water Management",
+    "amount_idr_billion": 0,
+    "period": "2020-2024",
+    "theme": "G",
+    "purpose": "N/A - No government budget for traditional water management system despite centuries of proven governance",
+    "community_impact": "highly_negative",
+    "impact_score": -2,
+    "notes": "Subak system continues through temple donations and community contributions; excluded from formal government budget despite managing irrigation for thousands of hectares downstream"
+  },
+  {
+    "id": "budget_temple_zero",
+    "source_agency": "None",
+    "recipient": "Pura Ulun Danu Batur Sacred Water Management",
+    "amount_idr_billion": 0,
+    "period": "2020-2024",
+    "theme": "G",
+    "purpose": "N/A - No government budget for sacred water temple despite central role in Balinese water governance",
+    "community_impact": "highly_negative",
+    "impact_score": -2,
+    "notes": "Most important water temple in Bali receives zero government support; operates entirely on pilgrim donations and traditional tithes"
+  },
+  {
+    "id": "budget_erosion_control",
+    "source_agency": "BPDAS + Bangli Regency",
+    "recipient": "Crater Slope Erosion Control",
+    "amount_idr_billion": 18,
+    "period": "2021-2024",
+    "theme": "A",
+    "purpose": "Terracing, reforestation, erosion prevention on steep agricultural slopes feeding into lake",
+    "community_impact": "positive",
+    "impact_score": 1,
+    "notes": "Addresses agricultural runoff but implementation slow; farmers blamed for runoff while tourism wastewater receives less scrutiny"
+  },
+  {
+    "id": "budget_waste_management",
+    "source_agency": "Bangli Regency",
+    "recipient": "Tourism Waste Management (Lake Batur)",
+    "amount_idr_billion": 22,
+    "period": "2022-2024",
+    "theme": "C",
+    "purpose": "Solid waste collection, wastewater treatment, tourism area cleanup around lake perimeter",
+    "community_impact": "positive",
+    "impact_score": 1,
+    "notes": "Tourism waste budget significant but focuses on symptom management; no regulation of hotel wastewater discharge to sacred lake"
+  },
+  {
+    "id": "budget_kja_subsidy",
+    "source_agency": "Ministry of Marine Affairs",
+    "recipient": "KJA Development Subsidies (Batur)",
+    "amount_idr_billion": 15,
+    "period": "2021-2024",
+    "theme": "D",
+    "purpose": "Subsidies for floating cage aquaculture expansion in Lake Batur",
+    "community_impact": "highly_negative",
+    "impact_score": -2,
+    "notes": "KJA expansion directly contradicts traditional temple authority and sacred water status; subsidy creates conflict with Pura Ulun Danu and Desa Adat"
+  },
+  {
+    "id": "budget_coordination_forum",
+    "source_agency": "Provincial Government",
+    "recipient": "Forum Koordinasi Danau Batur Operations",
+    "amount_idr_billion": 8,
+    "period": "2020-2024",
+    "theme": "B",
+    "purpose": "Multi-stakeholder meetings attempting to bridge traditional and modern governance systems",
+    "community_impact": "positive",
+    "impact_score": 1,
+    "notes": "Minimal budget for complex coordination challenge of integrating 1,000+ year old subak system with modern agencies"
+  },
+  {
+    "id": "budget_downstream_irrigation",
+    "source_agency": "BWS Bali-Penida",
+    "recipient": "Downstream Irrigation Infrastructure",
+    "amount_idr_billion": 45,
+    "period": "2020-2024",
+    "theme": "H",
+    "purpose": "Irrigation canal maintenance, water allocation systems, downstream supply infrastructure",
+    "community_impact": "positive",
+    "impact_score": 1,
+    "notes": "BWS manages technical infrastructure but water allocation decisions still heavily influenced by traditional subak and temple timing"
+  }
+]

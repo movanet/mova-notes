@@ -1,0 +1,189 @@
+[
+  {
+    "id": "bws_bali_penida",
+    "name": "BWS Bali-Penida",
+    "code": "BWS",
+    "type": "national_agency",
+    "tier": 1,
+    "authority_level": "national",
+    "coordination_role": "technical",
+    "description": {
+      "en": "Water Resources Management Agency responsible for water infrastructure and allocation from Lake Batur to downstream irrigation",
+      "id": "Balai Wilayah Sungai bertanggung jawab atas infrastruktur air dan alokasi dari Danau Batur ke irigasi hilir"
+    },
+    "responsibilities": ["Water allocation", "Dam operations", "Infrastructure management", "Downstream supply"],
+    "budget_access": "high",
+    "data_access": "high",
+    "community_engagement": "low"
+  },
+  {
+    "id": "dlh_bali",
+    "name": "DLH Bali Province",
+    "code": "DLH",
+    "type": "provincial_agency",
+    "tier": 2,
+    "authority_level": "provincial",
+    "coordination_role": "monitoring",
+    "description": {
+      "en": "Provincial Environmental Office monitoring Lake Batur water quality and sacred site protection",
+      "id": "Dinas Lingkungan Hidup Provinsi memantau kualitas air Danau Batur dan perlindungan situs suci"
+    },
+    "responsibilities": ["Environmental monitoring", "Water quality", "Pollution control", "Sacred site coordination"],
+    "budget_access": "moderate",
+    "data_access": "high",
+    "community_engagement": "moderate"
+  },
+  {
+    "id": "bangli_regency",
+    "name": "Bangli Regency Government",
+    "code": "BANGLI",
+    "type": "local_government",
+    "tier": 3,
+    "authority_level": "regency",
+    "coordination_role": "local",
+    "description": {
+      "en": "Regency government managing Lake Batur tourism development, KJA permits, and local regulations",
+      "id": "Pemerintah kabupaten mengelola pengembangan pariwisata Danau Batur, izin KJA, dan regulasi lokal"
+    },
+    "responsibilities": ["Tourism development", "KJA permits", "Local regulation", "Infrastructure"],
+    "budget_access": "moderate",
+    "data_access": "low",
+    "community_engagement": "moderate"
+  },
+  {
+    "id": "subak_abian",
+    "name": "Subak Abian Traditional Water Management",
+    "code": "SUBAK",
+    "type": "traditional_authority",
+    "tier": 4,
+    "authority_level": "customary",
+    "coordination_role": "traditional_governance",
+    "description": {
+      "en": "Traditional Balinese irrigation cooperative managing water distribution from Lake Batur through water temple system",
+      "id": "Koperasi irigasi tradisional Bali mengelola distribusi air dari Danau Batur melalui sistem pura air"
+    },
+    "responsibilities": ["Traditional water allocation", "Irrigation scheduling", "Ritual ceremonies", "Customary law enforcement"],
+    "budget_access": "minimal",
+    "data_access": "traditional_only",
+    "community_engagement": "very_high"
+  },
+  {
+    "id": "pura_ulun_danu",
+    "name": "Pura Ulun Danu Batur Temple Council",
+    "code": "PURA",
+    "type": "traditional_authority",
+    "tier": 4,
+    "authority_level": "sacred",
+    "coordination_role": "spiritual_governance",
+    "description": {
+      "en": "Sacred water temple governing spiritual and practical management of Lake Batur as holy water source for all of Bali",
+      "id": "Pura air suci yang mengatur pengelolaan spiritual dan praktis Danau Batur sebagai sumber air suci untuk seluruh Bali"
+    },
+    "responsibilities": ["Sacred water ceremonies", "Spiritual protection", "Water blessing rituals", "Traditional conflict resolution"],
+    "budget_access": "temple_donations",
+    "data_access": "traditional_only",
+    "community_engagement": "very_high"
+  },
+  {
+    "id": "desa_adat_batur",
+    "name": "Desa Adat (Traditional Village Council)",
+    "code": "DESA_ADAT",
+    "type": "traditional_authority",
+    "tier": 5,
+    "authority_level": "customary",
+    "coordination_role": "community_governance",
+    "description": {
+      "en": "Traditional Balinese village governance system managing customary law, sacred sites, and community land rights around Lake Batur",
+      "id": "Sistem pemerintahan desa tradisional Bali mengelola hukum adat, situs suci, dan hak tanah komunal di sekitar Danau Batur"
+    },
+    "responsibilities": ["Customary law", "Community land rights", "Sacred site protection", "Traditional ceremonies"],
+    "budget_access": "community_only",
+    "data_access": "traditional_only",
+    "community_engagement": "very_high"
+  },
+  {
+    "id": "tourism_association_batur",
+    "name": "Batur Tourism & Hotel Association",
+    "code": "TOURISM",
+    "type": "private_sector",
+    "tier": 5,
+    "authority_level": "private",
+    "coordination_role": "stakeholder",
+    "description": {
+      "en": "Tourism operators, hotels, and restaurants around Lake Batur generating wastewater and visitor pressure",
+      "id": "Operator pariwisata, hotel, dan restoran di sekitar Danau Batur menghasilkan limbah dan tekanan pengunjung"
+    },
+    "responsibilities": ["Tourism services", "Visitor management", "Environmental compliance", "Economic development"],
+    "budget_access": "private",
+    "data_access": "low",
+    "community_engagement": "moderate"
+  },
+  {
+    "id": "farmer_crater_slope",
+    "name": "Crater Slope Farmer Groups",
+    "code": "FARMER",
+    "type": "community_organization",
+    "tier": 5,
+    "authority_level": "community",
+    "coordination_role": "affected",
+    "description": {
+      "en": "Agricultural communities farming steep crater slopes, contributing runoff to Lake Batur",
+      "id": "Komunitas pertanian yang bercocok tanam di lereng kawah curam, berkontribusi limpasan ke Danau Batur"
+    },
+    "responsibilities": ["Agricultural production", "Erosion control", "Traditional farming practices", "Livelihood sustainability"],
+    "budget_access": "minimal",
+    "data_access": "none",
+    "community_engagement": "high"
+  },
+  {
+    "id": "kja_batur",
+    "name": "KJA Operators (Lake Batur)",
+    "code": "KJA",
+    "type": "private_sector",
+    "tier": 5,
+    "authority_level": "private",
+    "coordination_role": "stakeholder",
+    "description": {
+      "en": "Floating cage aquaculture operators in Lake Batur, primarily external investors, facing pushback from traditional authorities",
+      "id": "Operator keramba jaring apung di Danau Batur, terutama investor eksternal, menghadapi penolakan dari otoritas tradisional"
+    },
+    "responsibilities": ["Fish farming", "Commercial aquaculture", "Feed management", "Water quality impact"],
+    "budget_access": "private",
+    "data_access": "low",
+    "community_engagement": "low"
+  },
+  {
+    "id": "unesco_geopark_batur",
+    "name": "UNESCO Batur Global Geopark Management",
+    "code": "UNESCO",
+    "type": "international",
+    "tier": 6,
+    "authority_level": "international",
+    "coordination_role": "advisory",
+    "description": {
+      "en": "International oversight body for Batur UNESCO Global Geopark status, setting conservation and education standards",
+      "id": "Badan pengawas internasional untuk status UNESCO Global Geopark Batur, menetapkan standar konservasi dan edukasi"
+    },
+    "responsibilities": ["Geopark standards", "International recognition", "Conservation monitoring", "Education programs"],
+    "budget_access": "international_grants",
+    "data_access": "moderate",
+    "community_engagement": "low"
+  },
+  {
+    "id": "forum_koordinasi_batur",
+    "name": "Forum Koordinasi Danau Batur",
+    "code": "FORUM",
+    "type": "coordination_body",
+    "tier": 2,
+    "authority_level": "multi_agency",
+    "coordination_role": "lead",
+    "description": {
+      "en": "Multi-stakeholder coordination forum attempting to bridge traditional subak system and modern government agencies",
+      "id": "Forum koordinasi multi-pihak yang mencoba menjembatani sistem subak tradisional dan instansi pemerintah modern"
+    },
+    "responsibilities": ["Multi-stakeholder dialogue", "Traditional-modern coordination", "Conflict mediation", "Integrated planning"],
+    "budget_access": "low",
+    "data_access": "moderate",
+    "community_engagement": "high"
+  }
+]

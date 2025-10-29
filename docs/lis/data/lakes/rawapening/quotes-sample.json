@@ -1,0 +1,112 @@
+[
+  {
+    "quote_id": "PAN-I-01",
+    "stakeholder_code": "PAN",
+    "themes": ["I"],
+    "indonesian_text": "Kami punya 29 titik monitoring - 5 di danau, 24 di sungai upstream",
+    "english_translation": "We have 29 monitoring points - 5 in the lake, 24 in upstream rivers",
+    "context": "Describing DLH Provincial monitoring infrastructure",
+    "transcript_source": "FGD_01.md",
+    "line_number": null,
+    "annex_location": "ANNEX_I_Monitoring_Data_Systems_Information"
+  },
+  {
+    "quote_id": "GIT-I-02",
+    "stakeholder_code": "GIT",
+    "themes": ["I", "B"],
+    "indonesian_text": "Rapat tanpa action",
+    "english_translation": "Meetings without action",
+    "context": "Community perspective on coordination meetings that produce no visible implementation",
+    "transcript_source": "INDV_03.md",
+    "line_number": null,
+    "annex_location": "ANNEX_I_Monitoring_Data_Systems_Information"
+  },
+  {
+    "quote_id": "DIN-I-03",
+    "stakeholder_code": "DIN",
+    "themes": ["I", "F"],
+    "indonesian_text": "SIMOLEK dikembangkan tahun 2023 oleh UGM, tapi sekarang statusnya tidak jelas",
+    "english_translation": "SIMOLEK was developed in 2023 by UGM, but now its status is unclear",
+    "context": "Describing the orphaned SIMOLEK system after BPDAS reorganization",
+    "transcript_source": "FGD_02.md",
+    "line_number": null,
+    "annex_location": "ANNEX_I_Monitoring_Data_Systems_Information"
+  },
+  {
+    "quote_id": "SWE-G-01",
+    "stakeholder_code": "SWE",
+    "themes": ["G", "E"],
+    "indonesian_text": "Kami tidak dikonsultasikan dalam penetapan batas danau. Tiba-tiba lahan kami masuk kawasan danau",
+    "english_translation": "We were not consulted in the lake boundary determination. Suddenly our land became part of the lake area",
+    "context": "Forum Petani chairman describing procedural exclusion from Kepmen 365 boundary expansion process",
+    "transcript_source": "INDV_02.md",
+    "line_number": null,
+    "annex_location": "ANNEX_G_Community_Perspectives_Land_Rights_Local_Knowledge"
+  },
+  {
+    "quote_id": "RIN-F-01",
+    "stakeholder_code": "RIN",
+    "themes": ["F", "B"],
+    "indonesian_text": "BPN tidak termasuk dalam struktur Pokja, padahal mereka yang pegang data lahan",
+    "english_translation": "BPN is not included in the Pokja structure, even though they hold the land data",
+    "context": "Pokja Secretary identifying critical exclusion of National Land Agency from coordination",
+    "transcript_source": "FGD_01.md",
+    "line_number": null,
+    "annex_location": "ANNEX_F_Inter_Agency_Gaps_Institutional_Fragmentation"
+  },
+  {
+    "quote_id": "DIA-I-04",
+    "stakeholder_code": "DIA",
+    "themes": ["I", "A"],
+    "indonesian_text": "Monitoring kualitas air kami lakukan dua kali setahun. Status danau adalah hipereutrofik",
+    "english_translation": "We conduct water quality monitoring twice a year. The lake status is hypereutrophic",
+    "context": "DLH Provinsi describing monitoring frequency and water quality findings",
+    "transcript_source": "FGD_01.md",
+    "line_number": null,
+    "annex_location": "ANNEX_I_Monitoring_Data_Systems_Information"
+  },
+  {
+    "quote_id": "PAN-A-01",
+    "stakeholder_code": "PAN",
+    "themes": ["A"],
+    "indonesian_text": "Sedimentasi dari Sungai Parat paling tinggi. Total akumulasi sedimen mencapai 48 juta meter kubik",
+    "english_translation": "Sedimentation from Sungai Parat is highest. Total sediment accumulation reaches 48 million cubic meters",
+    "context": "BWS describing sediment sources and volumes",
+    "transcript_source": "FGD_01.md",
+    "line_number": null,
+    "annex_location": "ANNEX_A_Sedimentation_Sediment_Management"
+  },
+  {
+    "quote_id": "PAN-C-01",
+    "stakeholder_code": "PAN",
+    "themes": ["C", "H"],
+    "indonesian_text": "Enceng gondok sudah mencapai 280 hektar. Kami ada kontrak 156 miliar dengan Kodam untuk pembersihan",
+    "english_translation": "Water hyacinth has reached 280 hectares. We have a 156 billion contract with Kodam for removal",
+    "context": "BWS describing water hyacinth extent and military removal contract",
+    "transcript_source": "FGD_03.md",
+    "line_number": null,
+    "annex_location": "ANNEX_C_Water_Hyacinth_Enceng_Gondok"
+  },
+  {
+    "quote_id": "SWE-G-02",
+    "stakeholder_code": "SWE",
+    "themes": ["G", "H"],
+    "indonesian_text": "156 miliar untuk TNI, tapi kompensasi untuk petani nol. Kami dilarang bertani 2,5 tahun tanpa ganti rugi",
+    "english_translation": "156 billion for the military, but compensation for farmers is zero. We were banned from farming for 2.5 years without compensation",
+    "context": "Forum Petani chairman highlighting budget asymmetry and zero compensation policy",
+    "transcript_source": "INDV_02.md",
+    "line_number": null,
+    "annex_location": "ANNEX_G_Community_Perspectives_Land_Rights_Local_Knowledge"
+  },
+  {
+    "quote_id": "MBP-G-03",
+    "stakeholder_code": "MBP",
+    "themes": ["G"],
+    "indonesian_text": "Jaman Belanda ada kesepakatan 6 bulan tutup, 6 bulan buka. Sekarang aturannya berubah terus",
+    "english_translation": "During Dutch era there was agreement - 6 months closed, 6 months open. Now the rules keep changing",
+    "context": "Community elder describing historical water access agreements and regulatory instability",
+    "transcript_source": "INDV_01.md",
+    "line_number": null,
+    "annex_location": "ANNEX_G_Community_Perspectives_Land_Rights_Local_Knowledge"
+  }
+]

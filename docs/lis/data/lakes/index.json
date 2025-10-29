@@ -1,0 +1,56 @@
+{
+  "lakes": [
+    {
+      "id": "rawapening",
+      "name": {
+        "en": "Rawa Pening",
+        "id": "Rawa Pening"
+      },
+      "status": "complete",
+      "fieldwork_date": "2025-09",
+      "data_richness": "high",
+      "modules_complete": 4,
+      "priority": 1,
+      "region": "Central Java"
+    },
+    {
+      "id": "toba",
+      "name": {
+        "en": "Lake Toba",
+        "id": "Danau Toba"
+      },
+      "status": "placeholder",
+      "fieldwork_date": "planned",
+      "data_richness": "low",
+      "modules_complete": 0,
+      "priority": 2,
+      "region": "North Sumatra"
+    },
+    {
+      "id": "tempe",
+      "name": {
+        "en": "Lake Tempe",
+        "id": "Danau Tempe"
+      },
+      "status": "placeholder",
+      "fieldwork_date": "planned",
+      "data_richness": "low",
+      "modules_complete": 0,
+      "priority": 3,
+      "region": "South Sulawesi"
+    },
+    {
+      "id": "batur",
+      "name": {
+        "en": "Lake Batur",
+        "id": "Danau Batur"
+      },
+      "status": "placeholder",
+      "fieldwork_date": "planned",
+      "data_richness": "low",
+      "modules_complete": 0,
+      "priority": 4,
+      "region": "Bali"
+    }
+  ]
+}

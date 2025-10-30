@@ -1,0 +1,92 @@
+[
+  {
+    "year": 2020,
+    "month": 3,
+    "tsi_average": 48,
+    "phosphate_avg_mg_l": 0.019,
+    "nitrate_avg_mg_l": 0.42,
+    "status": "oligotrophic",
+    "notes": "Baseline before tourism expansion acceleration"
+  },
+  {
+    "year": 2020,
+    "month": 9,
+    "tsi_average": 49,
+    "phosphate_avg_mg_l": 0.020,
+    "nitrate_avg_mg_l": 0.45,
+    "status": "oligotrophic",
+    "notes": "COVID-19 tourism shutdown, water quality improvement"
+  },
+  {
+    "year": 2021,
+    "month": 3,
+    "tsi_average": 51,
+    "phosphate_avg_mg_l": 0.022,
+    "nitrate_avg_mg_l": 0.48,
+    "status": "mesotrophic",
+    "notes": "Tourism recovery begins, KJA expansion continues"
+  },
+  {
+    "year": 2021,
+    "month": 9,
+    "tsi_average": 53,
+    "phosphate_avg_mg_l": 0.024,
+    "nitrate_avg_mg_l": 0.52,
+    "status": "mesotrophic",
+    "notes": "BODT infrastructure projects accelerate"
+  },
+  {
+    "year": 2022,
+    "month": 3,
+    "tsi_average": 55,
+    "phosphate_avg_mg_l": 0.026,
+    "nitrate_avg_mg_l": 0.56,
+    "status": "mesotrophic",
+    "notes": "UNESCO Geopark monitoring identifies degradation"
+  },
+  {
+    "year": 2022,
+    "month": 9,
+    "tsi_average": 57,
+    "phosphate_avg_mg_l": 0.029,
+    "nitrate_avg_mg_l": 0.61,
+    "status": "mesotrophic",
+    "notes": "Agricultural runoff from hillsides increases"
+  },
+  {
+    "year": 2023,
+    "month": 3,
+    "tsi_average": 59,
+    "phosphate_avg_mg_l": 0.031,
+    "nitrate_avg_mg_l": 0.65,
+    "status": "eutrophic",
+    "notes": "Tourist zone waters reach eutrophic status"
+  },
+  {
+    "year": 2023,
+    "month": 9,
+    "tsi_average": 60,
+    "phosphate_avg_mg_l": 0.033,
+    "nitrate_avg_mg_l": 0.68,
+    "status": "eutrophic",
+    "notes": "Algal blooms reported in Tuktuk tourist area"
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "tsi_average": 62,
+    "phosphate_avg_mg_l": 0.036,
+    "nitrate_avg_mg_l": 0.72,
+    "status": "eutrophic",
+    "notes": "BWS issues alert on water quality degradation"
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "tsi_average": 63,
+    "phosphate_avg_mg_l": 0.038,
+    "nitrate_avg_mg_l": 0.75,
+    "status": "eutrophic",
+    "notes": "Multi-regency coordination meeting called by BODT"
+  }
+]

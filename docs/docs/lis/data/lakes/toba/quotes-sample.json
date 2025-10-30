@@ -1,0 +1,122 @@
+[
+  {
+    "quote_id": "TOBA-BODT-B-01",
+    "stakeholder_name": "Direktur BODT",
+    "stakeholder_code": "BODT",
+    "organization": "Badan Otorita Danau Toba",
+    "organizational_code": "BODT",
+    "indonesian_verbatim": "Kami dibentuk dengan kewenangan khusus untuk mengkoordinasikan tujuh kabupaten di sekitar Danau Toba. Tapi kenyataannya, setiap kabupaten tetap memiliki otonomi penuh dalam perizinan dan tata ruang. Kami bisa mengajak rapat koordinasi, tapi tidak bisa memaksakan keputusan.",
+    "english_translation": "We were established with special authority to coordinate seven regencies around Lake Toba. But in reality, each regency retains full autonomy over permits and spatial planning. We can invite coordination meetings, but cannot enforce decisions.",
+    "context_explanation": "Reveals the fundamental paradox of BODT's mandate: established as coordinating authority but lacks enforcement power over autonomous regencies",
+    "themes": ["B", "E"],
+    "module": "governance_network"
+  },
+  {
+    "quote_id": "TOBA-FISHER-D-01",
+    "stakeholder_name": "Ketua Asosiasi Nelayan Toba",
+    "stakeholder_code": "FISHER",
+    "organization": "Toba Fisher Association",
+    "organizational_code": "FISHER",
+    "indonesian_verbatim": "Dulu kami menangkap ikan di sepanjang pantai Tuktuk. Sekarang semua area itu sudah jadi zona hotel. Tidak ada kompensasi, tidak ada relokasi area tangkap. Kami dapat bantuan alat tangkap lima miliar, tapi kehilangan area tangkap senilai ratusan miliar.",
+    "english_translation": "We used to fish all along the Tuktuk coast. Now all those areas have become hotel zones. No compensation, no relocation of fishing areas. We received five billion in equipment assistance, but lost fishing grounds worth hundreds of billions.",
+    "context_explanation": "Exposes the distributive injustice where fisher support (5B IDR) is negligible compared to tourism investment (250B IDR) that directly displaces their livelihoods",
+    "themes": ["D", "H"],
+    "module": "budget_resources"
+  },
+  {
+    "quote_id": "TOBA-BATAK-G-01",
+    "stakeholder_name": "Pimpinan Dewan Adat Batak",
+    "stakeholder_code": "BATAK",
+    "organization": "Batak Traditional Council",
+    "organizational_code": "BATAK",
+    "indonesian_verbatim": "Danau Toba adalah pusuk buhit, tempat asal-usul orang Batak. Situs-situs sakral di sekitar danau ini telah dijaga nenek moyang kami selama berabad-abad. Tapi ketika BODT membuat master plan pariwisata, kami tidak pernah diundang. Tidak ada anggaran untuk melindungi situs sakral, tidak ada pengakuan terhadap sistem pengelolaan adat.",
+    "english_translation": "Lake Toba is pusuk buhit, the origin place of the Batak people. Sacred sites around this lake have been guarded by our ancestors for centuries. But when BODT created the tourism master plan, we were never invited. There is no budget to protect sacred sites, no recognition of traditional management systems.",
+    "context_explanation": "Illustrates recognition injustice where traditional authority over sacred lake receives zero budget and no formal participation despite cultural significance",
+    "themes": ["G", "H"],
+    "module": "community_justice"
+  },
+  {
+    "quote_id": "TOBA-DLH-I-01",
+    "stakeholder_name": "Kepala Seksi Monitoring DLH Sumut",
+    "stakeholder_code": "DLH",
+    "organization": "DLH North Sumatra Province",
+    "organizational_code": "DLH",
+    "indonesian_verbatim": "Kami memiliki 15 stasiun monitoring di seluruh Danau Toba, sampling dua kali setahun. Data kami jelas menunjukkan peningkatan TSI dari 48 ke 63 dalam empat tahun. Kami sudah laporkan ke BODT, ke BWS, ke tujuh kabupaten. Tapi tidak ada tindakan enforcement. Izin hotel terus dikeluarkan, KJA terus bertambah.",
+    "english_translation": "We have 15 monitoring stations across Lake Toba, sampling twice a year. Our data clearly shows TSI increase from 48 to 63 in four years. We've reported to BODT, to BWS, to seven regencies. But there is no enforcement action. Hotel permits continue to be issued, KJA continues to expand.",
+    "context_explanation": "Demonstrates the monitoring-action paradox: extensive data collection (30B IDR budget) with zero enforcement despite documented degradation",
+    "themes": ["I", "E"],
+    "module": "environmental_monitoring"
+  },
+  {
+    "quote_id": "TOBA-BWS-I-02",
+    "stakeholder_name": "Kepala BWS Sumatera II",
+    "stakeholder_code": "BWS",
+    "organization": "BWS Sumatera II",
+    "organizational_code": "BWS",
+    "indonesian_verbatim": "Sistem database kami sangat lengkap - kualitas air, debit sungai, operasi bendungan, semuanya tercatat sejak 2015. Tapi sistemnya standalone, Microsoft Access di desktop, tidak ada API. Ketika BODT atau kabupaten minta data, kami harus export manual ke Excel dan email. Tidak ada integrasi real-time.",
+    "english_translation": "Our database system is very comprehensive - water quality, river discharge, dam operations, all recorded since 2015. But the system is standalone, Microsoft Access on desktop, no API. When BODT or regencies request data, we have to manually export to Excel and email. There is no real-time integration.",
+    "context_explanation": "Reveals information system fragmentation despite high budgets: BWS has comprehensive data but technical infrastructure prevents integration",
+    "themes": ["I", "F"],
+    "module": "information_systems"
+  },
+  {
+    "quote_id": "TOBA-HOTEL-H-01",
+    "stakeholder_name": "Ketua Asosiasi Hotel Toba",
+    "stakeholder_code": "HOTEL",
+    "organization": "Toba Hotel & Resort Association",
+    "organizational_code": "HOTEL",
+    "indonesian_verbatim": "Investasi kami di Danau Toba sangat besar, didukung penuh oleh BODT. Kami laporan limbah cair setiap tahun sesuai AMDAL, tapi verifikasi lapangan jarang dilakukan. Standar UNESCO Geopark mengatakan harus ada pengelolaan lingkungan ketat, tapi di praktik, selama kami bayar retribusi, izin terus berjalan.",
+    "english_translation": "Our investment in Lake Toba is very large, fully supported by BODT. We report wastewater annually according to AMDAL, but field verification is rarely conducted. UNESCO Geopark standards say there must be strict environmental management, but in practice, as long as we pay levies, permits continue.",
+    "context_explanation": "Exposes weak enforcement of environmental standards despite UNESCO status and AMDAL requirements; self-reporting with minimal verification",
+    "themes": ["H", "E"],
+    "module": "budget_resources"
+  },
+  {
+    "quote_id": "TOBA-UNESCO-B-01",
+    "stakeholder_name": "UNESCO Geopark Coordinator",
+    "stakeholder_code": "UNESCO",
+    "organization": "UNESCO Global Geopark Committee",
+    "organizational_code": "UNESCO",
+    "indonesian_verbatim": "Status UNESCO Global Geopark memberikan pengakuan internasional dan standar konservasi yang jelas. Kami menerima laporan tahunan dari BODT yang menunjukkan kemajuan program edukasi dan geoturisme. Tapi kami tidak memiliki kapasitas untuk monitoring lingkungan detail di lapangan. Kami percaya pada sistem monitoring nasional.",
+    "english_translation": "UNESCO Global Geopark status provides international recognition and clear conservation standards. We receive annual reports from BODT showing progress in education and geotourism programs. But we don't have capacity for detailed environmental monitoring in the field. We trust the national monitoring system.",
+    "context_explanation": "Shows disconnect between international conservation standards and local implementation; UNESCO relies on self-reporting without field verification",
+    "themes": ["B", "I"],
+    "module": "governance_network"
+  },
+  {
+    "quote_id": "TOBA-FARM-A-01",
+    "stakeholder_name": "Ketua Kelompok Tani Lereng Toba",
+    "stakeholder_code": "FARM",
+    "organization": "Hillside Farmer Groups",
+    "organizational_code": "FARM",
+    "indonesian_verbatim": "Kami bertani di lereng kawah sudah puluhan tahun. BPDAS datang dengan program terasering dan penghijauan, anggaran 25 miliar. Program bagus di kertas, tapi implementasi sangat lambat. Sementara itu, lahan kami semakin tertekan karena perluasan zona pariwisata dari bawah. Kami dituduh sebagai penyebab erosi, tapi tidak diberi alternatif mata pencaharian.",
+    "english_translation": "We've farmed the crater slopes for decades. BPDAS came with terracing and reforestation programs, budget 25 billion. Good program on paper, but implementation is very slow. Meanwhile, our land is increasingly pressured by tourism zone expansion from below. We're blamed as the cause of erosion, but given no livelihood alternatives.",
+    "context_explanation": "Reveals how hillside farmers are blamed for agricultural runoff but receive slow implementation of erosion control support while facing displacement from tourism expansion",
+    "themes": ["A", "D"],
+    "module": "land_spatial"
+  },
+  {
+    "quote_id": "TOBA-TOBA-E-01",
+    "stakeholder_name": "Kepala Bappeda Kabupaten Toba",
+    "stakeholder_code": "TOBA",
+    "organization": "Toba Regency Government",
+    "organizational_code": "TOBA",
+    "indonesian_verbatim": "Sebagai satu dari tujuh kabupaten, kami punya rencana tata ruang sendiri yang sudah disahkan DPRD. BODT mengajak koordinasi, tapi mereka tidak bisa memaksa kami mengubah RTRW. Akibatnya, rencana tata ruang tujuh kabupaten tidak sinkron. Di perbatasan antar kabupaten sering terjadi konflik perizinan.",
+    "english_translation": "As one of seven regencies, we have our own spatial plan already approved by the district parliament. BODT invites coordination, but they cannot force us to change our spatial plan. As a result, the spatial plans of seven regencies are not synchronized. At inter-regency borders, permit conflicts often occur.",
+    "context_explanation": "Demonstrates institutional fragmentation despite BODT's coordinating mandate; each regency retains full spatial planning autonomy leading to conflicting decisions",
+    "themes": ["E", "B"],
+    "module": "policy_framework"
+  },
+  {
+    "quote_id": "TOBA-FISHER-G-02",
+    "stakeholder_name": "Nelayan Tradisional Samosir",
+    "stakeholder_code": "FISHER",
+    "organization": "Toba Fisher Association",
+    "organizational_code": "FISHER",
+    "indonesian_verbatim": "Kami punya catatan tangkapan ikan setiap hari sejak puluhan tahun. Kami tahu persis kapan kualitas air berubah, kapan alga mulai muncul, area mana yang sudah tidak produktif. Tapi tidak pernah ada yang tanya kami. DLH datang dengan alat canggih, ambil sampel air, lalu pergi. Data kami yang puluhan tahun ini tidak pernah dipakai.",
+    "english_translation": "We have daily fish catch records for decades. We know exactly when water quality changed, when algae started appearing, which areas are no longer productive. But no one ever asks us. DLH comes with sophisticated equipment, takes water samples, then leaves. Our decades of data are never used.",
+    "context_explanation": "Illustrates systematic exclusion of traditional ecological knowledge despite daily observations; formal monitoring (30B IDR) ignores community expertise",
+    "themes": ["G", "I"],
+    "module": "community_justice"
+  }
+]

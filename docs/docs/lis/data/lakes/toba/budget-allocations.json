@@ -1,0 +1,98 @@
+[
+  {
+    "id": "budget_tourism_infra",
+    "source_agency": "BODT",
+    "recipient": "Tourism Infrastructure Development",
+    "amount_idr_billion": 250,
+    "period": "2022-2024",
+    "theme": "H",
+    "purpose": "Hotel zones, visitor centers, roads, parking facilities",
+    "community_impact": "mixed",
+    "impact_score": 0,
+    "notes": "Large tourism investment creates jobs but displaces some communities and increases environmental pressure"
+  },
+  {
+    "id": "budget_geopark",
+    "source_agency": "UNESCO + BODT",
+    "recipient": "Geopark Management & Education",
+    "amount_idr_billion": 50,
+    "period": "2021-2024",
+    "theme": "I",
+    "purpose": "UNESCO Global Geopark programs, educational facilities, conservation",
+    "community_impact": "positive",
+    "impact_score": 1,
+    "notes": "Geopark status brings international recognition and conservation standards"
+  },
+  {
+    "id": "budget_monitoring",
+    "source_agency": "DLH",
+    "recipient": "Water Quality Monitoring Network",
+    "amount_idr_billion": 30,
+    "period": "2020-2024",
+    "theme": "I",
+    "purpose": "15 monitoring stations across 7 regencies, biannual sampling",
+    "community_impact": "neutral",
+    "impact_score": 0,
+    "notes": "Extensive monitoring but no enforcement of pollution standards"
+  },
+  {
+    "id": "budget_coordination",
+    "source_agency": "BODT",
+    "recipient": "Multi-Regency Coordination",
+    "amount_idr_billion": 40,
+    "period": "2020-2024",
+    "theme": "B",
+    "purpose": "Coordination meetings, joint planning, conflict resolution",
+    "community_impact": "positive",
+    "impact_score": 1,
+    "notes": "BODT special authority helps coordinate across 7 regencies"
+  },
+  {
+    "id": "budget_fisher_support",
+    "source_agency": "Toba Regency",
+    "recipient": "Traditional Fisher Support",
+    "amount_idr_billion": 5,
+    "period": "2020-2023",
+    "theme": "D",
+    "purpose": "Equipment subsidies, training, alternative livelihood programs",
+    "community_impact": "positive",
+    "impact_score": 1,
+    "notes": "Minimal support for traditional fishers compared to tourism budget"
+  },
+  {
+    "id": "budget_batak_zero",
+    "source_agency": "None",
+    "recipient": "Batak Traditional Council / Sacred Site Protection",
+    "amount_idr_billion": 0,
+    "period": "2020-2024",
+    "theme": "G",
+    "purpose": "N/A - No budget allocated despite sacred site concerns",
+    "community_impact": "highly_negative",
+    "impact_score": -2,
+    "notes": "Traditional authority excluded from formal budget despite cultural significance"
+  },
+  {
+    "id": "budget_farm_erosion",
+    "source_agency": "BPDAS",
+    "recipient": "Hillside Erosion Control",
+    "amount_idr_billion": 25,
+    "period": "2021-2024",
+    "theme": "A",
+    "purpose": "Terracing, reforestation, erosion prevention on crater slopes",
+    "community_impact": "positive",
+    "impact_score": 1,
+    "notes": "Addresses agricultural runoff but implementation slow"
+  },
+  {
+    "id": "budget_waste",
+    "source_agency": "7 Regencies",
+    "recipient": "Waste Management (Tourism)",
+    "amount_idr_billion": 35,
+    "period": "2022-2024",
+    "theme": "C",
+    "purpose": "Solid waste collection, recycling facilities, tourist area cleanup",
+    "community_impact": "positive",
+    "impact_score": 1,
+    "notes": "Tourism waste management improving but traditional village waste still neglected"
+  }
+]

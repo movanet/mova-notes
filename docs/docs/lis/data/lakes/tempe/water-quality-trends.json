@@ -1,0 +1,102 @@
+[
+  {
+    "year": 2020,
+    "month": 3,
+    "tsi_average": 62,
+    "phosphate_avg_mg_l": 0.078,
+    "nitrate_avg_mg_l": 1.2,
+    "lake_area_ha": 12800,
+    "status": "eutrophic",
+    "notes": "Lake area near maximum during wet season"
+  },
+  {
+    "year": 2020,
+    "month": 9,
+    "tsi_average": 64,
+    "phosphate_avg_mg_l": 0.082,
+    "nitrate_avg_mg_l": 1.35,
+    "lake_area_ha": 10200,
+    "status": "eutrophic",
+    "notes": "Dry season shrinkage, southern areas convert to agriculture"
+  },
+  {
+    "year": 2021,
+    "month": 3,
+    "tsi_average": 66,
+    "phosphate_avg_mg_l": 0.089,
+    "nitrate_avg_mg_l": 1.42,
+    "lake_area_ha": 12300,
+    "status": "eutrophic",
+    "notes": "KJA expansion accelerates, 500 new cages added"
+  },
+  {
+    "year": 2021,
+    "month": 9,
+    "tsi_average": 68,
+    "phosphate_avg_mg_l": 0.095,
+    "nitrate_avg_mg_l": 1.58,
+    "lake_area_ha": 9800,
+    "status": "eutrophic",
+    "notes": "Severe dry season, more agricultural conversion"
+  },
+  {
+    "year": 2022,
+    "month": 3,
+    "tsi_average": 70,
+    "phosphate_avg_mg_l": 0.105,
+    "nitrate_avg_mg_l": 1.68,
+    "lake_area_ha": 11800,
+    "status": "hypereutrophic",
+    "notes": "Water hyacinth infestation reaches 25% surface coverage"
+  },
+  {
+    "year": 2022,
+    "month": 9,
+    "tsi_average": 72,
+    "phosphate_avg_mg_l": 0.118,
+    "nitrate_avg_mg_l": 1.82,
+    "lake_area_ha": 9500,
+    "status": "hypereutrophic",
+    "notes": "Fisher catch decline reaches critical levels"
+  },
+  {
+    "year": 2023,
+    "month": 3,
+    "tsi_average": 74,
+    "phosphate_avg_mg_l": 0.132,
+    "nitrate_avg_mg_l": 1.95,
+    "lake_area_ha": 11200,
+    "status": "hypereutrophic",
+    "notes": "Emergency dredging initiated by BWS"
+  },
+  {
+    "year": 2023,
+    "month": 9,
+    "tsi_average": 75,
+    "phosphate_avg_mg_l": 0.142,
+    "nitrate_avg_mg_l": 2.05,
+    "lake_area_ha": 9300,
+    "status": "hypereutrophic",
+    "notes": "Traditional fisher protests over KJA expansion"
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "tsi_average": 76,
+    "phosphate_avg_mg_l": 0.155,
+    "nitrate_avg_mg_l": 2.18,
+    "lake_area_ha": 10800,
+    "status": "hypereutrophic",
+    "notes": "Hasanuddin University declares lake in crisis state"
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "tsi_average": 78,
+    "phosphate_avg_mg_l": 0.165,
+    "nitrate_avg_mg_l": 2.32,
+    "lake_area_ha": 9100,
+    "status": "hypereutrophic",
+    "notes": "Lake area shrunk 30% from baseline; Forum Koordinasi emergency meeting called"
+  }
+]

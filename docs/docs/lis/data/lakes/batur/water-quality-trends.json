@@ -1,0 +1,92 @@
+[
+  {
+    "year": 2020,
+    "month": 3,
+    "tsi_average": 48,
+    "phosphate_avg_mg_l": 0.021,
+    "nitrate_avg_mg_l": 0.38,
+    "status": "oligotrophic",
+    "notes": "COVID-19 tourism shutdown, water quality improves significantly"
+  },
+  {
+    "year": 2020,
+    "month": 9,
+    "tsi_average": 49,
+    "phosphate_avg_mg_l": 0.022,
+    "nitrate_avg_mg_l": 0.40,
+    "status": "oligotrophic",
+    "notes": "Extended tourism closure, volcanic lake shows natural recovery capacity"
+  },
+  {
+    "year": 2021,
+    "month": 3,
+    "tsi_average": 52,
+    "phosphate_avg_mg_l": 0.026,
+    "nitrate_avg_mg_l": 0.45,
+    "status": "mesotrophic",
+    "notes": "Domestic tourism resumes, restaurant wastewater returns"
+  },
+  {
+    "year": 2021,
+    "month": 9,
+    "tsi_average": 54,
+    "phosphate_avg_mg_l": 0.029,
+    "nitrate_avg_mg_l": 0.49,
+    "status": "mesotrophic",
+    "notes": "KJA cages begin expansion despite Pura Ulun Danu opposition"
+  },
+  {
+    "year": 2022,
+    "month": 3,
+    "tsi_average": 56,
+    "phosphate_avg_mg_l": 0.033,
+    "nitrate_avg_mg_l": 0.53,
+    "status": "mesotrophic",
+    "notes": "International tourism recovery accelerates, UNESCO Geopark monitoring identifies pressure"
+  },
+  {
+    "year": 2022,
+    "month": 9,
+    "tsi_average": 58,
+    "phosphate_avg_mg_l": 0.036,
+    "nitrate_avg_mg_l": 0.57,
+    "status": "mesotrophic",
+    "notes": "Agricultural runoff increases during wet season despite terracing efforts"
+  },
+  {
+    "year": 2023,
+    "month": 3,
+    "tsi_average": 60,
+    "phosphate_avg_mg_l": 0.040,
+    "nitrate_avg_mg_l": 0.62,
+    "status": "eutrophic",
+    "notes": "Tourism zone waters reach eutrophic status; sacred temple zone remains oligotrophic"
+  },
+  {
+    "year": 2023,
+    "month": 9,
+    "tsi_average": 61,
+    "phosphate_avg_mg_l": 0.043,
+    "nitrate_avg_mg_l": 0.66,
+    "status": "eutrophic",
+    "notes": "Desa Adat protests KJA expansion, cites threat to sacred water quality"
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "tsi_average": 63,
+    "phosphate_avg_mg_l": 0.047,
+    "nitrate_avg_mg_l": 0.70,
+    "status": "eutrophic",
+    "notes": "Forum Koordinasi attempts to mediate traditional vs modern governance conflict"
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "tsi_average": 64,
+    "phosphate_avg_mg_l": 0.050,
+    "nitrate_avg_mg_l": 0.74,
+    "status": "eutrophic",
+    "notes": "Subak leaders call for government recognition of traditional water management authority"
+  }
+]

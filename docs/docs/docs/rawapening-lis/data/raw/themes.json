@@ -1,0 +1,187 @@
+[
+  {
+    "code": "A",
+    "title": "Sedimentation & Lake Degradation",
+    "description": "Physical degradation including depth changes, sediment accumulation, tributary contributions, and dredging operations",
+    "sub_themes": [
+      "Lake depth monitoring",
+      "Sediment volumes",
+      "Tributary contributions",
+      "Dredging operations",
+      "Disposal sites"
+    ],
+    "quotes": [],
+    "stakeholders": [],
+    "policies": [],
+    "data_systems": [
+      "DLH monitoring",
+      "BWS operations"
+    ],
+    "insights": []
+  },
+  {
+    "code": "B",
+    "title": "Multi-Stakeholder Coordination",
+    "description": "Coordination structures, Pokja operations, inter-agency relationships, and collaboration mechanisms",
+    "sub_themes": [
+      "Pokja structure",
+      "TKPSDA coordination",
+      "Forum DAS",
+      "Meeting effectiveness",
+      "Authority relationships"
+    ],
+    "quotes": [],
+    "stakeholders": [],
+    "policies": [
+      "Pergub 610/4/2019"
+    ],
+    "data_systems": [],
+    "insights": []
+  },
+  {
+    "code": "C",
+    "title": "Water Hyacinth (Enceng Gondok)",
+    "description": "Water hyacinth proliferation, coverage data, removal operations, and linkage to hypereutrophic status",
+    "sub_themes": [
+      "Coverage monitoring",
+      "Growth rates",
+      "Removal contracts",
+      "Hypereutrophic linkage"
+    ],
+    "quotes": [],
+    "stakeholders": [],
+    "policies": [],
+    "data_systems": [
+      "BWS aerial photography"
+    ],
+    "insights": []
+  },
+  {
+    "code": "D",
+    "title": "Agriculture, Farming, Livelihoods",
+    "description": "Agricultural land use, farming practices, KJA operations, livelihood impacts, and community economics",
+    "sub_themes": [
+      "Farming zones",
+      "KJA overcapacity",
+      "Livelihood impacts",
+      "Agricultural production",
+      "Community economics"
+    ],
+    "quotes": [],
+    "stakeholders": [],
+    "policies": [],
+    "data_systems": [],
+    "insights": []
+  },
+  {
+    "code": "E",
+    "title": "Policy, Regulation, Legal Framework",
+    "description": "National and provincial regulations, legal contradictions, enforcement status, and regulatory polycentrism",
+    "sub_themes": [
+      "Perpres 60/2021",
+      "Kepmen 365/2020",
+      "Pergub 610",
+      "800-ha contradiction",
+      "Enforcement gaps"
+    ],
+    "quotes": [],
+    "stakeholders": [],
+    "policies": [
+      "Perpres 60/2021",
+      "Kepmen 365/2020",
+      "Pergub 610/4/2019"
+    ],
+    "data_systems": [],
+    "insights": []
+  },
+  {
+    "code": "F",
+    "title": "Inter-Agency Gaps & Institutional Fragmentation",
+    "description": "Authority overlaps, coordination failures, BPDAS reorganization, BPN exclusion, and institutional pathologies",
+    "sub_themes": [
+      "Authority overlaps",
+      "BPN exclusion",
+      "BPDAS reorganization",
+      "Multi-forum fragmentation"
+    ],
+    "quotes": [],
+    "stakeholders": [],
+    "policies": [],
+    "data_systems": [
+      "SIMOLEK orphaned"
+    ],
+    "insights": []
+  },
+  {
+    "code": "G",
+    "title": "Community Perspectives & Land Rights",
+    "description": "Community observations, land tenure issues, procedural justice violations, and local ecological knowledge",
+    "sub_themes": [
+      "Land rights",
+      "Procedural exclusion",
+      "Forum Petani resistance",
+      "Local knowledge",
+      "Environmental justice"
+    ],
+    "quotes": [],
+    "stakeholders": [],
+    "policies": [],
+    "data_systems": [],
+    "insights": []
+  },
+  {
+    "code": "H",
+    "title": "Budget, Financing, Resource Allocation",
+    "description": "Budget allocations, resource flows, 156B military contract, zero compensation strategy, and financial asymmetries",
+    "sub_themes": [
+      "Budget allocation",
+      "Military contracts",
+      "Zero compensation",
+      "Disposal costs",
+      "Resource gaps"
+    ],
+    "quotes": [],
+    "stakeholders": [],
+    "policies": [],
+    "data_systems": [],
+    "insights": []
+  },
+  {
+    "code": "I",
+    "title": "Monitoring, Data Systems, Information",
+    "description": "Monitoring infrastructure, data collection systems, SIMOLEK status, data gaps, and knowledge-action linkages",
+    "sub_themes": [
+      "DLH 29 stations",
+      "SIMOLEK orphaned",
+      "BPN data inaccessible",
+      "Aerial photography",
+      "Data-action paradox"
+    ],
+    "quotes": [],
+    "stakeholders": [],
+    "policies": [],
+    "data_systems": [
+      "SIMOLEK",
+      "DLH monitoring",
+      "BWS aerial"
+    ],
+    "insights": []
+  },
+  {
+    "code": "J",
+    "title": "Recommendations & Future Directions",
+    "description": "Policy recommendations, reform proposals, future scenarios, and implementation pathways",
+    "sub_themes": [
+      "BPN integration",
+      "SIMOLEK revival",
+      "Accountability mechanisms",
+      "Community participation",
+      "Reform pathways"
+    ],
+    "quotes": [],
+    "stakeholders": [],
+    "policies": [],
+    "data_systems": [],
+    "insights": []
+  }
+]
